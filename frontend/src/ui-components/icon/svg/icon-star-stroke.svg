@@ -1,0 +1,7 @@
+<svg width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+    </defs>
+    <g id="StarStroke" fill="none" fill-rule="evenodd">
+        <path d="M0 0h16v16H0z"/><path stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="M8 10.88l-3.527 1.974.788-3.964-2.967-2.744 4.013-.476L8 2l1.693 3.67 4.013.476L10.74 8.89l.788 3.964z"/>
+    </g>
+</svg>

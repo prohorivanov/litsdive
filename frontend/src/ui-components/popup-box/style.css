@@ -1,0 +1,17 @@
+@import "styles/vars.css";
+@import "styles/mixins/mixins.css";
+
+.b-popup-box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  border-radius: calc(var(--indentingStep) * 1);
+  background: var(--colorWhite);
+  box-shadow: 0 calc(var(--indentingStep) * 0.5) calc(var(--indentingStep) * 3) 0 rgba(0, 0, 0, 0.4);
+  z-index: 2000;
+
+  &-inner {
+    position: relative;
+  }
+}

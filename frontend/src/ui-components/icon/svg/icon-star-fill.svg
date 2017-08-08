@@ -1,0 +1,8 @@
+<svg width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+    </defs>
+    <g id="StarFill" fill="none" fill-rule="evenodd">
+        <path d="M0 0h16v16H0z"/>
+        <path fill="#000" d="M8 11.86l-4.114 2.303.918-4.625-3.461-3.201 4.682-.555L8 1.5l1.975 4.282 4.682.555-3.461 3.201.918 4.625z"/>
+    </g>
+</svg>

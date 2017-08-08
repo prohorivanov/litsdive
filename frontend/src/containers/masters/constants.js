@@ -1,0 +1,14 @@
+import keyMirror from 'keymirror';
+
+export const ACTIONS = keyMirror({
+  MASTERS_CONTAINER_GET_AUTHORS_REQUEST: null,
+  MASTERS_CONTAINER_GET_AUTHORS_SUCCESS: null,
+  MASTERS_CONTAINER_GET_AUTHORS_FAIL: null,
+
+  MASTERS_CONTAINER_GET_BY_ID_REQUEST: null,
+  MASTERS_CONTAINER_GET_BY_ID_SUCCESS: null,
+  MASTERS_CONTAINER_GET_BY_ID_FAIL: null
+});
+
+
+export const REDUCER_NAME = 'mastersContainerReducer';
