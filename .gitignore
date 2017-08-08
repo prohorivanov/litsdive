@@ -29,3 +29,20 @@ node_modules
 
 # Ignore .DS_Store files on OS X
 .DS_Store
+
+.idea/
+**coverage/
+**dist/
+**doc/
+**jest.json
+*.css.json
+*.less.json
+*.css.json.json
+**manifest.json
+**yarn-debug.log
+**yarn-error.log
+build-stats.json
+npm-debug.log
+.vscode/
+.yarnrc
+.npmrc

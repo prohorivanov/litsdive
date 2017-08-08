@@ -18,29 +18,48 @@
  * http://expressjs.com/api.html#app.VERB
  */
 
-var keystone = require('keystone');
-var middleware = require('./middleware');
-var importRoutes = keystone.importer(__dirname);
+// https://github.com/JedWatson/sydjs-site/blob/master/routes/index.js
+// https://gist.github.com/JedWatson/9741171
+const keystone = require('keystone')
+const middleware = require('./middleware')
+const importRoutes = keystone.importer(__dirname)
 
 // Common Middleware
-keystone.pre('routes', middleware.initLocals);
-keystone.pre('render', middleware.flashMessages);
+keystone.pre('routes', middleware.initLocals)
+keystone.pre('render', middleware.flashMessages)
 
 // Import Route Controllers
-var routes = {
-	views: importRoutes('./views'),
-};
+const routes = {
+  api: importRoutes('./api'),
+  views: importRoutes('./views')
+}
 
 // Setup Route Bindings
 exports = module.exports = function (app) {
-	// Views
-	app.get('/', routes.views.index);
-	app.get('/blog/:category?', routes.views.blog);
-	app.get('/blog/post/:post', routes.views.post);
-	app.get('/gallery', routes.views.gallery);
-	app.all('/contact', routes.views.contact);
+  // Allow cross-domain requests (development only)
+  if (process.env.NODE_ENV !== 'production') {
+    console.log('------------------------------------------------')
+    console.log('Notice: Enabling CORS for development.')
+    console.log('------------------------------------------------')
+    app.all('*', function (req, res, next) {
+      res.header('Access-Control-Allow-Origin', '*')
+      res.header('Access-Control-Allow-Methods', 'GET, POST')
+      res.header('Access-Control-Allow-Headers', 'Content-Type')
+      next()
+    })
+  }
 
-	// NOTE: To protect a route so that only admins can see it, use the requireUser middleware:
-	// app.get('/protected', middleware.requireUser, routes.views.protected);
+  // Views
+  app.get('/', routes.views.index)
+  app.get('/blog/:category?', routes.views.blog)
+  app.get('/blog/post/:post', routes.views.post)
+  app.get('/gallery', routes.views.gallery)
+  app.all('/contact', routes.views.contact)
 
-};
+  // NOTE: To protect a route so that only admins can see it, use the requireUser middleware:
+  // app.get('/protected', middleware.requireUser, routes.views.protected);
+
+  // API
+  app.all('/api*', keystone.middleware.api)
+  app.all('/api/tattoo', routes.api.tattoo)
+}
