@@ -1,8 +1,12 @@
-import { ACTIONS } from './constants';
+import { ACTIONS } from './constants'
 
-export const getAuthorsByIdAction = slug => ({
+export const findGalleryByAuthorIDAction = id => ({
   type: ACTIONS.MASTERS_CONTAINER_GET_BY_ID_REQUEST,
   payload: {
-    slug
+    id
   }
-});
+})
+
+export const getAllGalleryAction = () => ({
+  type: ACTIONS.MASTERS_CONTAINER_GET_ALL_GALLERY_REQUEST
+})

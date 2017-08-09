@@ -1,24 +1,19 @@
-
-export function getAllAuthor() {
+export function getAllAuthor () {
   const endpoint = {
-    url: 'contents'
-  };
+    url: 'userList'
+  }
 
-  const params = {
-    type: 'Author'
-  };
-
-  return { ...endpoint, params };
+  return {...endpoint}
 }
 
-export function getAuthorById({ slug }) {
+export function getAuthorById ({id}) {
   const endpoint = {
-    url: 'content'
-  };
+    url: 'user'
+  }
 
   const params = {
-    slug
-  };
+    id
+  }
 
-  return { ...endpoint, params };
+  return {...endpoint, params}
 }

@@ -1,4 +1,4 @@
-import keyMirror from 'keymirror';
+import keyMirror from 'keymirror'
 
 export const ACTIONS = keyMirror({
   MASTERS_CONTAINER_GET_AUTHORS_REQUEST: null,
@@ -7,8 +7,11 @@ export const ACTIONS = keyMirror({
 
   MASTERS_CONTAINER_GET_BY_ID_REQUEST: null,
   MASTERS_CONTAINER_GET_BY_ID_SUCCESS: null,
-  MASTERS_CONTAINER_GET_BY_ID_FAIL: null
-});
+  MASTERS_CONTAINER_GET_BY_ID_FAIL: null,
 
+  MASTERS_CONTAINER_GET_ALL_GALLERY_REQUEST: null,
+  MASTERS_CONTAINER_GET_ALL_GALLERY_SUCCESS: null,
+  MASTERS_CONTAINER_GET_ALL_GALLERY_FAIL: null
+})
 
-export const REDUCER_NAME = 'mastersContainerReducer';
+export const REDUCER_NAME = 'mastersContainerReducer'

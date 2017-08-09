@@ -13,6 +13,9 @@ User.add({
     required: true,
     index: true
   },
+  image: {
+    type: Types.CloudinaryImage
+  },
   email: {
     type: Types.Email,
     initial: true,
@@ -24,6 +27,18 @@ User.add({
     type: Types.Password,
     initial: true,
     required: true
+  },
+  about: {
+    extended: {
+      type: Types.Html,
+      wysiwyg: true,
+      height: 400
+    }
+  },
+  tattoos: {
+    type: Types.Relationship,
+    ref: 'Tattoo',
+    many: true
   }
 }, 'Permissions', {
   isAdmin: {
@@ -38,10 +53,9 @@ User.schema.virtual('canAccessKeystone').get(function () {
   return this.isAdmin
 })
 
-/**
- * Relationships
- */
-User.relationship({ref: 'Post', path: 'posts', refPath: 'author'})
+User.schema.virtual('name.fullName').get(function () {
+  return `${this.name.first} ${this.name.last}`
+})
 
 /**
  * Registration

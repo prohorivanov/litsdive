@@ -2,19 +2,157 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eac5cc7-f675-4248-b3cb-ebb908e6327b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/Tatto.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/TattooCategory.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/api/tattoo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/src/api/gallery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/src/containers/root/footer.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/Contacts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/FileUpload.js(!)" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/api/contacts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/api/fileupload.js(!)" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/api/gallery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/api/users.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/.eslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/alerts.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/badges.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/breadcrumbs.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/button-groups.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/buttons.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/carousel.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/close.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/code.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/component-animations.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/dropdowns.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/forms.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/glyphicons.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/grid.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/index.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/input-groups.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/jumbotron.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/labels.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/list-group.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/media.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/mixins.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/mixins/alerts.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/mixins/background-variant.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/mixins/border-radius.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/mixins/buttons.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/mixins/center-block.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/mixins/clearfix.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/mixins/forms.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/mixins/gradients.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/mixins/grid-framework.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/mixins/grid.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/mixins/hide-text.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/mixins/image.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/mixins/labels.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/mixins/list-group.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/mixins/nav-divider.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/mixins/nav-vertical-align.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/mixins/opacity.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/mixins/pagination.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/mixins/panels.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/mixins/progress-bar.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/mixins/reset-filter.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/mixins/reset-text.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/mixins/resize.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/mixins/responsive-visibility.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/mixins/size.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/mixins/tab-focus.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/mixins/table-row.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/mixins/text-emphasis.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/mixins/text-overflow.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/mixins/vendor-prefixes.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/modals.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/navbar.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/navs.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/normalize.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/pager.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/pagination.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/panels.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/popovers.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/print.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/progress-bars.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/responsive-embed.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/responsive-utilities.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/scaffolding.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/tables.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/theme.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/thumbnails.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/tooltip.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/type.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/utilities.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/variables.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/bootstrap/wells.styl" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/src/dal/masters/actions.js" afterPath="$PROJECT_DIR$/frontend/src/dal/users/actions.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/src/dal/masters/constants.js" afterPath="$PROJECT_DIR$/frontend/src/dal/users/constants.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/src/dal/masters/reducer.js" afterPath="$PROJECT_DIR$/frontend/src/dal/users/reducer.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/src/dal/masters/sagas.js" afterPath="$PROJECT_DIR$/frontend/src/dal/users/sagas.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/models/Enquiry.js" afterPath="$PROJECT_DIR$/models/Enquiry.js(!)" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/models/Tatto.js" afterPath="$PROJECT_DIR$/models/Tattoo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/assets/images/favicon.png" afterPath="$PROJECT_DIR$/frontend/src/assets/images/favicon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/favicon.ico" afterPath="$PROJECT_DIR$/frontend/src/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="$PROJECT_DIR$/public/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.eslintrc" afterPath="$PROJECT_DIR$/.eslintrc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Enquiry.js" afterPath="$PROJECT_DIR$/models/Enquiry.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/config/application/service-url.js" afterPath="$PROJECT_DIR$/frontend/config/application/service-url.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/package.json" afterPath="$PROJECT_DIR$/frontend/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/api/authors.js" afterPath="$PROJECT_DIR$/frontend/src/api/authors.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/api/catalog.js" afterPath="$PROJECT_DIR$/frontend/src/api/catalog.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/api/contacts.js" afterPath="$PROJECT_DIR$/frontend/src/api/contacts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/api/index.js" afterPath="$PROJECT_DIR$/frontend/src/api/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/api/user.js" afterPath="$PROJECT_DIR$/frontend/src/api/user.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/assets/styles/app.css" afterPath="$PROJECT_DIR$/frontend/src/assets/styles/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/assets/styles/style-vars.js" afterPath="$PROJECT_DIR$/frontend/src/assets/styles/style-vars.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/contacts/index.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/contacts/index.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/contacts/reducer.js" afterPath="$PROJECT_DIR$/frontend/src/containers/contacts/reducer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/contacts/sagas.js" afterPath="$PROJECT_DIR$/frontend/src/containers/contacts/sagas.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/contacts/selectors.js" afterPath="$PROJECT_DIR$/frontend/src/containers/contacts/selectors.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/contacts/style.js" afterPath="$PROJECT_DIR$/frontend/src/containers/contacts/style.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/index/actions.js" afterPath="$PROJECT_DIR$/frontend/src/containers/index/actions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/index/constants.js" afterPath="$PROJECT_DIR$/frontend/src/containers/index/constants.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/index/gallery/gallery-item.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/index/gallery/gallery-item.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/index/gallery/index.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/index/gallery/index.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/index/gallery/style.js" afterPath="$PROJECT_DIR$/frontend/src/containers/index/gallery/style.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/index/index.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/index/index.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/index/reducer.js" afterPath="$PROJECT_DIR$/frontend/src/containers/index/reducer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/index/sagas.js" afterPath="$PROJECT_DIR$/frontend/src/containers/index/sagas.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/index/selectors.js" afterPath="$PROJECT_DIR$/frontend/src/containers/index/selectors.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/masters/actions.js" afterPath="$PROJECT_DIR$/frontend/src/containers/masters/actions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/masters/constants.js" afterPath="$PROJECT_DIR$/frontend/src/containers/masters/constants.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/masters/gallery/gallery-item.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/masters/gallery/gallery-item.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/masters/gallery/index.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/masters/gallery/index.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/masters/index.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/masters/index.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/masters/reducer.js" afterPath="$PROJECT_DIR$/frontend/src/containers/masters/reducer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/masters/sagas.js" afterPath="$PROJECT_DIR$/frontend/src/containers/masters/sagas.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/masters/selectors.js" afterPath="$PROJECT_DIR$/frontend/src/containers/masters/selectors.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/root/index-layout.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/root/index-layout.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/root/style.js" afterPath="$PROJECT_DIR$/frontend/src/containers/root/style.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/dal/index.js" afterPath="$PROJECT_DIR$/frontend/src/dal/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/dal/profile/actions.js" afterPath="$PROJECT_DIR$/frontend/src/dal/profile/actions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/dal/root/reducer.js" afterPath="$PROJECT_DIR$/frontend/src/dal/root/reducer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/dal/sagas.js" afterPath="$PROJECT_DIR$/frontend/src/dal/sagas.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/routes-share.jsx" afterPath="$PROJECT_DIR$/frontend/src/routes-share.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/sagas.js" afterPath="$PROJECT_DIR$/frontend/src/sagas.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/modal/modal.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/modal/modal.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/modal/style.css" afterPath="$PROJECT_DIR$/frontend/src/ui-components/modal/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/yarn.lock" afterPath="$PROJECT_DIR$/frontend/yarn.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/keystone.js" afterPath="$PROJECT_DIR$/keystone.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Gallery.js" afterPath="$PROJECT_DIR$/models/Gallery.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Post.js" afterPath="$PROJECT_DIR$/models/Post.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/PostCategory.js" afterPath="$PROJECT_DIR$/models/PostCategory.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/User.js" afterPath="$PROJECT_DIR$/models/User.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/styles/site.css" afterPath="$PROJECT_DIR$/public/styles/site.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/styles/site.styl" afterPath="$PROJECT_DIR$/public/styles/site.styl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/styles/site/_layout.styl" afterPath="$PROJECT_DIR$/public/styles/site/_layout.styl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/api/tattoo.js" afterPath="$PROJECT_DIR$/routes/api/tattoo.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/middleware.js" afterPath="$PROJECT_DIR$/routes/middleware.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/views/contact.js" afterPath="$PROJECT_DIR$/routes/views/contact.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/layouts/default.pug" afterPath="$PROJECT_DIR$/templates/layouts/default.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/views/blog.pug" afterPath="$PROJECT_DIR$/templates/views/blog.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/views/contact.pug" afterPath="$PROJECT_DIR$/templates/views/contact.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/views/gallery.pug" afterPath="$PROJECT_DIR$/templates/views/gallery.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/views/index.pug" afterPath="$PROJECT_DIR$/templates/views/index.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/views/post.pug" afterPath="$PROJECT_DIR$/templates/views/post.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,91 +164,34 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Tatto.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/Tatto.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="692">
-              <caret line="53" column="14" lean-forward="true" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+            <state relative-caret-position="464">
+              <caret line="67" column="61" lean-forward="false" selection-start-line="67" selection-start-column="61" selection-end-line="67" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tattoo.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/api/tattoo.js">
+      <file leaf-file-name="gallery.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/api/gallery.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="61" lean-forward="true" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
-              <folding />
+            <state relative-caret-position="694">
+              <caret line="104" column="5" lean-forward="true" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
+              <folding>
+                <element signature="e#171#736#0" expanded="false" />
+                <element signature="e#778#1415#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="middleware.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/middleware.js">
+      <file leaf-file-name="actions.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/containers/masters/actions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="51" column="6" lean-forward="true" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/views/contact.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TattooCategory.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/TattooCategory.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gallery.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/Gallery.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="15" lean-forward="true" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Enquiry.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/Enquiry.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/User.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="3" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+            <state relative-caret-position="60">
+              <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -118,24 +199,52 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>require('mongoose')</find>
-      <find>initErrorHandlers</find>
-      <find>cloudinaryimage</find>
-      <find>CLOUDINARY_URL=cloudinary://515927175562849:WovDBOUFNpN49cFadIS-RhAEKv8@tattoobunker</find>
-      <find>CLOUDINARY_URL=</find>
-      <find>CLOUDINARY_URL</find>
-      <find>cloudinary</find>
-      <find>sessionStore</find>
-      <find>keystone.connect</find>
-      <find>eslint-plugin-import</find>
-      <find>eslint</find>
-      <find>':</find>
+      <find>enquiries</find>
+      <find>m</find>
+      <find>masters</find>
+      <find>da</find>
+      <find>dal</find>
+      <find>dal/</find>
+      <find>dal/us</find>
+      <find>dal/use</find>
+      <find>USERS_CONSTANTS</find>
+      <find>dal/users</find>
+      <find>i</find>
+      <find>immu</find>
+      <find>immut</find>
+      <find>#51534a</find>
+      <find>immuta</find>
+      <find>M</find>
+      <find>MASTERS</find>
+      <find>galleryDetail</find>
+      <find>MASTERS_CONTAINER_GET_BY_ID_SUCCESS</find>
+      <find>getAllGalleryAction</find>
+      <find>MASTERS_CONTAINER_GET_ALL_GALLERY_REQUEST</find>
+      <find>MASTER</find>
+      <find>c</find>
+      <find>create</find>
+      <find>createS</find>
+      <find>createSele</find>
+      <find>createSelector(</find>
+      <find>MASTERS_CONTAINER_GET_BY_ID_REQUEST</find>
+      <find>findGalleryByAuthorId</find>
+      <find>598a23a9e7cdf22743d82040</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;:</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/routes</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -143,28 +252,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/routes/views/gallery.js" />
-        <option value="$PROJECT_DIR$/routes/views/blog.js" />
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/keystone.js" />
-        <option value="$PROJECT_DIR$/frontend/package.json" />
         <option value="$PROJECT_DIR$/.eslintrc" />
-        <option value="$PROJECT_DIR$/.editorconfig" />
-        <option value="$PROJECT_DIR$/routes/views/post.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/models/Tattos.js" />
-        <option value="$PROJECT_DIR$/models/TattooCategory.js" />
-        <option value="$PROJECT_DIR$/models/Post.js" />
-        <option value="$PROJECT_DIR$/models/PostCategory.js" />
-        <option value="$PROJECT_DIR$/models/Gallery.js" />
-        <option value="$PROJECT_DIR$/models/User.js" />
-        <option value="$PROJECT_DIR$/models/Enquiry.js" />
-        <option value="$PROJECT_DIR$/models/Tatto.js" />
-        <option value="$PROJECT_DIR$/routes/middleware.js" />
-        <option value="$PROJECT_DIR$/routes/views/tattoo.js" />
+        <option value="$PROJECT_DIR$/frontend/src/containers/contacts/selectors.js" />
+        <option value="$PROJECT_DIR$/frontend/src/containers/contacts/sagas.js" />
+        <option value="$PROJECT_DIR$/keystone.js" />
+        <option value="$PROJECT_DIR$/models/Contacts.js" />
+        <option value="$PROJECT_DIR$/frontend/src/containers/contacts/index.jsx" />
+        <option value="$PROJECT_DIR$/frontend/src/containers/contacts/style.js" />
+        <option value="$PROJECT_DIR$/frontend/src/dal/profile/actions.js" />
+        <option value="$PROJECT_DIR$/frontend/src/dal/index.js" />
+        <option value="$PROJECT_DIR$/frontend/src/dal/sagas.js" />
+        <option value="$PROJECT_DIR$/frontend/src/sagas.js" />
+        <option value="$PROJECT_DIR$/frontend/src/dal/users/constants.js" />
+        <option value="$PROJECT_DIR$/frontend/src/ui-components/icon/style.css" />
+        <option value="$PROJECT_DIR$/frontend/src/containers/index/constants.js" />
+        <option value="$PROJECT_DIR$/frontend/src/containers/index/actions.js" />
+        <option value="$PROJECT_DIR$/routes/api/contacts.js" />
         <option value="$PROJECT_DIR$/routes/api/tattoo.js" />
+        <option value="$PROJECT_DIR$/routes/views/contact.js" />
+        <option value="$PROJECT_DIR$/frontend/src/containers/index/index.jsx" />
+        <option value="$PROJECT_DIR$/frontend/src/containers/index/gallery/index.jsx" />
+        <option value="$PROJECT_DIR$/frontend/src/containers/index/sagas.js" />
+        <option value="$PROJECT_DIR$/frontend/src/containers/index/reducer.js" />
+        <option value="$PROJECT_DIR$/frontend/src/assets/styles/style-vars.js" />
+        <option value="$PROJECT_DIR$/frontend/src/containers/root/style.js" />
+        <option value="$PROJECT_DIR$/frontend/src/ui-components/modal/modal.jsx" />
+        <option value="$PROJECT_DIR$/frontend/src/containers/index/gallery/style.js" />
+        <option value="$PROJECT_DIR$/public/styles/site.styl" />
+        <option value="$PROJECT_DIR$/frontend/src/containers/index/gallery/gallery-item.jsx" />
+        <option value="$PROJECT_DIR$/frontend/src/containers/masters/actions.js" />
+        <option value="$PROJECT_DIR$/frontend/src/containers/masters/constants.js" />
+        <option value="$PROJECT_DIR$/frontend/src/routes-share.jsx" />
+        <option value="$PROJECT_DIR$/frontend/src/api/authors.js" />
+        <option value="$PROJECT_DIR$/frontend/src/dal/users/reducer.js" />
+        <option value="$PROJECT_DIR$/frontend/src/containers/masters/reducer.js" />
+        <option value="$PROJECT_DIR$/frontend/src/dal/users/actions.js" />
+        <option value="$PROJECT_DIR$/frontend/src/containers/masters/gallery/gallery-item.jsx" />
+        <option value="$PROJECT_DIR$/frontend/src/containers/masters/gallery/index.jsx" />
+        <option value="$PROJECT_DIR$/frontend/src/ui-components/modal/style.css" />
+        <option value="$PROJECT_DIR$/models/User.js" />
+        <option value="$PROJECT_DIR$/templates/layouts/default.pug" />
+        <option value="$PROJECT_DIR$/frontend/src/containers/index/selectors.js" />
+        <option value="$PROJECT_DIR$/frontend/src/containers/masters/index.jsx" />
+        <option value="$PROJECT_DIR$/frontend/src/dal/users/sagas.js" />
+        <option value="$PROJECT_DIR$/frontend/src/containers/masters/selectors.js" />
+        <option value="$PROJECT_DIR$/routes/api/users.js" />
+        <option value="$PROJECT_DIR$/frontend/src/containers/masters/sagas.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/frontend/src/api/catalog.js" />
+        <option value="$PROJECT_DIR$/frontend/src/api/contacts.js" />
+        <option value="$PROJECT_DIR$/frontend/src/api/gallery.js" />
+        <option value="$PROJECT_DIR$/routes/api/gallery.js" />
       </list>
     </option>
   </component>
@@ -188,6 +326,23 @@
   <component name="ProjectFrameBounds">
     <option name="width" value="1440" />
     <option name="height" value="900" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Code quality toolsJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -230,10 +385,6 @@
               <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -249,25 +400,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="errors" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="keystone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="keystone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -282,24 +415,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="routes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="keystone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="keystone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="routes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -335,6 +450,230 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="keystone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="keystone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="keystone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="keystone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="keystone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="keystone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui-components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="keystone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="keystone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui-components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="keystone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="keystone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="keystone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="keystone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="users" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="keystone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="keystone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="containers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="keystone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="keystone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="containers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="masters" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="keystone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="keystone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="containers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="index" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="keystone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="keystone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -347,7 +686,7 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="settings.css.dialects" />
     <property name="FullScreen" value="true" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -360,9 +699,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/routes/views" />
+      <recent name="$PROJECT_DIR$/routes/api" />
+      <recent name="$PROJECT_DIR$/frontend/src/api" />
+      <recent name="$PROJECT_DIR$/frontend/src/containers/root" />
       <recent name="$PROJECT_DIR$/models" />
-      <recent name="$PROJECT_DIR$/frontend" />
+      <recent name="$PROJECT_DIR$/routes/views" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/routes/api" />
@@ -487,27 +828,28 @@
       <option name="presentableId" value="Default" />
       <updated>1502192836465</updated>
       <workItem from="1502192838631" duration="1094000" />
-      <workItem from="1502195017470" duration="10065000" />
+      <workItem from="1502195017470" duration="44785000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11159000" />
+    <option name="totallyTimeSpent" value="45879000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19027181" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="SvgViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32832617" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19027181" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -530,427 +872,456 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/keystone.js">
+    <entry file="file://$PROJECT_DIR$/frontend/src/containers/index/constants.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1502208500000" expanded="true" signature="0:122" ph="//..." />
-            <marker date="1502208500000" expanded="true" signature="209:352" ph="//..." />
-            <marker date="1502208500000" expanded="true" signature="368:630" ph="{&quot;name&quot;: 'tattoobunker'...}" />
-            <marker date="1502208500000" expanded="true" signature="692:914" ph="//..." />
-            <marker date="1502208500000" expanded="true" signature="938:1053" ph="{&quot;utils&quot;: keystone.utils...}" />
-            <marker date="1502208500000" expanded="true" signature="1209:1317" ph="{&quot;galleries&quot;: 'galleries'...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/Post.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="105">
+          <caret line="7" column="53" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/emails.js">
+    <entry file="file://$PROJECT_DIR$/frontend/src/containers/index/actions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="90">
+          <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/views/gallery.js">
+    <entry file="file://$PROJECT_DIR$/routes/api/contacts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/views/gallery.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/views/layouts/default.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/emails.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/views/gallery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/views/layouts/default.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/views/gallery.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/emails.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/views/gallery.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/views/gallery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/views/layouts/default.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/emails/enquiry-notification.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/updates/0.0.1-admins.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/views/index.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="45" lean-forward="true" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/styles/site.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/views/blog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="59" column="44" lean-forward="false" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
-          <folding>
-            <marker date="1487300546000" expanded="true" signature="114:1714" ph="{...}" />
-            <marker date="1487300546000" expanded="true" signature="245:282" ph="{&quot;category&quot;: req.params.category...}" />
-            <marker date="1487300546000" expanded="true" signature="299:334" ph="{...}" />
-            <marker date="1487300546000" expanded="true" signature="394:911" ph="{...}" />
-            <marker date="1487300546000" expanded="true" signature="484:906" ph="{...}" />
-            <marker date="1487300546000" expanded="true" signature="518:546" ph="{...}" />
-            <marker date="1487300546000" expanded="true" signature="690:862" ph="{...}" />
-            <marker date="1487300546000" expanded="true" signature="798:854" ph="{...}" />
-            <marker date="1487300546000" expanded="true" signature="879:900" ph="{...}" />
-            <marker date="1487300546000" expanded="true" signature="985:1213" ph="{...}" />
-            <marker date="1487300546000" expanded="true" signature="1015:1188" ph="{...}" />
-            <marker date="1487300546000" expanded="true" signature="1126:1182" ph="{...}" />
-            <marker date="1487300546000" expanded="true" signature="1194:1210" ph="{...}" />
-            <marker date="1487300546000" expanded="true" signature="1269:1667" ph="{...}" />
-            <marker date="1487300546000" expanded="true" signature="1313:1425" ph="{...}" />
-            <marker date="1487300546000" expanded="true" signature="1390:1420" ph="{&quot;state&quot;: 'published'...}" />
-            <marker date="1487300546000" expanded="true" signature="1518:1576" ph="{...}" />
-            <marker date="1487300546000" expanded="true" signature="1611:1662" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/views/helpers/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/views/blog.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/mixins/flash-messages.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keystone.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding>
-            <marker date="1502208500000" expanded="true" signature="0:122" ph="//..." />
-            <marker date="1502208500000" expanded="true" signature="209:352" ph="//..." />
-            <marker date="1502208500000" expanded="true" signature="368:630" ph="{&quot;name&quot;: 'tattoobunker'...}" />
-            <marker date="1502208500000" expanded="true" signature="692:914" ph="//..." />
-            <marker date="1502208500000" expanded="true" signature="938:1053" ph="{&quot;utils&quot;: keystone.utils...}" />
-            <marker date="1502208500000" expanded="true" signature="1209:1317" ph="{&quot;galleries&quot;: 'galleries'...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="27" column="10" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="10" />
-          <folding>
-            <marker date="1502217826000" expanded="true" signature="0:830" ph="{&quot;name&quot;: &quot;tattoobunker&quot;...}" />
-            <marker date="1502217826000" expanded="true" signature="87:283" ph="{&quot;keystone&quot;: &quot;4.0.0-beta.5&quot;...}" />
-            <marker date="1502217826000" expanded="true" signature="306:674" ph="{&quot;eslint&quot;: &quot;3.15.0&quot;...}" />
-            <marker date="1502217826000" expanded="true" signature="689:828" ph="{&quot;lint&quot;: &quot;eslint .&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.eslintignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16">
-          <caret line="158" column="29" lean-forward="false" selection-start-line="158" selection-start-column="29" selection-end-line="158" selection-end-column="29" />
-          <folding>
-            <marker date="1502218278000" expanded="true" signature="3647:6244" ph="{&quot;axios-mock-adapter&quot;: &quot;1.7.1&quot;...}" />
-            <marker date="1502218278000" expanded="true" signature="6339:6370" ph="[...]" />
-            <marker date="1502218278000" expanded="true" signature="6397:6438" ph="[...]" />
-            <marker date="1502218278000" expanded="true" signature="6458:6510" ph="[...]" />
-            <marker date="1502218278000" expanded="true" signature="6536:6667" ph="{&quot;\.(css|less)$&quot;: &quot;identity-obj-proxy&quot;...}" />
-            <marker date="1502218278000" expanded="true" signature="6700:6730" ph="[...]" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/eslint/lib/config/config-validator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="155" column="0" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.eslintrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.editorconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/.editorconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/views/post.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/.eslintrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="37" column="10" lean-forward="true" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/Post.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="52" lean-forward="true" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/PostCategory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="2" lean-forward="false" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/Gallery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="15" lean-forward="true" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/User.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="3" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/Enquiry.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/Tatto.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="692">
-          <caret line="53" column="14" lean-forward="true" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/TattooCategory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/views/contact.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/views/errors/404.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/middleware.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="51" column="6" lean-forward="true" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
+        <state relative-caret-position="255">
+          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/api/tattoo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="61" lean-forward="true" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
+        <state relative-caret-position="885">
+          <caret line="59" column="37" lean-forward="true" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/api/fileupload.js(!)">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/views/contact.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/containers/index/sagas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="58" lean-forward="true" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/containers/index/style.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/containers/index/gallery/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#25#0" expanded="false" />
+            <element signature="e#246#424#0" expanded="false" />
+            <element signature="e#265#406#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/containers/contacts/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/containers/index/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="52" lean-forward="false" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/assets/styles/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/assets/styles/style-vars.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/containers/root/style.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="43" column="30" lean-forward="false" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/ui-components/modal/content.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/ui-components/modal/modal.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="202" column="7" lean-forward="false" selection-start-line="202" selection-start-column="7" selection-end-line="202" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#55#0" expanded="false" />
+            <element signature="e#3958#4708#0" expanded="false" />
+            <element signature="e#4020#4693#0" expanded="false" />
+            <element signature="e#4038#4676#0" expanded="false" />
+            <element signature="e#4055#4660#0" expanded="false" />
+            <element signature="e#4101#4642#0" expanded="false" />
+            <element signature="e#4208#4621#0" expanded="false" />
+            <element signature="e#4350#4538#0" expanded="false" />
+            <element signature="e#5301#5760#0" expanded="false" />
+            <element signature="e#5414#5747#0" expanded="false" />
+            <element signature="e#5540#5688#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/styles/site.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/containers/index/gallery/style.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="69" column="19" lean-forward="true" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/containers/index/gallery/gallery-item.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="75" lean-forward="true" selection-start-line="39" selection-start-column="75" selection-end-line="39" selection-end-column="75" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+            <element signature="e#954#1069#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/containers/masters/constants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/routes-share.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-620">
+          <caret line="4" column="51" lean-forward="true" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#25#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/containers/masters/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#34#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/dal/users/actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="40" lean-forward="true" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/containers/masters/gallery/gallery-item.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="34" column="10" lean-forward="true" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+          <folding>
+            <element signature="e#735#838#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/containers/masters/gallery/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="57" lean-forward="true" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#25#0" expanded="false" />
+            <element signature="e#586#747#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Contacts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Enquiry.js(!)">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-49">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Gallery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="60" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/ui-components/modal/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="82" column="16" lean-forward="false" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layouts/default.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/containers/index/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="25" column="3" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/dal/users/constants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/containers/index/selectors.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="64" lean-forward="false" selection-start-line="2" selection-start-column="64" selection-end-line="2" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/dal/users/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/containers/masters/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="70" column="66" lean-forward="true" selection-start-line="70" selection-start-column="66" selection-end-line="70" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#2030#2873#0" expanded="true" />
+            <element signature="e#2053#2851#0" expanded="true" />
+            <element signature="e#2179#2580#0" expanded="true" />
+            <element signature="e#2295#2543#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/dal/users/sagas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="70" lean-forward="true" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/containers/masters/selectors.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/User.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="55" column="50" lean-forward="true" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/api/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="27" column="20" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/containers/masters/sagas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/containers/masters/actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+        <state relative-caret-position="464">
+          <caret line="67" column="61" lean-forward="false" selection-start-line="67" selection-start-column="61" selection-end-line="67" selection-end-column="61" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/api/catalog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/api/contacts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/api/authors.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/api/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/api/products.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/api/news.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/api/gallery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/api/gallery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="694">
+          <caret line="104" column="5" lean-forward="true" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
+          <folding>
+            <element signature="e#171#736#0" expanded="false" />
+            <element signature="e#778#1415#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

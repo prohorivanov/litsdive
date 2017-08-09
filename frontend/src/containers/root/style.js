@@ -1,18 +1,16 @@
-import styled from 'styled-components';
-import { rgba } from 'polished';
-import { media } from 'assets/styles/style-utils.js';
-import { COLORS, FONTS_SIZE } from 'assets/styles/style-vars.js';
+import styled from 'styled-components'
+import { rgba } from 'polished'
+import { media } from 'assets/styles/style-utils.js'
+import { COLORS, FONTS_SIZE } from 'assets/styles/style-vars.js'
 
 export const ContentWrapper = styled.div`  
   padding: 120px 30px 0;
   height: 100%;
-`;
+`
 
 export const RootLayout = styled.div` 
   position: relative;
-
-  height: 100%;
-`;
+`
 
 export const IndexLayout = styled.div` 
   position: relative;
@@ -20,7 +18,7 @@ export const IndexLayout = styled.div`
   ${media.desktop`
     width: 100%
   `}
-`;
+`
 
 export const HeaderBlock = styled.div`
   position: fixed;
@@ -36,18 +34,26 @@ export const HeaderBlock = styled.div`
     justify-content: flex-start;
     align-items: flex-start;       
   `}
-`;
+`
+
+export const FooterBlock = styled.div`
+  position: relative;  
+  min-height: 300px;
+  padding: 16px 24px;
+  background-color: ${COLORS.colorGreyishBrownThree};
+  color: ${COLORS.colorWhite};
+`
 
 export const Logo = styled.a`    
   position: absolute;
   top: 0px;
   left: 30px;
-`;
+`
 
 export const LogoImg = styled.img` 
   width: 100px;
   height: 90px;   
-`;
+`
 
 export const LogoName = styled.div`
   display: flex;    
@@ -60,20 +66,20 @@ export const LogoName = styled.div`
   ${media.tablet`
     flex-direction: row;    
   `}          
-`;
+`
 
 export const LogoWord1 = styled.span`
   display: inline-block;
   font-weight: bold;
   color: ${COLORS.colorBlack};
   margin-right: 5px; 
-`;
+`
 
 export const LogoWord2 = styled.span`
   display: inline-block;    
   font-weight: bold;
   color: ${COLORS.colorBlack};
-`;
+`
 
 export const MenuTop = styled.div`    
   padding-left: 110px;
@@ -85,7 +91,7 @@ export const MenuTop = styled.div`
     flex-direction: column;
     align-items: flex-start;
   `}          
-`;
+`
 
 export const MenuTopInner = styled.div`  
   display: flex;
@@ -100,4 +106,4 @@ export const MenuTopInner = styled.div`
       margin-right: 0px;
     }
   }
-`;
+`

@@ -1,3 +1,18 @@
 {
-  "extends": "standard"
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": ["standard", "standard-react"],
+  "rules": {
+    "generator-star-spacing": [0],
+    "space-before-function-paren": [0],
+    "react/jsx-tag-spacing": [0],
+    "prefer-const": ["error", {
+      "destructuring": "all",
+      "ignoreReadBeforeAssign": false
+    }]
+  }
 }

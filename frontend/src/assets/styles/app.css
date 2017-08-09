@@ -22,7 +22,6 @@ body {
     font-family: var(--fontFamily);
     font-size: var(--fontSizeNormal);
     line-height: var(--lineHeightNormal);
-
     &.show-modal {
         overflow: hidden;
     }

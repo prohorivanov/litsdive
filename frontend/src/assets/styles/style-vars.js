@@ -6,16 +6,15 @@ export const MEDIA = {
   desktop1024: 'max-width: 1024px',
   desktop: 'max-width: 1250px',
   desktop_xl: 'min-width: 1250px'
-};
+}
 
 export const COLORS = {
   colorWhite: '#FFFFFF',
   colorWhiteThree: '#F5F5F5',
-
   colorBlack: '#000000',
-
   colorGreyishBrown: '#3C3C3C',
   colorGreyishBrownTwo: '#4A4A4A',
+  colorGreyishBrownThree: '#51534a',
   colorWarmGrey: '#737373',
   colorWarmGreyThree: '#888888',
   colorWarmGreyTwo: '#A0A0A0',
@@ -47,7 +46,7 @@ export const COLORS = {
 
   colorDarkLilac: '#9B5BA5',
   colorLighterPurple: '#9F5FF5'
-};
+}
 
 export const MEDIA_SIZES = {
   xlsize: '1263px',
@@ -61,7 +60,7 @@ export const MEDIA_SIZES = {
   xssize: '660px',
   xsSsize: '600px',
   xssize2: '480px'
-};
+}
 
 export const SIZES = {
   mini: '12px',
@@ -72,11 +71,11 @@ export const SIZES = {
   big: '48px',
   huge: '56px',
   massive: '64px'
-};
+}
 
 export const FONTS = {
   Helvetica: 'Helvetica, Arial, sans-serif'
-};
+}
 
 export const FONTS_SIZE = {
   fontSizeExtraSmall: '10px',
@@ -92,4 +91,4 @@ export const FONTS_SIZE = {
   fontSizeH3: '18px',
   fontSizeH4: '16px',
   fontSizeH5: '14px'
-};
+}

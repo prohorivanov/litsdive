@@ -1,15 +1,15 @@
-import { fromJS } from 'immutable';
-import { reducer as form } from 'redux-form/immutable';
-import { LOCATION_CHANGE } from 'react-router-redux';
-import rootReducer   from './root/reducer';
-import profile from './profile/reducer';
-import matchMedia from './match-media/reducer';
-import masters from './masters/reducer';
-import news from './news/reducer';
+import { fromJS } from 'immutable'
+import { reducer as form } from 'redux-form/immutable'
+import { LOCATION_CHANGE } from 'react-router-redux'
+import rootReducer from './root/reducer'
+import profile from './profile/reducer'
+import matchMedia from './match-media/reducer'
+import users from './users/reducer'
+import news from './news/reducer'
 
-const initialState            = fromJS({
+const initialState = fromJS({
   locationBeforeTransitions: null
-});
+})
 
 /**
  * This reducer will update the state with the most recent location history
@@ -17,20 +17,19 @@ const initialState            = fromJS({
  * if you have asynchronously-loaded routes, so reading from and relying on
  * this state is discouraged.
  */
-export function routing(state = initialState, { type, payload } = {}) {
+export function routing (state = initialState, {type, payload} = {}) {
   if (type === LOCATION_CHANGE) {
-    const locationBeforeTransitions = state.get('locationBeforeTransitions');
-    let prevLocation;
-    
+    const locationBeforeTransitions = state.get('locationBeforeTransitions')
+    let prevLocation
+
     if (payload.action !== 'REPLACE') {
-      prevLocation = locationBeforeTransitions ?
-      {
+      prevLocation = locationBeforeTransitions ? {
         pathname: locationBeforeTransitions.get('pathname'),
         query: locationBeforeTransitions.get('query'),
         search: locationBeforeTransitions.get('search')
-      } : null;
+      } : null
     } else {
-      prevLocation = locationBeforeTransitions.get('prevLocation');
+      prevLocation = locationBeforeTransitions.get('prevLocation')
     }
 
     return state.merge({
@@ -39,9 +38,9 @@ export function routing(state = initialState, { type, payload } = {}) {
         currentLocation: payload.pathname,
         prevLocation
       }
-    });
+    })
   }
-  return state;
+  return state
 }
 
 /**
@@ -55,6 +54,6 @@ export default {
   rootReducer,
   profile,
   matchMedia,
-  masters,
+  users,
   news
-};
+}

@@ -1,15 +1,15 @@
-import { fromJS } from 'immutable';
-import { ACTIONS } from './constants';
+import { fromJS } from 'immutable'
+import { ACTIONS } from './constants'
 
 const initialState = fromJS({
-  contacts: []
-});
+  contacts: {}
+})
 
-export default function contactsContainerReducer(state = initialState, action) {
+export default function contactsContainerReducer (state = initialState, action) {
   switch (action.type) {
     case ACTIONS.CONTACTS_CONTAINER_GET_SUCCESS:
-      return state.set('contacts', fromJS(action.payload));
+      return state.set('contacts', fromJS(action.payload))
     default:
-      return state;
+      return state
   }
 }

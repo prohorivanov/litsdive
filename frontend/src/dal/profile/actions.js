@@ -1,4 +1,4 @@
-import { ACTIONS }  from './constants';
+import { ACTIONS }  from './constants'
 
 /**
  * Оповещает API о выходе пользователя из системы
@@ -6,4 +6,4 @@ import { ACTIONS }  from './constants';
  */
 export const profileLogoutAction = () => ({
   type: ACTIONS.PROFILE_LOGOUT_REQUEST
-});
+})

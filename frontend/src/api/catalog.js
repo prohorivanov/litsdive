@@ -1,12 +1,11 @@
-
-export function getListCatalog() {
+export function getListCatalog (param = {}) {
   const endpoint = {
-    url: 'contents'
-  };
+    url: 'catalog'
+  }
 
   const params = {
-    type: 'Catalog'
-  };
+    ...param
+  }
 
-  return { ...endpoint, params };
+  return {...endpoint, params}
 }

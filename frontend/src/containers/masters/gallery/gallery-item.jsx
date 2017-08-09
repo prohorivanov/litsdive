@@ -1,13 +1,13 @@
-import React, { PureComponent } from 'react';
-import PropTypes from 'prop-types';
-import Modal from 'ui-components/modal';
+import React, { PureComponent } from 'react'
+import PropTypes from 'prop-types'
+import Modal from 'ui-components/modal'
 import {
   Figure,
   TattooImage,
   TattooImageDetail
-} from './style.js';
+} from './style.js'
 
-class GalleryItem  extends PureComponent {
+class GalleryItem extends PureComponent {
 
   static propTypes = {
     src: PropTypes.string.isRequired
@@ -18,27 +18,27 @@ class GalleryItem  extends PureComponent {
   }
 
   onShowDetailTattoo = () => {
-    this.setState({ isShowModalTattoo: true });
+    this.setState({isShowModalTattoo: true})
   }
 
   onCloseModalTattoo = () => {
-    this.setState({ isShowModalTattoo: false });
+    this.setState({isShowModalTattoo: false})
   }
 
-  render() {
-    const { src } = this.props;
-    const { isShowModalTattoo } = this.state;
+  render () {
+    const {src} = this.props
+    const {isShowModalTattoo} = this.state
     return (
       <Figure>
-        <TattooImage src={src} onClick={this.onShowDetailTattoo} />
+        <TattooImage src={src} onClick={this.onShowDetailTattoo}/>
         {isShowModalTattoo && (
           <Modal onClose={this.onCloseModalTattoo}>
-            <TattooImageDetail src={src} />
+            <TattooImageDetail src={src}/>
           </Modal>
         )}
       </Figure>
-    );
+    )
   }
 }
 
-export default GalleryItem;
+export default GalleryItem

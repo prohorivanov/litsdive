@@ -1,96 +1,109 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { connect } from 'react-redux';
-import { List } from 'immutable';
-import Loader from 'ui-components/loader';
-import * as masterAction from 'dal/masters/actions';
-import * as newsAction from 'dal/news/actions';
-import Gallery from './gallery';
-import * as LocalAction from './actions';
-import { selectIndexContainer } from './selectors';
-import { MatersLayout, MainColl, AuthorName } from './style.js';
+import React, { Component } from 'react'
+import PropTypes from 'prop-types'
+import { connect } from 'react-redux'
+import { List, Map } from 'immutable'
+import Loader from 'ui-components/loader'
+import * as usersAction from 'dal/users/actions'
+import * as newsAction from 'dal/news/actions'
+import Gallery from './gallery'
+import * as LocalAction from './actions'
+import { selectIndexContainer } from './selectors'
+import { MatersLayout, MainColl, AuthorName } from './style.js'
 
-export class IndexLayout extends React.Component {
-
+export class IndexLayout extends Component {
   static propTypes = {
-    loaderMasters: PropTypes.bool,
+    userLoader: PropTypes.bool,
     loaderDetail: PropTypes.bool,
-    authors: PropTypes.instanceOf(List).isRequired,
-    authorDetail: PropTypes.instanceOf(List).isRequired,
+    galleriesWithAuthor: PropTypes.instanceOf(List).isRequired,
+    userList: PropTypes.instanceOf(List).isRequired,
+    galleryDetail: PropTypes.instanceOf(Map).isRequired,
+    getAllGalleryAction: PropTypes.func.isRequired,
     getAuthorsAction: PropTypes.func.isRequired,
-    getAuthorsByIdAction: PropTypes.func.isRequired,
+    findGalleryByAuthorIDAction: PropTypes.func.isRequired,
     params: PropTypes.shape({
-      authorSlug: PropTypes.string
+      id: PropTypes.string
     })
   }
 
-  componentDidMount() {
+  componentDidMount () {
     const {
+      getAllGalleryAction,
       getAuthorsAction,
-      getAuthorsByIdAction,
-      authors,
-      params: { authorSlug }
-    } = this.props;
-    if (!authors.size) {
-      getAuthorsAction();
+      findGalleryByAuthorIDAction,
+      galleriesWithAuthor,
+      params: {id}
+    } = this.props
+
+    // получаем всех узеров
+    // получаем все галереи
+    if (!galleriesWithAuthor.size) {
+      getAuthorsAction()
+      getAllGalleryAction()
     }
 
-    if (authorSlug) {
-      getAuthorsByIdAction(authorSlug);
-    }
-  }
-
-  componentWillReceiveProps(nextProps) {
-    const { params: { authorSlug }, getAuthorsByIdAction } = this.props;
-    const nextSlug = nextProps.params.authorSlug;
-    if (nextSlug && nextSlug !== authorSlug) {
-      getAuthorsByIdAction(nextSlug);
+    // получаем галерею по id пользователя
+    // в этом же запросе получаем детальную информацию по узеру
+    if (id) {
+      findGalleryByAuthorIDAction(id)
     }
   }
 
-  render() {
+  componentWillReceiveProps (nextProps) {
+    const {params: {id}, findGalleryByAuthorIDAction} = this.props
+    const nextID = nextProps.params.id
+    if (nextID && nextID !== id) {
+      findGalleryByAuthorIDAction(id)
+    }
+  }
+
+  render () {
     const {
-      authors,
-      loaderMasters,
+      userLoader,
       loaderDetail,
-      authorDetail,
+      galleryDetail,
+      userList,
+      galleriesWithAuthor,
       params: {
-        authorSlug
+        id
       }
-    } = this.props;
+    } = this.props
+
+    console.log(galleriesWithAuthor.toJS(), 'galleriesWithAuthor')
     return (
       <MatersLayout>
         <MainColl>
-          {(loaderMasters || loaderDetail) && <Loader centered />}
+          {(userLoader || loaderDetail) && <Loader centered/>}
 
-          {(!authors.size) ? null : (
+          {(!userList.size) ? null : (
             <div>
-              <AuthorName to="masters">Все</AuthorName>
-              {authors.map(master => (
-                <AuthorName key={master.get('slug')} to={`/masters/${master.get('slug')}`}>
-                  {master.get('name')}
+              <AuthorName to='masters'>Все</AuthorName>
+              {userList.map(user => (
+                <AuthorName key={user.get('_id')} to={`/masters/${user.get('_id')}`}>
+                  <span>{user.getIn(['name', 'first'])}</span>
+                  {' '}
+                  <span>{user.getIn(['name', 'last'])}</span>
                 </AuthorName>
               ))}
             </div>
           )}
 
-          {(!authors.size || authorSlug) ? null : (
-            <Gallery authors={authors} />
+          {(!galleriesWithAuthor.size || id) ? null : (
+            <Gallery galleries={galleriesWithAuthor}/>
           )}
-          {(!authorDetail.size || !authorSlug) ? null : (
-            <Gallery authors={authorDetail} />
+          {(!galleryDetail.size || !id) ? null : (
+            <Gallery galleries={galleryDetail}/>
           )}
         </MainColl>
       </MatersLayout>
-    );
+    )
   }
 }
 
 export default connect(
   selectIndexContainer,
   {
-    ...masterAction,
+    ...usersAction,
     ...newsAction,
     ...LocalAction
   }
-)(IndexLayout);
+)(IndexLayout)
