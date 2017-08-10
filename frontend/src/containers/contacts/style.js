@@ -26,6 +26,9 @@ export const MapEmbed = styled.div`
   position: relative;
   width: 100%;
   height: 100%;
+  iframe {
+    height: 700px !important;
+  }
 `
 
 export const Author = styled.div`

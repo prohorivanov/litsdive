@@ -1,36 +1,36 @@
-import styled from 'styled-components';
-import { Link } from 'react-router';
-import { COLORS, FONTS, FONTS_SIZE } from 'assets/styles/style-vars.js';
+import styled from 'styled-components'
+import { Link } from 'react-router'
+import { COLORS, FONTS, FONTS_SIZE } from 'assets/styles/style-vars.js'
 
 export const Layout = styled.div`
   position: relative;
   padding-bottom: 50px;
-`;
+`
 
 export const Header = styled.section`
   padding: 16px 32px;
   border-bottom: 1px solid ${COLORS.colorMarigold}
-`;
+`
 
 export const Body = styled.section` 
   display: flex;  
   flex-direction: row;
-`;
+`
 
 export const CollLeft = styled.div` 
   width: 248px;
-`;
+`
 
 export const CollRight = styled.div`
   padding: 16px 24px; 
   width: calc(100% - 248px);
   border-left: 1px solid ${COLORS.colorLightGrey}
-`;
+`
 
 export const H2 = styled.h2`
   line-height: 34px;
   font-size: ${FONTS_SIZE.fontSizeH2Small};
-`;
+`
 
 export const SectionTitle = styled.div`
    margin-bottom: 20px; 
@@ -41,7 +41,7 @@ export const SectionTitle = styled.div`
     color: ${COLORS.colorDarkSkyBlue};
     text-transform: uppercase;   
    }
-`;
+`
 
 export const ShadowBlockExtend = styled.div`
   max-width: 1000px;  
@@ -51,7 +51,7 @@ export const ShadowBlockExtend = styled.div`
   background: @colorWhite;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
   padding: 0;
-`;
+`
 
 export const LinkItemStyle = styled(Link)`
   display: block; 
@@ -71,8 +71,7 @@ export const LinkItemStyle = styled(Link)`
     font-weight: bold;
     background-color: ${COLORS.colorWhiteThree};
   }
-`;
-
+`
 
 export const Input = styled.input`
   width: auto;
@@ -117,4 +116,4 @@ export const Input = styled.input`
         box-shadow: none;
     }
   }
-`;
+`

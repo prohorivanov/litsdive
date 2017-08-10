@@ -90,4 +90,4 @@ const routes = [
 
 export default history => (
   <Router history={history} routes={routes}/>
-)
+);

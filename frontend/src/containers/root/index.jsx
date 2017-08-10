@@ -1,17 +1,8 @@
-import React, {
-  Component,
-  PropTypes
-} from 'react';
-import { MatchMediaRegister } from 'dal/match-media/actions';
-
-import {
-  RootLayout
-} from './style.js';
+import { Component, PropTypes } from 'react'
+import { MatchMediaRegister } from 'dal/match-media/actions'
 
 class RootWrapperLayout extends Component {
-  
   static propTypes = {
-    className: PropTypes.string,
     children: PropTypes.oneOfType([
       PropTypes.arrayOf(PropTypes.element),
       PropTypes.element
@@ -22,39 +13,16 @@ class RootWrapperLayout extends Component {
     changeClassName: PropTypes.func
   }
 
-  constructor() {
-    super();
-    MatchMediaRegister();
+  constructor () {
+    super()
+    MatchMediaRegister()
   }
-  
-  state = {
-    customClassName: ''
-  }
-  
-  /**
-   *
-   * @returns {{changeClassName: (function())}}
-   */
-  getChildContext() {
-    return {
-      changeClassName: this.changeClassName
-    };
-  }
-  
-  changeClassName = (klass) => {
-    this.setState({ customClassName: klass });
-  }
-  
-  render() {
-    const { className, children } = this.props;
-    const { customClassName } = this.state;
 
+  render () {
     return (
-      <RootLayout className={className} customClassName={customClassName}>
-        {children}
-      </RootLayout>
-    );
+      this.props.children
+    )
   }
 }
 
-export default RootWrapperLayout;
+export default RootWrapperLayout

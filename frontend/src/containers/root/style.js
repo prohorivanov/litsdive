@@ -8,13 +8,9 @@ export const ContentWrapper = styled.div`
   height: 100%;
 `
 
-export const RootLayout = styled.div` 
-  position: relative;
-`
-
 export const IndexLayout = styled.div` 
   position: relative;
-  height: 100%;
+  min-height: 100%;
   ${media.desktop`
     width: 100%
   `}
@@ -55,7 +51,7 @@ export const LogoImg = styled.img`
   height: 90px;   
 `
 
-export const LogoName = styled.div`
+export const LogoName = styled.a`
   display: flex;    
   flex-direction: column;
   font-weight: bold;

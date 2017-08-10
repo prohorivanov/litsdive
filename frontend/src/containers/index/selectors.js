@@ -4,7 +4,7 @@ const authorsSelector = state => state.getIn(['users', 'userList'])
 const tattooPhotosFromAuthorsSelector = state => state.getIn([REDUCER_NAME, 'tattooPhotosFromAuthors'])
 const authorsWithTattooSelector = state => state.getIn(['users', 'authorsWithTattoo'])
 const loaderNewsSelector = state => state.getIn(['news', 'loaderNews'])
-const loaderPhotoSelector = state => state.getIn(['news', 'loaderPhoto'])
+const loaderPhotoSelector = state => state.getIn([REDUCER_NAME, 'loaderPhoto'])
 const newsSelector = state => state.getIn(['news', 'newsList'])
 const matchMediaSelector = state => state.get('matchMedia')
 

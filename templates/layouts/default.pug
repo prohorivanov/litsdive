@@ -27,38 +27,33 @@ html
 
 	//- HTML BODY
 	body
+		#header: .header-block
+			//- Customise your site's navigation by changing the navLinks Array in ./routes/middleware.js
+			//- ... or completely change this header to suit your design.
+			a.header-logo
+				img(srs='', alt='')
+			div.menu-top
+				div.logo-name
+					span.logo-word1 BUNKER
+					span.logo-word2 TATTOO STUDIO
+				div.menu-top-inner(role="navigation")
+					a.menu-top-inner-link(href='/gallery') Галерея
+					a.menu-top-inner-link(href='/masters') Мастера
+					a.menu-top-inner-link(href='/products') Товары
+					a.menu-top-inner-link(href='/contacts') Контакты
+					if user
+						if user.canAccessKeystone
+							a.menu-top-inner-link(href='/keystone') Open Keystone
+							a.menu-top-inner-link(href='/keystone/signout') Sign Out
+					else
+						a.menu-top-inner-link(href='/keystone/signin') Sign In
 		#MAIN_CONTENT
 			div.root-container
 				//- HEADER
-				#header: .header-block
-
-					//- Customise your site's navigation by changing the navLinks Array in ./routes/middleware.js
-					//- ... or completely change this header to suit your design.
-					a.header-logo
-						img(srs='', alt='')
-					div.menu-top
-						div.logo-name
-							span.logo-word1 BUNKER
-							span.logo-word2 TATTOO STUDIO
-						div.menu-top-inner(role="navigation")
-							a.menu-top-inner-link(href='/gallery') Галерея
-							a.menu-top-inner-link(href='/masters') Мастера
-							a.menu-top-inner-link(href='/products') Товары
-							a.menu-top-inner-link(href='/contacts') Контакты
-							if user
-								if user.canAccessKeystone
-									a.menu-top-inner-link(href='/keystone') Open Keystone
-									a.menu-top-inner-link(href='/keystone/signout') Sign Out
-							else
-									a.menu-top-inner-link(href='/keystone/signin') Sign In
-
 				.content
 					block content
-
-
-				//- FOOTER
-				#footer
-
+		//- FOOTER
+		#footer
 		// if user && user.canAccessKeystone
 		//	script(src='/keystone/js/content/editor.js')
 
