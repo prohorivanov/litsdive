@@ -12,7 +12,7 @@ class GalleryItem extends PureComponent {
   static propTypes = {
     url: PropTypes.string.isRequired,
     authorName: PropTypes.string.isRequired,
-    authorId: PropTypes.string,
+    authorId: PropTypes.string
   }
 
   state = {

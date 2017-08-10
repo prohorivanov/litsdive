@@ -3,22 +3,21 @@ const keystone = require('keystone')
 const async = require('async')
 const prepareData = require('../utils/prepare-data')
 
-exports.listGallery = (req, res) => {
+exports.postList = (req, res) => {
   const locals = res.locals
 
   // Set locals
-  locals.section = 'gallery'
+  locals.section = 'post'
   locals.data = []
 
   async.series([
     (next) => {
       keystone
-        .list('Gallery')
-        .model
-        .find({name: {$ne: 'About'}})
+        .list('Post')
+        .model.find()
         .where('state', 'published')
         .sort('-publishedDate')
-        .limit(10)
+        .limit(30)
         .exec((err, results) => {
           if (err) return res.apiError('database error', err)
           locals.data = results
@@ -33,28 +32,28 @@ exports.listGallery = (req, res) => {
   })
 }
 
-exports.findGalleryById = (req, res) => {
+exports.findPostBySlug = (req, res) => {
   // var view = new keystone.View(req, res);
   const locals = res.locals
 
   // Set locals
-  locals.section = 'gallery'
+  locals.section = 'post'
   locals.filters = {
-    gallery: req.params.gallery
+    slug: req.query.slug
   }
   locals.data = {}
   async.series([
     (next) => {
       keystone
-        .list('Gallery')
+        .list('Post')
         .model
         .findOne({
           state: 'published',
-          key: {_id: locals.filters.gallery}
+          slug: locals.filters.slug
         })
         .exec((err, result) => {
           if (err) return res.apiError('database error', err)
-          locals.data = result[0]
+          locals.data = result
           next(err)
         })
     }
@@ -66,31 +65,32 @@ exports.findGalleryById = (req, res) => {
   })
 }
 
-exports.findGalleryByAuthorId = (req, res) => {
+exports.findPostByAuthor = (req, res) => {
   // var view = new keystone.View(req, res);
   const locals = res.locals
 
+  console.log(req.query.id, 'req.query.id')
   // Set locals
-  locals.section = 'gallery'
+  locals.section = 'post'
   locals.filters = {
-    id: req.query.id
+    userId: req.query.userId
   }
   locals.data = {
-    gallery: {},
-    authorGallery: {}
+    post: {},
+    authorPost: {}
   }
   async.series([
     (next) => {
       keystone
-        .list('Gallery')
+        .list('Post')
         .model
         .findOne({
           state: 'published',
-          author: locals.filters.id
+          author: locals.filters.userId
         })
         .exec((err, result) => {
           if (err) return res.apiError('database error', err)
-          locals.data.gallery = result
+          locals.data.post = result
           next(err)
         })
     },
@@ -99,11 +99,11 @@ exports.findGalleryByAuthorId = (req, res) => {
         .list('User')
         .model
         .findOne({
-          _id: locals.filters.id
+          _id: locals.filters.userId
         })
         .exec((err, result) => {
           if (err) return res.apiError('database error', err)
-          locals.data.authorGallery = prepareData.getUserData(result)
+          locals.data.authorPost = prepareData.getUserData(result)
           next(err)
         })
     }

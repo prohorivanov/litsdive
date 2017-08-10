@@ -5,7 +5,7 @@ import rootReducer from './root/reducer'
 import profile from './profile/reducer'
 import matchMedia from './match-media/reducer'
 import users from './users/reducer'
-import news from './news/reducer'
+import post from './post/reducer'
 
 const initialState = fromJS({
   locationBeforeTransitions: null
@@ -55,5 +55,5 @@ export default {
   profile,
   matchMedia,
   users,
-  news
+  post
 }

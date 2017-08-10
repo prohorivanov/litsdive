@@ -11,8 +11,10 @@ module.exports = (req, res) => {
   locals.data = {}
   async.series([
     (next) => {
-      keystone.list('Contacts')
-        .model.find()
+      keystone
+        .list('Contacts')
+        .model
+        .find()
         .exec((err, result) => {
           if (err) return res.apiError('database error', err)
           locals.data = result[0]

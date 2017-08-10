@@ -15,8 +15,13 @@ module.exports = function (req, res) {
   }
   async.series([
     (next) => {
-      keystone.list('Post')
-        .model.findOne({state: 'published', slug: locals.filters.post})
+      keystone
+        .list('Post')
+        .model
+        .findOne({
+          state: 'published',
+          slug: locals.filters.post
+        })
         .populate('author categories')
         .exec((err, result) => {
           locals.data.post = result

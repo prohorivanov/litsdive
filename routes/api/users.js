@@ -1,17 +1,6 @@
 const keystone = require('keystone')
 const async = require('async')
-
-const getUserData = listUsers => (
-  listUsers.map(r => ({
-    _id: r._id,
-    email: r.email,
-    tattoos: r.tattoos,
-    name: r.name,
-    image: {
-      url: r.image.url || ''
-    }
-  }))
-)
+const prepareData = require('../utils/prepare-data')
 
 // https://github.com/JedWatson/sydjs-site/tree/master/routes/api
 exports.listUsers = (req, res) => {
@@ -25,10 +14,11 @@ exports.listUsers = (req, res) => {
     (next) => {
       keystone
         .list('User')
-        .model.find()
+        .model
+        .find()
         .exec((err, results) => {
           if (err) return res.apiError('database error', err)
-          locals.data = getUserData(results)
+          locals.data = prepareData.getUsersData(results)
           next(err)
         })
     }
@@ -47,18 +37,20 @@ exports.findUser = (req, res) => {
   // Set locals
   locals.section = 'user'
   locals.filters = {
-    id: req.params.id
+    id: req.query.id
   }
   locals.data = {}
   async.series([
     (next) => {
-      keystone.list('User')
-        .model.findOne({
+      keystone
+        .list('User')
+        .model
+        .findOne({
           _id: locals.filters.id
         })
         .exec((err, result) => {
           if (err) return res.apiError('database error', err)
-          locals.data = getUserData(result)
+          locals.data = prepareData.getUserData(result)
           next(err)
         })
     }

@@ -11,8 +11,10 @@ exports.listTattoo = (req, res) => {
   locals.data = []
   async.series([
     (next) => {
-      keystone.list('Tattoo')
-        .model.findOne({state: 'published', slug: locals.filters.post})
+      keystone
+        .list('Tattoo')
+        .model
+        .findOne({state: 'published', slug: locals.filters.post})
         .populate('author categories')
         .exec((err, result) => {
           if (err) return res.apiError('database error', err)
@@ -53,8 +55,10 @@ exports.findTattoo = (req, res) => {
   locals.data = {}
   async.series([
     (next) => {
-      keystone.list('Tattoo')
-        .model.findOne({state: 'published', slug: locals.filters.tattoo})
+      keystone
+        .list('Tattoo')
+        .model
+        .findOne({state: 'published', slug: locals.filters.tattoo})
         .exec((err, result) => {
           if (err) return res.apiError('database error', err)
           locals.data.tattoo = result

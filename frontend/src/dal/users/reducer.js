@@ -9,7 +9,9 @@ const initialState = fromJS({
 export default function users (state = initialState, action) {
   switch (action.type) {
     case ACTIONS.USERS_GET_AUTHORS_SUCCESS:
-      return state.set('userList', fromJS(action.payload))
+      return state
+        .set('userList', fromJS(action.payload))
+        .set('loader', false)
     case ACTIONS.USERS_GET_AUTHORS_REQUEST:
       return state.set('loader', true)
     case ACTIONS.USERS_GET_AUTHORS_FAIL:

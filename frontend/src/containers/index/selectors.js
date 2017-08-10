@@ -1,11 +1,14 @@
 import { REDUCER_NAME } from './constants'
 
 const authorsSelector = state => state.getIn(['users', 'userList'])
-const tattooPhotosFromAuthorsSelector = state => state.getIn([REDUCER_NAME, 'tattooPhotosFromAuthors'])
 const authorsWithTattooSelector = state => state.getIn(['users', 'authorsWithTattoo'])
-const loaderNewsSelector = state => state.getIn(['news', 'loaderNews'])
+
+const tattooPhotosFromAuthorsSelector = state => state.getIn([REDUCER_NAME, 'tattooPhotosFromAuthors'])
 const loaderPhotoSelector = state => state.getIn([REDUCER_NAME, 'loaderPhoto'])
-const newsSelector = state => state.getIn(['news', 'newsList'])
+
+const postListSelector = state => state.getIn(['post', 'postList'])
+const loaderPostSelector = state => state.getIn(['post', 'loaderPost'])
+
 const matchMediaSelector = state => state.get('matchMedia')
 
 export const selectIndexContainer = state => ({
@@ -13,7 +16,7 @@ export const selectIndexContainer = state => ({
   tattooPhotosFromAuthors: tattooPhotosFromAuthorsSelector(state),
   authorsWithTattoo: authorsWithTattooSelector(state),
   matchMedia: matchMediaSelector(state),
-  loaderNews: loaderNewsSelector(state),
+  loaderPost: loaderPostSelector(state),
   loaderPhoto: loaderPhotoSelector(state),
-  news: newsSelector(state)
+  postList: postListSelector(state)
 })

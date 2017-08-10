@@ -68,15 +68,19 @@ exports = module.exports = function (app) {
   app.all('/api/galleryByAuthor', routes.api.gallery.findGalleryByAuthorId)
   app.all('/api/galleryList', routes.api.gallery.listGallery)
 
+  app.all('/api/post', routes.api.post.findPostBySlug)
+  app.all('/api/postByAuthor', routes.api.post.findPostByAuthor)
+  app.all('/api/postList', routes.api.post.postList)
+
   app.all('/api/user', routes.api.users.findUser)
   app.all('/api/userList', routes.api.users.listUsers)
 
   app.all('/api/contacts', routes.api.contacts)
 
   // File Upload Route
-  // app.get('/api/fileupload/list', keystone.middleware.api, routes.api.fileupload.list);
-  // app.get('/api/fileupload/:id', keystone.middleware.api, routes.api.fileupload.get);
-  // app.all('/api/fileupload/:id/update', keystone.middleware.api, routes.api.fileupload.update);
-  // app.all('/api/fileupload/create', keystone.middleware.api, routes.api.fileupload.create);
-  // app.get('/api/fileupload/:id/remove', keystone.middleware.api, routes.api.fileupload.remove);
+  // app.get('/api/fileupload/list', routes.api.fileupload.list);
+  // app.get('/api/fileupload/:id', routes.api.fileupload.get);
+  // app.all('/api/fileupload/:id/update', routes.api.fileupload.update);
+  // app.all('/api/fileupload/create', routes.api.fileupload.create);
+  // app.get('/api/fileupload/:id/remove', routes.api.fileupload.remove);
 }

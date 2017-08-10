@@ -3,7 +3,7 @@ import * as authentication from './authentication'
 import * as authors from './authors'
 import * as products from './products'
 import * as user from './user'
-import * as news from './news'
+import * as post from './post'
 import * as contacts from './contacts'
 import * as gallery from './gallery'
 
@@ -12,7 +12,7 @@ const packages = {
   products,
   authentication,
   user,
-  news,
+  post,
   contacts,
   gallery
 }

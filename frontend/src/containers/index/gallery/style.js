@@ -1,14 +1,11 @@
 import styled from 'styled-components'
 import { rgba } from 'polished'
+import { Link } from 'react-router'
 import { media } from 'assets/styles/style-utils.js'
 import Modal from 'ui-components/modal'
 import { COLORS, FONTS_SIZE } from 'assets/styles/style-vars.js'
 
-export const Author = styled.div`
-  position: relative;
-`
-
-export const AuthorName = styled.a`
+export const AuthorName = styled(Link)`
   display: block;
   color: ${COLORS.colorBlack};
   font-size: ${FONTS_SIZE.fontSizeNormal};

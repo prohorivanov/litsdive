@@ -4,7 +4,6 @@ import { connect } from 'react-redux'
 import { List, Map } from 'immutable'
 import Loader from 'ui-components/loader'
 import * as usersAction from 'dal/users/actions'
-import * as newsAction from 'dal/news/actions'
 import Gallery from './gallery'
 import * as LocalAction from './actions'
 import { selectIndexContainer } from './selectors'
@@ -52,7 +51,7 @@ export class IndexLayout extends Component {
     const {params: {id}, findGalleryByAuthorIDAction} = this.props
     const nextID = nextProps.params.id
     if (nextID && nextID !== id) {
-      findGalleryByAuthorIDAction(id)
+      findGalleryByAuthorIDAction(nextID)
     }
   }
 
@@ -68,7 +67,6 @@ export class IndexLayout extends Component {
       }
     } = this.props
 
-    console.log(galleriesWithAuthor.toJS(), 'galleriesWithAuthor')
     return (
       <MatersLayout>
         <MainColl>
@@ -91,7 +89,7 @@ export class IndexLayout extends Component {
             <Gallery galleries={galleriesWithAuthor}/>
           )}
           {(!galleryDetail.size || !id) ? null : (
-            <Gallery galleries={galleryDetail}/>
+            <Gallery galleries={List([galleryDetail])}/>
           )}
         </MainColl>
       </MatersLayout>
@@ -103,7 +101,6 @@ export default connect(
   selectIndexContainer,
   {
     ...usersAction,
-    ...newsAction,
     ...LocalAction
   }
 )(IndexLayout)

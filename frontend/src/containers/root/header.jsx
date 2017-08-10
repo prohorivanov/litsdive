@@ -4,6 +4,7 @@ import { List } from 'immutable'
 import { history } from 'app/app-history'
 import { connect } from 'react-redux'
 import { selectors } from './selectors'
+import MenuItem from './menu/menu-item'
 import {
   HeaderBlock,
   Logo,
@@ -15,27 +16,24 @@ import {
   LogoWord2
 } from './style.js'
 
-function to (evt) {
+function goToIndex (evt) {
   evt.preventDefault()
-  const target = evt.currentTarget
-  history.push(target.href)
+  history.push('/')
 }
 
 const Header = ({menu}) => (
   <HeaderBlock>
-    <Logo href='/' onClick={to}>
+    <Logo href='/' onClick={goToIndex}>
       <LogoImg src={require('images/bunker1.png')} alt='logo'/>
     </Logo>
     <MenuTop>
-      <LogoName href='/'>
+      <LogoName href={location.origin}>
         <LogoWord1>BUNKER</LogoWord1>
         <LogoWord2>TATTOO STUDIO</LogoWord2>
       </LogoName>
       <MenuTopInner>
         {menu.map((menuItem, i) => (
-          <a key={i} href={menuItem.get('url')} onClick={to}>
-            {menuItem.get('title')}
-          </a>
+          <MenuItem key={i} {...menuItem.toJS()}/>
         ))}
       </MenuTopInner>
     </MenuTop>

@@ -1,25 +1,17 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { List } from 'immutable'
-import { history } from 'app/app-history'
 import { connect } from 'react-redux'
 import { selectors } from './selectors'
+import MenuItem from './menu/menu-item'
 import {
   FooterBlock
 } from './style.js'
 
-function to (evt) {
-  evt.preventDefault()
-  const target = evt.target
-  history.push(target.href)
-}
-
 const Footer = ({menu}) => (
   <FooterBlock>
     {menu.map((menuItem, i) => (
-      <a key={i} href={menuItem.get('url')} onClick={to}>
-        {menuItem.get('title')}
-      </a>
+      <MenuItem key={i} {...menuItem.toJS()} />
     ))}
   </FooterBlock>
 )
