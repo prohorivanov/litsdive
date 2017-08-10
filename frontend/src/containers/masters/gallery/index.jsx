@@ -17,7 +17,7 @@ const Gallery = ({galleries}) => (
       <AuthorSection key={gallery.get('_id')}>
         <AuthorInfo>
           <AuthorPic src={gallery.getIn(['author', 'image', 'url'])}/>
-          <AuthorName>{gallery.getIn(['author', 'name', 'first'])}</AuthorName>
+          <AuthorName>{gallery.getIn(['author', 'fullName'])}</AuthorName>
         </AuthorInfo>
         <WrapGallery>
           {gallery.get('images').map((image, i) => (

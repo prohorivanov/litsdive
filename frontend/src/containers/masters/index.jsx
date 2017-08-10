@@ -67,6 +67,8 @@ export class IndexLayout extends Component {
       }
     } = this.props
 
+    console.log(userList.toJS(), 'userList');
+
     return (
       <MatersLayout>
         <MainColl>
@@ -77,9 +79,7 @@ export class IndexLayout extends Component {
               <AuthorName to='masters'>Все</AuthorName>
               {userList.map(user => (
                 <AuthorName key={user.get('_id')} to={`/masters/${user.get('_id')}`}>
-                  <span>{user.getIn(['name', 'first'])}</span>
-                  {' '}
-                  <span>{user.getIn(['name', 'last'])}</span>
+                  <span>{user.get('fullName')}</span>
                 </AuthorName>
               ))}
             </div>

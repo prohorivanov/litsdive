@@ -33,6 +33,22 @@ const routes = [
     },
     childRoutes: [
       {
+        path: 'about(/)',
+        title: 'О нас',
+        getComponent(location, cb) {
+          const importModules = Promise.all([
+            System.import('./containers/about/reducer'),
+            System.import('./containers/about')
+          ])
+          const renderRoute = loadRoute(cb)
+          importModules.then(([reducer, component]) => {
+            injectAsyncReducer(store, 'aboutContainerReducer', reducer.default)
+            renderRoute(component)
+          })
+          importModules.catch(errorLoading)
+        }
+      },
+      {
         path: 'masters(/)(:id)',
         title: 'Мастера',
         getComponent(location, cb) {

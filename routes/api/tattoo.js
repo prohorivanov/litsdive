@@ -14,7 +14,10 @@ exports.listTattoo = (req, res) => {
       keystone
         .list('Tattoo')
         .model
-        .findOne({state: 'published', slug: locals.filters.post})
+        .findOne({
+          state: 'published',
+          slug: locals.filters.post
+        })
         .populate('author categories')
         .exec((err, result) => {
           if (err) return res.apiError('database error', err)

@@ -64,7 +64,7 @@ exports = module.exports = function (app) {
   app.all('/api/tattoo', routes.api.tattoo.findTattoo)
   app.all('/api/listTattoo', routes.api.tattoo.listTattoo)
 
-  app.all('/api/gallery', routes.api.gallery.findGalleryById)
+  app.all('/api/gallery', routes.api.gallery.findGalleryByName)
   app.all('/api/galleryByAuthor', routes.api.gallery.findGalleryByAuthorId)
   app.all('/api/galleryList', routes.api.gallery.listGallery)
 

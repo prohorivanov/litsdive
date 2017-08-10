@@ -4,6 +4,7 @@ exports.getUsersData = listUsers => (
     email: r.email,
     tattoos: r.tattoos,
     name: r.name,
+    fullName: r.name.fullName,
     image: {
       url: r.image.url || ''
     }
@@ -15,6 +16,7 @@ exports.getUserData = users => ({
   email: users.email,
   tattoos: users.tattoos,
   name: users.name,
+  fullName: users.name.fullName,
   image: {
     url: users.image.url || ''
   }

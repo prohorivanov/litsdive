@@ -5,8 +5,8 @@ export const initialState = fromJS({
   globalLoaderShow: false,
   menu: [
     {
-      url: '/gallery',
-      title: 'Галерея'
+      url: '/about',
+      title: 'О нас'
     },
     {
       url: '/masters',

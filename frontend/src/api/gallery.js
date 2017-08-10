@@ -11,14 +11,14 @@ export function getAllGalleries (param = {}) {
   return {...endpoint, params}
 }
 
-export function getGalleriesById ({id}) {
+export function getGalleriesByName ({name}) {
   const endpoint = {
     url: 'gallery',
     method: 'POST'
   }
 
   const params = {
-    id
+    name
   }
 
   return {...endpoint, params}

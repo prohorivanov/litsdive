@@ -33,14 +33,14 @@ exports.listGallery = (req, res) => {
   })
 }
 
-exports.findGalleryById = (req, res) => {
+exports.findGalleryByName = (req, res) => {
   // var view = new keystone.View(req, res);
   const locals = res.locals
 
   // Set locals
   locals.section = 'gallery'
   locals.filters = {
-    gallery: req.params.gallery
+    name: req.query.name
   }
   locals.data = {}
   async.series([
@@ -50,11 +50,11 @@ exports.findGalleryById = (req, res) => {
         .model
         .findOne({
           state: 'published',
-          key: {_id: locals.filters.gallery}
+          key: {_id: locals.filters.name}
         })
         .exec((err, result) => {
           if (err) return res.apiError('database error', err)
-          locals.data = result[0]
+          locals.data = result
           next(err)
         })
     }

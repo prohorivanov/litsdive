@@ -16,6 +16,7 @@ exports.listUsers = (req, res) => {
         .list('User')
         .model
         .find()
+        .where('isOnlyKeystone').exists(false)
         .exec((err, results) => {
           if (err) return res.apiError('database error', err)
           locals.data = prepareData.getUsersData(results)

@@ -39,6 +39,11 @@ User.add({
     type: Types.Relationship,
     ref: 'Tattoo',
     many: true
+  },
+  isOnlyKeystone: {
+    type: Boolean,
+    label: 'User only Keystone admin',
+    index: true
   }
 }, 'Permissions', {
   isAdmin: {
