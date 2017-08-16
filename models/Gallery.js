@@ -17,7 +17,7 @@ Gallery.add({
   },
   state: {
     type: Types.Select,
-    options: 'draft, published, archived',
+    options: 'draft, published',
     default: 'draft',
     index: true
   },
@@ -27,6 +27,11 @@ Gallery.add({
   },
   heroImage: {
     type: Types.CloudinaryImage
+  },
+  description: {
+    type: Types.Html,
+    wysiwyg: true,
+    height: 400
   },
   images: {
     type: Types.CloudinaryImages

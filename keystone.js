@@ -4,6 +4,7 @@ require('dotenv').config()
 
 // Require keystone
 const keystone = require('keystone')
+const wysiwyg = require('./wysiwyg-conf')
 
 // Initialise Keystone with your project's configuration.
 // See http://keystonejs.com/guide/config for available options
@@ -22,7 +23,15 @@ keystone.init({
   'auto update': true,
   'session': true,
   'auth': true,
-  'user model': 'User'
+  'user model': 'User',
+  'cloudinary config': {
+    cloud_name: 'tattoobunker',
+    api_key: '515927175562849',
+    api_secret: 'WovDBOUFNpN49cFadIS-RhAEKv8'
+  },
+  'cloudinary folders': true,
+  'google api key': 'AIzaSyBKNPgliajVi0PwIjFjYphp0uG-1IqRRn8',
+  'wysiwyg additional options': wysiwyg.wysiwygConf
 })
 
 // Load your project's Models
@@ -38,13 +47,6 @@ keystone.set('locals', {
   editable: keystone.content.editable
 })
 
-keystone.set('cloudinary config', {
-  cloud_name: 'tattoobunker',
-  api_key: '515927175562849',
-  api_secret: 'WovDBOUFNpN49cFadIS-RhAEKv8'
-})
-keystone.set('cloudinary folders', true)
-keystone.set('google api key', 'AIzaSyBKNPgliajVi0PwIjFjYphp0uG-1IqRRn8')
 // Load your project's Routes
 keystone.set('routes', require('./routes'))
 
@@ -54,7 +56,8 @@ keystone.set('nav', {
   galleries: 'galleries',
   tattoo: ['tattoos', 'tattoo-categories'],
   contacts: 'contacts',
-  users: 'users'
+  users: 'users',
+  catalog: 'catalogs'
 })
 
 // Start Keystone to connect to your database and initialise the web server
