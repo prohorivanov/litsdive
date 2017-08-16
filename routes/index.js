@@ -20,6 +20,7 @@
 
 // https://github.com/JedWatson/sydjs-site/blob/master/routes/index.js
 // https://gist.github.com/JedWatson/9741171
+const path = require('path')
 const keystone = require('keystone')
 const middleware = require('./middleware')
 const importRoutes = keystone.importer(__dirname)
@@ -50,11 +51,11 @@ exports = module.exports = function (app) {
   }
 
   // Views
-  app.get('/', routes.views.index)
-  app.get('/blog/:category?', routes.views.blog)
-  app.get('/blog/post/:post', routes.views.post)
-  app.get('/gallery', routes.views.gallery)
-  app.all('/contact', routes.views.contact)
+  // app.get('/', routes.views.index)
+  // app.get('/blog/:category?', routes.views.blog)
+  // app.get('/blog/post/:post', routes.views.post)
+  // app.get('/gallery', routes.views.gallery)
+  // app.all('/contact', routes.views.contact)
 
   // NOTE: To protect a route so that only admins can see it, use the requireUser middleware:
   // app.get('/protected', middleware.requireUser, routes.views.protected);
@@ -83,4 +84,8 @@ exports = module.exports = function (app) {
   // app.all('/api/fileupload/:id/update', routes.api.fileupload.update);
   // app.all('/api/fileupload/create', routes.api.fileupload.create);
   // app.get('/api/fileupload/:id/remove', routes.api.fileupload.remove);
+
+  app.get('*', function (req, res) {
+    res.sendFile(path.join(process.cwd(), 'frontend/dist/index.html'))
+  })
 }
