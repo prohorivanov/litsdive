@@ -24,6 +24,7 @@ keystone.init({
   'session': true,
   'auth': true,
   'user model': 'User',
+  'cookie secret': 'secret',
   'cloudinary config': {
     cloud_name: 'tattoobunker',
     api_key: '515927175562849',
