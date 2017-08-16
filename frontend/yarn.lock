@@ -3837,22 +3837,13 @@ highlight-words-core@^1.0.2:
   dependencies:
     babel-runtime "^6.11.6"
 
-history@3.0.0:
+history@3.0.0, history@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/history/-/history-3.0.0.tgz#02cff4e6f69dc62dd81161104a63f5b85ead0c85"
   dependencies:
     invariant "^2.0.0"
     query-string "^4.1.0"
     warning "^2.0.0"
-
-history@^3.0.0:
-  version "3.3.0"
-  resolved "https://registry.npmjs.org/history/-/history-3.3.0.tgz#fcedcce8f12975371545d735461033579a6dae9c"
-  dependencies:
-    invariant "^2.2.1"
-    loose-envify "^1.2.0"
-    query-string "^4.2.2"
-    warning "^3.0.0"
 
 hmac-drbg@^1.0.0:
   version "1.0.1"
@@ -6949,7 +6940,7 @@ qs@6.4.0, qs@~6.4.0:
   version "6.4.0"
   resolved "https://artifactory.raiffeisen.ru/artifactory/api/npm/npm/qs/-/qs-6.4.0.tgz#13e26d28ad6b0ffaa91312cd3bf708ed351e7233"
 
-query-string@^4.1.0, query-string@^4.2.2:
+query-string@^4.1.0:
   version "4.3.4"
   resolved "https://artifactory.raiffeisen.ru/artifactory/api/npm/npm/query-string/-/query-string-4.3.4.tgz#bbb693b9ca915c232515b228b1a02b609043dbeb"
   dependencies:

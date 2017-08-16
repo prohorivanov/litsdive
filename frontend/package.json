@@ -19,9 +19,9 @@
     "dev": "NODE_ENV=development npm run dev:server:start",
     "pred_prod": "NODE_ENV=production PRED_PROD=test npm run dev:server:start",
     "mock": "NODE_ENV=mock npm run dev:server:start",
-    "run:build": "rm -rf ./frontend/dist/ && webpack --progress --colors",
+    "run:build": "rm -rf ./dist/ && webpack --progress --colors",
     "deploy:prod": "npm run test && export NODE_ENV=production && npm run run:build",
-    "build": "npm run test && export NODE_ENV=production && export BABEL_ENV=production && npm run run:build",
+    "build": "export NODE_ENV=production && export BABEL_ENV=production && npm run run:build",
     "test": "NODE_ENV=development jest",
     "githooks:init": "env VERBOSE=true ./frontend/.githooks/init.sh",
     "api_test": "NODE_ENV=development jest --config ./frontend/config/jest/api_test.json"
