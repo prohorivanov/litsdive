@@ -2,461 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eac5cc7-f675-4248-b3cb-ebb908e6327b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nginx_dev.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dump/admin/system.version.bson" afterPath="$PROJECT_DIR$/dump/admin/system.version.bson" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dump/tattoobunker/app_updates.bson" afterPath="$PROJECT_DIR$/dump/tattoobunker/app_updates.bson" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dump/tattoobunker/catalogcategories.bson" afterPath="$PROJECT_DIR$/dump/tattoobunker/catalogcategories.bson" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dump/tattoobunker/catalogs.bson" afterPath="$PROJECT_DIR$/dump/tattoobunker/catalogs.bson" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dump/tattoobunker/contacts.bson" afterPath="$PROJECT_DIR$/dump/tattoobunker/contacts.bson" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dump/tattoobunker/fileuploads.bson" afterPath="$PROJECT_DIR$/dump/tattoobunker/fileuploads.bson" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dump/tattoobunker/galleries.bson" afterPath="$PROJECT_DIR$/dump/tattoobunker/galleries.bson" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dump/tattoobunker/postcategories.bson" afterPath="$PROJECT_DIR$/dump/tattoobunker/postcategories.bson" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dump/tattoobunker/posts.bson" afterPath="$PROJECT_DIR$/dump/tattoobunker/posts.bson" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dump/tattoobunker/tattoocategories.bson" afterPath="$PROJECT_DIR$/dump/tattoobunker/tattoocategories.bson" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dump/tattoobunker/tattoos.bson" afterPath="$PROJECT_DIR$/dump/tattoobunker/tattoos.bson" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dump/tattoobunker/users.bson" afterPath="$PROJECT_DIR$/dump/tattoobunker/users.bson" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/assets/images/background.jpg" afterPath="$PROJECT_DIR$/frontend/src/assets/images/background.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/assets/images/bunker.png" afterPath="$PROJECT_DIR$/frontend/src/assets/images/bunker.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/assets/images/bunker1.png" afterPath="$PROJECT_DIR$/frontend/src/assets/images/bunker1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/assets/images/favicon.png" afterPath="$PROJECT_DIR$/frontend/src/assets/images/favicon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/assets/images/light1.jpg" afterPath="$PROJECT_DIR$/frontend/src/assets/images/light1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/assets/images/light2.jpg" afterPath="$PROJECT_DIR$/frontend/src/assets/images/light2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/assets/images/logo.jpg" afterPath="$PROJECT_DIR$/frontend/src/assets/images/logo.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/favicon.ico" afterPath="$PROJECT_DIR$/frontend/src/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="$PROJECT_DIR$/public/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/logo-email.gif" afterPath="$PROJECT_DIR$/public/images/logo-email.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/uploads/files/HLfdFPVVeCcm33iz.jpg" afterPath="$PROJECT_DIR$/public/uploads/files/HLfdFPVVeCcm33iz.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/uploads/files/nV3PGQanvcxUwBdA.jpg" afterPath="$PROJECT_DIR$/public/uploads/files/nV3PGQanvcxUwBdA.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.editorconfig" afterPath="$PROJECT_DIR$/.editorconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.eslintignore" afterPath="$PROJECT_DIR$/.eslintignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.eslintrc" afterPath="$PROJECT_DIR$/.eslintrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/scripts/ci/dependencies_install.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/scripts/ci/publish.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/scripts/ci/registry.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/yarn.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yarn.lock" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Procfile" afterPath="$PROJECT_DIR$/Procfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/.gitignore" afterPath="$PROJECT_DIR$/docs/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/README.md" afterPath="$PROJECT_DIR$/docs/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/api/controllers/README.md" afterPath="$PROJECT_DIR$/docs/api/controllers/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/api/controllers/hello_world.js" afterPath="$PROJECT_DIR$/docs/api/controllers/hello_world.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/api/helpers/README.md" afterPath="$PROJECT_DIR$/docs/api/helpers/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/api/mocks/README.md" afterPath="$PROJECT_DIR$/docs/api/mocks/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/api/swagger/swagger.yaml" afterPath="$PROJECT_DIR$/docs/api/swagger/swagger.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/app.js" afterPath="$PROJECT_DIR$/docs/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/config/README.md" afterPath="$PROJECT_DIR$/docs/config/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/config/default.yaml" afterPath="$PROJECT_DIR$/docs/config/default.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/package-lock.json" afterPath="$PROJECT_DIR$/docs/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/package.json" afterPath="$PROJECT_DIR$/docs/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/test/api/controllers/README.md" afterPath="$PROJECT_DIR$/docs/test/api/controllers/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/test/api/controllers/hello_world.js" afterPath="$PROJECT_DIR$/docs/test/api/controllers/hello_world.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/test/api/helpers/README.md" afterPath="$PROJECT_DIR$/docs/test/api/helpers/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dump/admin/system.version.metadata.json" afterPath="$PROJECT_DIR$/dump/admin/system.version.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dump/tattoobunker/app_updates.metadata.json" afterPath="$PROJECT_DIR$/dump/tattoobunker/app_updates.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dump/tattoobunker/catalogcategories.metadata.json" afterPath="$PROJECT_DIR$/dump/tattoobunker/catalogcategories.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dump/tattoobunker/catalogs.metadata.json" afterPath="$PROJECT_DIR$/dump/tattoobunker/catalogs.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dump/tattoobunker/contacts.metadata.json" afterPath="$PROJECT_DIR$/dump/tattoobunker/contacts.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dump/tattoobunker/fileuploads.metadata.json" afterPath="$PROJECT_DIR$/dump/tattoobunker/fileuploads.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dump/tattoobunker/galleries.metadata.json" afterPath="$PROJECT_DIR$/dump/tattoobunker/galleries.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dump/tattoobunker/postcategories.metadata.json" afterPath="$PROJECT_DIR$/dump/tattoobunker/postcategories.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dump/tattoobunker/posts.metadata.json" afterPath="$PROJECT_DIR$/dump/tattoobunker/posts.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dump/tattoobunker/tattoocategories.metadata.json" afterPath="$PROJECT_DIR$/dump/tattoobunker/tattoocategories.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dump/tattoobunker/tattoos.metadata.json" afterPath="$PROJECT_DIR$/dump/tattoobunker/tattoos.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dump/tattoobunker/users.metadata.json" afterPath="$PROJECT_DIR$/dump/tattoobunker/users.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/.editorconfig" afterPath="$PROJECT_DIR$/frontend/.editorconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/.gitignore" afterPath="$PROJECT_DIR$/frontend/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/README.md" afterPath="$PROJECT_DIR$/frontend/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/config/application/axios.js" afterPath="$PROJECT_DIR$/frontend/config/application/axios.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/config/application/moment.js" afterPath="$PROJECT_DIR$/frontend/config/application/moment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/config/application/numeral.js" afterPath="$PROJECT_DIR$/frontend/config/application/numeral.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/config/application/service-url.js" afterPath="$PROJECT_DIR$/frontend/config/application/service-url.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/config/jest/FileStub.js" afterPath="$PROJECT_DIR$/frontend/config/jest/FileStub.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/config/jest/api_test.json" afterPath="$PROJECT_DIR$/frontend/config/jest/api_test.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/config/jest/setupScript.js" afterPath="$PROJECT_DIR$/frontend/config/jest/setupScript.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/config/moment/latest.json" afterPath="$PROJECT_DIR$/frontend/config/moment/latest.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/config/webpack/json-presenter.js" afterPath="$PROJECT_DIR$/frontend/config/webpack/json-presenter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/config/webpack/loaders.js" afterPath="$PROJECT_DIR$/frontend/config/webpack/loaders.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/config/webpack/paths.js" afterPath="$PROJECT_DIR$/frontend/config/webpack/paths.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/config/webpack/webpack.common.js" afterPath="$PROJECT_DIR$/frontend/config/webpack/webpack.common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/config/webpack/webpack.dev.js" afterPath="$PROJECT_DIR$/frontend/config/webpack/webpack.dev.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/config/webpack/webpack.prod.js" afterPath="$PROJECT_DIR$/frontend/config/webpack/webpack.prod.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/lib/moment/latest.json" afterPath="$PROJECT_DIR$/frontend/lib/moment/latest.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/libs/phantomjs/.gitignore" afterPath="$PROJECT_DIR$/frontend/libs/phantomjs/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/libs/phantomjs/README.md" afterPath="$PROJECT_DIR$/frontend/libs/phantomjs/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/libs/phantomjs/package.json" afterPath="$PROJECT_DIR$/frontend/libs/phantomjs/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/package.json" afterPath="$PROJECT_DIR$/frontend/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/postcss.config.js" afterPath="$PROJECT_DIR$/frontend/postcss.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/scripts/ci/dependencies_install.sh" afterPath="$PROJECT_DIR$/frontend/scripts/ci/dependencies_install.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/scripts/ci/publish.sh" afterPath="$PROJECT_DIR$/frontend/scripts/ci/publish.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/scripts/ci/registry.sh" afterPath="$PROJECT_DIR$/frontend/scripts/ci/registry.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/api/authentication.js" afterPath="$PROJECT_DIR$/frontend/src/api/authentication.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/api/authors.js" afterPath="$PROJECT_DIR$/frontend/src/api/authors.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/api/catalog.js" afterPath="$PROJECT_DIR$/frontend/src/api/catalog.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/api/contacts.js" afterPath="$PROJECT_DIR$/frontend/src/api/contacts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/api/gallery.js" afterPath="$PROJECT_DIR$/frontend/src/api/gallery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/api/index.js" afterPath="$PROJECT_DIR$/frontend/src/api/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/api/post.js" afterPath="$PROJECT_DIR$/frontend/src/api/post.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/api/products.js" afterPath="$PROJECT_DIR$/frontend/src/api/products.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/api/user.js" afterPath="$PROJECT_DIR$/frontend/src/api/user.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/app-history.js" afterPath="$PROJECT_DIR$/frontend/src/app-history.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/app.js" afterPath="$PROJECT_DIR$/frontend/src/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/assets/libs/class-list.js" afterPath="$PROJECT_DIR$/frontend/src/assets/libs/class-list.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/assets/libs/closest.js" afterPath="$PROJECT_DIR$/frontend/src/assets/libs/closest.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/assets/libs/keycloak.js" afterPath="$PROJECT_DIR$/frontend/src/assets/libs/keycloak.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/assets/libs/smoothscroll.js" afterPath="$PROJECT_DIR$/frontend/src/assets/libs/smoothscroll.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/assets/libs/start-with.js" afterPath="$PROJECT_DIR$/frontend/src/assets/libs/start-with.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/assets/styles/app.css" afterPath="$PROJECT_DIR$/frontend/src/assets/styles/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/assets/styles/base.css" afterPath="$PROJECT_DIR$/frontend/src/assets/styles/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/assets/styles/mixins/flexbox.less" afterPath="$PROJECT_DIR$/frontend/src/assets/styles/mixins/flexbox.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/assets/styles/mixins/media.css" afterPath="$PROJECT_DIR$/frontend/src/assets/styles/mixins/media.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/assets/styles/mixins/media.less" afterPath="$PROJECT_DIR$/frontend/src/assets/styles/mixins/media.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/assets/styles/mixins/mixins.css" afterPath="$PROJECT_DIR$/frontend/src/assets/styles/mixins/mixins.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/assets/styles/mixins/tipography.less" afterPath="$PROJECT_DIR$/frontend/src/assets/styles/mixins/tipography.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/assets/styles/normalize.css" afterPath="$PROJECT_DIR$/frontend/src/assets/styles/normalize.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/assets/styles/slick-theme.css" afterPath="$PROJECT_DIR$/frontend/src/assets/styles/slick-theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/assets/styles/slick.css" afterPath="$PROJECT_DIR$/frontend/src/assets/styles/slick.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/assets/styles/style-utils.js" afterPath="$PROJECT_DIR$/frontend/src/assets/styles/style-utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/assets/styles/style-vars.js" afterPath="$PROJECT_DIR$/frontend/src/assets/styles/style-vars.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/assets/styles/vars.css" afterPath="$PROJECT_DIR$/frontend/src/assets/styles/vars.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/assets/styles/vars.less" afterPath="$PROJECT_DIR$/frontend/src/assets/styles/vars.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/bootstrap/index.js" afterPath="$PROJECT_DIR$/frontend/src/bootstrap/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/bootstrap/store.js" afterPath="$PROJECT_DIR$/frontend/src/bootstrap/store.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/about/actions.js" afterPath="$PROJECT_DIR$/frontend/src/containers/about/actions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/about/constants.js" afterPath="$PROJECT_DIR$/frontend/src/containers/about/constants.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/about/gallery/gallery-item.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/about/gallery/gallery-item.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/about/gallery/index.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/about/gallery/index.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/about/gallery/style.js" afterPath="$PROJECT_DIR$/frontend/src/containers/about/gallery/style.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/about/index.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/about/index.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/about/reducer.js" afterPath="$PROJECT_DIR$/frontend/src/containers/about/reducer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/about/sagas.js" afterPath="$PROJECT_DIR$/frontend/src/containers/about/sagas.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/about/selectors.js" afterPath="$PROJECT_DIR$/frontend/src/containers/about/selectors.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/about/style.js" afterPath="$PROJECT_DIR$/frontend/src/containers/about/style.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/contacts/actions.js" afterPath="$PROJECT_DIR$/frontend/src/containers/contacts/actions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/contacts/constants.js" afterPath="$PROJECT_DIR$/frontend/src/containers/contacts/constants.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/contacts/index.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/contacts/index.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/contacts/reducer.js" afterPath="$PROJECT_DIR$/frontend/src/containers/contacts/reducer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/contacts/sagas.js" afterPath="$PROJECT_DIR$/frontend/src/containers/contacts/sagas.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/contacts/selectors.js" afterPath="$PROJECT_DIR$/frontend/src/containers/contacts/selectors.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/contacts/style.js" afterPath="$PROJECT_DIR$/frontend/src/containers/contacts/style.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/index/actions.js" afterPath="$PROJECT_DIR$/frontend/src/containers/index/actions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/index/constants.js" afterPath="$PROJECT_DIR$/frontend/src/containers/index/constants.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/index/gallery/gallery-item.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/index/gallery/gallery-item.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/index/gallery/index.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/index/gallery/index.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/index/gallery/style.js" afterPath="$PROJECT_DIR$/frontend/src/containers/index/gallery/style.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/index/index.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/index/index.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/index/reducer.js" afterPath="$PROJECT_DIR$/frontend/src/containers/index/reducer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/index/sagas.js" afterPath="$PROJECT_DIR$/frontend/src/containers/index/sagas.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/index/selectors.js" afterPath="$PROJECT_DIR$/frontend/src/containers/index/selectors.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/index/style.js" afterPath="$PROJECT_DIR$/frontend/src/containers/index/style.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/masters/actions.js" afterPath="$PROJECT_DIR$/frontend/src/containers/masters/actions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/masters/constants.js" afterPath="$PROJECT_DIR$/frontend/src/containers/masters/constants.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/masters/gallery/gallery-item.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/masters/gallery/gallery-item.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/masters/gallery/index.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/masters/gallery/index.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/masters/gallery/style.js" afterPath="$PROJECT_DIR$/frontend/src/containers/masters/gallery/style.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/masters/index.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/masters/index.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/masters/reducer.js" afterPath="$PROJECT_DIR$/frontend/src/containers/masters/reducer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/masters/sagas.js" afterPath="$PROJECT_DIR$/frontend/src/containers/masters/sagas.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/masters/selectors.js" afterPath="$PROJECT_DIR$/frontend/src/containers/masters/selectors.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/masters/style.js" afterPath="$PROJECT_DIR$/frontend/src/containers/masters/style.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/no-router/index.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/no-router/index.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/no-router/style.js" afterPath="$PROJECT_DIR$/frontend/src/containers/no-router/style.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/products/actions.js" afterPath="$PROJECT_DIR$/frontend/src/containers/products/actions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/products/constants.js" afterPath="$PROJECT_DIR$/frontend/src/containers/products/constants.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/products/gallery/gallery-item.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/products/gallery/gallery-item.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/products/gallery/index.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/products/gallery/index.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/products/gallery/style.js" afterPath="$PROJECT_DIR$/frontend/src/containers/products/gallery/style.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/products/index.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/products/index.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/products/reducer.js" afterPath="$PROJECT_DIR$/frontend/src/containers/products/reducer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/products/sagas.js" afterPath="$PROJECT_DIR$/frontend/src/containers/products/sagas.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/products/selectors.js" afterPath="$PROJECT_DIR$/frontend/src/containers/products/selectors.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/products/style.js" afterPath="$PROJECT_DIR$/frontend/src/containers/products/style.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/root/default-layout.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/root/default-layout.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/root/footer.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/root/footer.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/root/header.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/root/header.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/root/index-layout.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/root/index-layout.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/root/index.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/root/index.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/root/menu/menu-item.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/root/menu/menu-item.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/root/selectors.js" afterPath="$PROJECT_DIR$/frontend/src/containers/root/selectors.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/root/style.js" afterPath="$PROJECT_DIR$/frontend/src/containers/root/style.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/combine-reducers.js" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/combine-reducers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/constants.js" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/constants.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/actions.js" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/actions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/constants.js" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/constants.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/filters/index.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/filters/index.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/filters/style.js" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/filters/style.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/index.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/index.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/new-cert/index.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/new-cert/index.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/new-cert/step-form.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/new-cert/step-form.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/new-cert/step-print.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/new-cert/step-print.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/new-cert/style.js" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/new-cert/style.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/reducer.js" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/reducer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/sagas/change-ulk-saga.js" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/sagas/change-ulk-saga.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/sagas/create-cert-saga.js" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/sagas/create-cert-saga.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/sagas/create-pkcs10-request.js" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/sagas/create-pkcs10-request.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/sagas/get-cert-list-saga.js" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/sagas/get-cert-list-saga.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/sagas/get-ulk-values-saga.js" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/sagas/get-ulk-values-saga.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/sagas/index.js" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/sagas/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/sagas/init-form-cert-saga.js" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/sagas/init-form-cert-saga.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/sagas/operation-cert-saga.js" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/sagas/operation-cert-saga.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/sagas/reset-form-saga.js" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/sagas/reset-form-saga.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/sagas/send-to-bank-new-cert-saga.js" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/sagas/send-to-bank-new-cert-saga.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/selectors.js" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/selectors.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/style.js" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/style.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/user-certifications/item-detail.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/user-certifications/item-detail.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/user-certifications/item.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/user-certifications/item.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/user-certifications/list.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/user-certifications/list.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/user-certifications/operation-button.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/user-certifications/operation-button.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/user-certifications/operation-icon.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/user-certifications/operation-icon.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/user-certifications/style.js" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/user-certifications/style.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/util.js" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/util.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/fields/dropdown-adapter.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/fields/dropdown-adapter.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/fields/field-text.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/fields/field-text.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/fields/index.js" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/fields/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/fields/input.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/fields/input.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/fields/style.js" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/fields/style.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/index.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/index.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/password/actions.js" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/password/actions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/password/constants.js" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/password/constants.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/password/index.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/password/index.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/password/sagas.js" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/password/sagas.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/password/selectors.js" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/password/selectors.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/password/style.js" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/password/style.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/password/validate.js" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/password/validate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/reducer.js" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/reducer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/selectors.js" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/selectors.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/style.js" afterPath="$PROJECT_DIR$/frontend/src/containers/settings/style.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/dal/index.js" afterPath="$PROJECT_DIR$/frontend/src/dal/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/dal/match-media/actions.js" afterPath="$PROJECT_DIR$/frontend/src/dal/match-media/actions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/dal/match-media/reducer.js" afterPath="$PROJECT_DIR$/frontend/src/dal/match-media/reducer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/dal/post/actions.js" afterPath="$PROJECT_DIR$/frontend/src/dal/post/actions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/dal/post/constants.js" afterPath="$PROJECT_DIR$/frontend/src/dal/post/constants.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/dal/post/reducer.js" afterPath="$PROJECT_DIR$/frontend/src/dal/post/reducer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/dal/post/sagas.js" afterPath="$PROJECT_DIR$/frontend/src/dal/post/sagas.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/dal/profile/actions.js" afterPath="$PROJECT_DIR$/frontend/src/dal/profile/actions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/dal/profile/constants.js" afterPath="$PROJECT_DIR$/frontend/src/dal/profile/constants.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/dal/profile/reducer.js" afterPath="$PROJECT_DIR$/frontend/src/dal/profile/reducer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/dal/profile/sagas.js" afterPath="$PROJECT_DIR$/frontend/src/dal/profile/sagas.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/dal/root/actions.js" afterPath="$PROJECT_DIR$/frontend/src/dal/root/actions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/dal/root/constants.js" afterPath="$PROJECT_DIR$/frontend/src/dal/root/constants.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/dal/root/reducer.js" afterPath="$PROJECT_DIR$/frontend/src/dal/root/reducer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/dal/sagas.js" afterPath="$PROJECT_DIR$/frontend/src/dal/sagas.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/dal/users/actions.js" afterPath="$PROJECT_DIR$/frontend/src/dal/users/actions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/dal/users/constants.js" afterPath="$PROJECT_DIR$/frontend/src/dal/users/constants.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/dal/users/reducer.js" afterPath="$PROJECT_DIR$/frontend/src/dal/users/reducer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/dal/users/sagas.js" afterPath="$PROJECT_DIR$/frontend/src/dal/users/sagas.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/index.html" afterPath="$PROJECT_DIR$/frontend/src/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/middlewares/save-last-router.js" afterPath="$PROJECT_DIR$/frontend/src/middlewares/save-last-router.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/polyfill.js" afterPath="$PROJECT_DIR$/frontend/src/polyfill.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/router.jsx" afterPath="$PROJECT_DIR$/frontend/src/router.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/routes-share.jsx" afterPath="$PROJECT_DIR$/frontend/src/routes-share.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/sagas.js" afterPath="$PROJECT_DIR$/frontend/src/sagas.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/store.js" afterPath="$PROJECT_DIR$/frontend/src/store.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/button/index.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/button/index.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/button/multiple-item.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/button/multiple-item.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/button/multiple-select.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/button/multiple-select.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/button/multiple.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/button/multiple.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/button/style.css" afterPath="$PROJECT_DIR$/frontend/src/ui-components/button/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/datepicker/__tests__/util.test.js" afterPath="$PROJECT_DIR$/frontend/src/ui-components/datepicker/__tests__/util.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/datepicker/advanced.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/datepicker/advanced.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/datepicker/custom-input.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/datepicker/custom-input.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/datepicker/index.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/datepicker/index.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/datepicker/styles-override.css" afterPath="$PROJECT_DIR$/frontend/src/ui-components/datepicker/styles-override.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/datepicker/styles.js" afterPath="$PROJECT_DIR$/frontend/src/ui-components/datepicker/styles.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/datepicker/util.js" afterPath="$PROJECT_DIR$/frontend/src/ui-components/datepicker/util.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/dropdown-box/__tests__/dropdows-box-option.test.js" afterPath="$PROJECT_DIR$/frontend/src/ui-components/dropdown-box/__tests__/dropdows-box-option.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/dropdown-box/__tests__/dropdows-box-popup.test.js" afterPath="$PROJECT_DIR$/frontend/src/ui-components/dropdown-box/__tests__/dropdows-box-popup.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/dropdown-box/__tests__/dropdows-box.test.js" afterPath="$PROJECT_DIR$/frontend/src/ui-components/dropdown-box/__tests__/dropdows-box.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/dropdown-box/index.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/dropdown-box/index.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/dropdown-box/option.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/dropdown-box/option.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/dropdown-box/popup.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/dropdown-box/popup.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/dropdown-box/style.css" afterPath="$PROJECT_DIR$/frontend/src/ui-components/dropdown-box/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/fade-overlay/__tests__/overlay.test.js" afterPath="$PROJECT_DIR$/frontend/src/ui-components/fade-overlay/__tests__/overlay.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/fade-overlay/index.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/fade-overlay/index.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/fade-overlay/style.less" afterPath="$PROJECT_DIR$/frontend/src/ui-components/fade-overlay/style.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/index.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/index.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/style.css" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/Icon-unarchive.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/Icon-unarchive.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-account-blocked.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-account-blocked.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-account-blocked.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-account-blocked.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-account-closed.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-account-closed.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-account-closed.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-account-closed.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-archive.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-archive.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-archive.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-archive.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-arrow-down.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-arrow-down.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-arrow-down.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-arrow-down.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-arrow-left-double.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-arrow-left-double.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-arrow-left-double.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-arrow-left-double.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-arrow-left.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-arrow-left.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-arrow-left.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-arrow-left.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-arrow-right-double.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-arrow-right-double.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-arrow-right-double.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-arrow-right-double.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-arrow-right.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-arrow-right.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-arrow-right.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-arrow-right.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-arrow-up.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-arrow-up.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-arrow-up.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-arrow-up.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-attachment.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-attachment.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-attachment.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-attachment.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-back.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-back.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-back.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-back.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-bool-false.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-bool-false.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-bool-false.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-bool-false.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-bool-true.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-bool-true.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-bool-true.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-bool-true.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-calendar.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-calendar.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-calendar.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-calendar.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-check-sign.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-check-sign.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-check-sign.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-check-sign.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-clock.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-clock.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-clock.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-clock.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-close.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-close.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-close.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-close.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-context-horizontal.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-context-horizontal.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-context-horizontal.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-context-horizontal.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-context-round.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-context-round.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-context-round.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-context-round.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-context-vertical.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-context-vertical.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-context-vertical.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-context-vertical.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-documents.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-documents.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-documents.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-documents.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-download.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-download.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-download.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-download.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-draggable.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-draggable.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-draggable.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-draggable.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-dropdown.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-dropdown.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-dropdown.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-dropdown.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-edit.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-edit.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-edit.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-edit.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-history.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-history.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-history.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-history.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-print.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-print.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-print.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-print.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-recall.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-recall.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-recall.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-recall.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-refresh.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-refresh.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-refresh.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-refresh.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-remove.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-remove.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-remove.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-remove.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-repeat.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-repeat.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-repeat.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-repeat.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-save-as-template.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-save-as-template.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-save-as-template.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-save-as-template.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-save.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-save.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-save.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-save.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-search.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-search.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-search.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-search.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-send.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-send.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-send.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-send.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-settings.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-settings.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-settings.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-settings.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-sign-and-send.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-sign-and-send.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-sign-and-send.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-sign-and-send.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-sign.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-sign.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-sign.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-sign.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-sorting-asc.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-sorting-asc.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-sorting-asc.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-sorting-asc.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-sorting-desc.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-sorting-desc.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-sorting-desc.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-sorting-desc.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-sorting.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-sorting.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-sorting.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-sorting.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-star-fill.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-star-fill.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-star-fill.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-star-fill.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-star-stroke.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-star-stroke.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-star-stroke.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-star-stroke.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-unarchive.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-unarchive.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-user.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-user.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-user.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-user.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-view-compact.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-view-compact.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-view-compact.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-view-compact.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-view-corp.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-view-corp.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-view-corp.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-view-corp.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-visa.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-visa.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-visa.svg" afterPath="$PROJECT_DIR$/frontend/src/ui-components/icon/svg/icon-visa.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/loader/index.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/loader/index.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/loader/style.js" afterPath="$PROJECT_DIR$/frontend/src/ui-components/loader/style.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/modal/__tests__/modal.test.js" afterPath="$PROJECT_DIR$/frontend/src/ui-components/modal/__tests__/modal.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/modal/content.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/modal/content.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/modal/header.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/modal/header.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/modal/index.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/modal/index.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/modal/modal.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/modal/modal.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/modal/style.css" afterPath="$PROJECT_DIR$/frontend/src/ui-components/modal/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/popup-box/__tests__/popup-box.test.js" afterPath="$PROJECT_DIR$/frontend/src/ui-components/popup-box/__tests__/popup-box.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/popup-box/index.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/popup-box/index.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/popup-box/style.css" afterPath="$PROJECT_DIR$/frontend/src/ui-components/popup-box/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/sticky/__tests__/sticky.test.js" afterPath="$PROJECT_DIR$/frontend/src/ui-components/sticky/__tests__/sticky.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/sticky/index.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/sticky/index.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/sticky/style.less" afterPath="$PROJECT_DIR$/frontend/src/ui-components/sticky/style.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/tooltip/__tests__/tooltip.test.js" afterPath="$PROJECT_DIR$/frontend/src/ui-components/tooltip/__tests__/tooltip.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/tooltip/index.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/tooltip/index.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/tooltip/style.less" afterPath="$PROJECT_DIR$/frontend/src/ui-components/tooltip/style.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/ui-components/tooltip/tooltip.jsx" afterPath="$PROJECT_DIR$/frontend/src/ui-components/tooltip/tooltip.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/utils/backendApiActions.js" afterPath="$PROJECT_DIR$/frontend/src/utils/backendApiActions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/utils/date.js" afterPath="$PROJECT_DIR$/frontend/src/utils/date.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/utils/errors-util.js" afterPath="$PROJECT_DIR$/frontend/src/utils/errors-util.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/utils/errors.js" afterPath="$PROJECT_DIR$/frontend/src/utils/errors.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/utils/mockAdapter.js" afterPath="$PROJECT_DIR$/frontend/src/utils/mockAdapter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/utils/utils.js" afterPath="$PROJECT_DIR$/frontend/src/utils/utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/utils/validation.js" afterPath="$PROJECT_DIR$/frontend/src/utils/validation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/webpack.config.js" afterPath="$PROJECT_DIR$/frontend/webpack.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/yarn.lock" afterPath="$PROJECT_DIR$/frontend/yarn.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/keystone.js" afterPath="$PROJECT_DIR$/keystone.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Catalog.js" afterPath="$PROJECT_DIR$/models/Catalog.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/CatalogCategory.js" afterPath="$PROJECT_DIR$/models/CatalogCategory.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Contacts.js" afterPath="$PROJECT_DIR$/models/Contacts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Enquiry.js(!)" afterPath="$PROJECT_DIR$/models/Enquiry.js(!)" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/FileUpload.js(!)" afterPath="$PROJECT_DIR$/models/FileUpload.js(!)" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Gallery.js" afterPath="$PROJECT_DIR$/models/Gallery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Post.js" afterPath="$PROJECT_DIR$/models/Post.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/PostCategory.js" afterPath="$PROJECT_DIR$/models/PostCategory.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Tattoo.js" afterPath="$PROJECT_DIR$/models/Tattoo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/TattooCategory.js" afterPath="$PROJECT_DIR$/models/TattooCategory.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/User.js" afterPath="$PROJECT_DIR$/models/User.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nginx.conf" afterPath="$PROJECT_DIR$/nginx.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/logo.svg" afterPath="$PROJECT_DIR$/public/images/logo.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bootstrap/bootstrap-3.3.5.js" afterPath="$PROJECT_DIR$/public/js/bootstrap/bootstrap-3.3.5.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bootstrap/bootstrap-3.3.5.min.js" afterPath="$PROJECT_DIR$/public/js/bootstrap/bootstrap-3.3.5.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bootstrap/npm.js" afterPath="$PROJECT_DIR$/public/js/bootstrap/npm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/jquery-1.11.3.js" afterPath="$PROJECT_DIR$/public/js/jquery/jquery-1.11.3.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/jquery-1.11.3.min.js" afterPath="$PROJECT_DIR$/public/js/jquery/jquery-1.11.3.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/jquery-2.1.4.js" afterPath="$PROJECT_DIR$/public/js/jquery/jquery-2.1.4.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/jquery-2.1.4.min.js" afterPath="$PROJECT_DIR$/public/js/jquery/jquery-2.1.4.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/styles/site.css" afterPath="$PROJECT_DIR$/public/styles/site.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/styles/site.styl" afterPath="$PROJECT_DIR$/public/styles/site.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/styles/site/_layout.styl" afterPath="$PROJECT_DIR$/public/styles/site/_layout.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/styles/site/_variables.styl" afterPath="$PROJECT_DIR$/public/styles/site/_variables.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/api/contacts.js" afterPath="$PROJECT_DIR$/routes/api/contacts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/api/fileupload.js(!)" afterPath="$PROJECT_DIR$/routes/api/fileupload.js(!)" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/api/gallery.js" afterPath="$PROJECT_DIR$/routes/api/gallery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/api/post.js" afterPath="$PROJECT_DIR$/routes/api/post.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/api/tattoo.js" afterPath="$PROJECT_DIR$/routes/api/tattoo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/api/users.js" afterPath="$PROJECT_DIR$/routes/api/users.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/middleware.js" afterPath="$PROJECT_DIR$/routes/middleware.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/utils/prepare-data.js" afterPath="$PROJECT_DIR$/routes/utils/prepare-data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/views/blog.js" afterPath="$PROJECT_DIR$/routes/views/blog.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/views/contact.js" afterPath="$PROJECT_DIR$/routes/views/contact.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/views/gallery.js" afterPath="$PROJECT_DIR$/routes/views/gallery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/views/index.js" afterPath="$PROJECT_DIR$/routes/views/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/views/post.js" afterPath="$PROJECT_DIR$/routes/views/post.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/layouts/default.pug" afterPath="$PROJECT_DIR$/templates/layouts/default.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/mixins/flash-messages.pug" afterPath="$PROJECT_DIR$/templates/mixins/flash-messages.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/views/blog.pug" afterPath="$PROJECT_DIR$/templates/views/blog.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/views/contact.pug" afterPath="$PROJECT_DIR$/templates/views/contact.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/views/errors/404.pug" afterPath="$PROJECT_DIR$/templates/views/errors/404.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/views/errors/500.pug" afterPath="$PROJECT_DIR$/templates/views/errors/500.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/views/gallery.pug" afterPath="$PROJECT_DIR$/templates/views/gallery.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/views/index.pug" afterPath="$PROJECT_DIR$/templates/views/index.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/views/post.pug" afterPath="$PROJECT_DIR$/templates/views/post.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/updates/0.0.1-admins.js" afterPath="$PROJECT_DIR$/updates/0.0.1-admins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wysiwyg-conf.js" afterPath="$PROJECT_DIR$/wysiwyg-conf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nginx_dev.conf" afterPath="$PROJECT_DIR$/nginx_dev.conf" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -468,65 +22,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="default.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/layouts/default.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="keystone.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/keystone.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="27" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/routes/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="56" column="43" lean-forward="true" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
-              <folding>
-                <marker date="1502899904000" expanded="true" signature="2060:2194" ph="//..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nginx.conf" pinned="false" current-in-tab="false">
+      <file leaf-file-name="nginx.conf" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nginx.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="345">
+              <caret line="23" column="10" lean-forward="false" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -535,40 +35,18 @@
       <file leaf-file-name="nginx_dev.conf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nginx_dev.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="41" lean-forward="true" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+            <state relative-caret-position="375">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webpack.prod.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/config/webpack/webpack.prod.js">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="23" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webpack.common.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/config/webpack/webpack.common.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="43" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/views/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            <state relative-caret-position="262">
+              <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -585,17 +63,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>c</find>
-      <find>create</find>
-      <find>createS</find>
-      <find>createSele</find>
-      <find>findGalleryByAuthorId</find>
-      <find>598a23a9e7cdf22743d82040</find>
-      <find>loaderPhoto</find>
-      <find>createSelector(</find>
-      <find>MAIN_CONTENT</find>
-      <find>app_wrapper</find>
-      <find>{ Link }</find>
       <find>rout</find>
       <find>his</find>
       <find>createMemoryHistory</find>
@@ -612,15 +79,28 @@
       <find>cookie secret</find>
       <find>50d12492a20ead004f603a5b4d98b02d</find>
       <find>locals</find>
-      <find>dist</find>
       <find>$mainHost</find>
       <find>$main</find>
+      <find>dist</find>
+      <find>https://artifactory.raiffeisen</find>
+      <find>/</find>
+      <find>/scr</find>
+      <find>/scri</find>
+      <find>/scrip</find>
+      <find>/script</find>
+      <find>/scripts</find>
+      <find>https://artifactory.raiffeisen.ru</find>
+      <find>artifactory.raiffeisen.ru</find>
+      <find>artifactory</find>
+      <find>rbo</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;:</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/routes</dir>
+      <dir>$PROJECT_DIR$/frontend/scripts</dir>
+      <dir>$PROJECT_DIR$</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -675,11 +155,11 @@
         <option value="$PROJECT_DIR$/routes/views/index.js" />
         <option value="$PROJECT_DIR$/frontend/config/webpack/webpack.prod.js" />
         <option value="$PROJECT_DIR$/frontend/config/webpack/webpack.common.js" />
-        <option value="$PROJECT_DIR$/frontend/package.json" />
         <option value="$PROJECT_DIR$/frontend/src/index.html" />
-        <option value="$PROJECT_DIR$/nginx.conf" />
-        <option value="$PROJECT_DIR$/nginx_dev.conf" />
         <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/frontend/package.json" />
+        <option value="$PROJECT_DIR$/nginx_dev.conf" />
+        <option value="$PROJECT_DIR$/nginx.conf" />
       </list>
     </option>
   </component>
@@ -761,53 +241,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="keystone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="keystone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="routes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="keystone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="keystone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="keystone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="keystone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -972,12 +406,12 @@
       <workItem from="1502391867671" duration="4815000" />
       <workItem from="1502604288168" duration="2809000" />
       <workItem from="1502883197789" duration="1323000" />
-      <workItem from="1502886679374" duration="5415000" />
+      <workItem from="1502886679374" duration="6200000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71743000" />
+    <option name="totallyTimeSpent" value="72528000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -987,7 +421,8 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="SvgViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42274678" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42274678" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1000,7 +435,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1016,34 +450,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frontend/src/containers/index/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="32" column="6" lean-forward="false" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/containers/about/selectors.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/containers/about/constants.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="37" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/containers/about/actions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="51" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/api/gallery.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1325,14 +731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/middleware.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1359,22 +757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nginx_dev.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="41" lean-forward="true" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nginx.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/keystone.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
@@ -1392,6 +774,62 @@
           <folding>
             <marker date="1502899904000" expanded="true" signature="2060:2194" ph="//..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/scripts/ci/templates/.npmrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/scripts/ci/registry.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/yarn.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx_dev.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="10" lean-forward="false" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>

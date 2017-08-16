@@ -1,7 +1,7 @@
 {
-  "name": "@rbo/app",
+  "name": "tattoobunker",
   "version": "0.19.13",
-  "author": "RBO Team",
+  "author": "batmandarkside",
   "license": "UNLICENSED",
   "engines": {
     "node": "^6.0.1"
