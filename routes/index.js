@@ -38,17 +38,12 @@ const routes = {
 // Setup Route Bindings
 exports = module.exports = function (app) {
   // Allow cross-domain requests (development only)
-  if (process.env.NODE_ENV !== 'production') {
-    console.log('------------------------------------------------')
-    console.log('Notice: Enabling CORS for development.')
-    console.log('------------------------------------------------')
-    app.all('*', function (req, res, next) {
-      res.header('Access-Control-Allow-Origin', '*')
-      res.header('Access-Control-Allow-Methods', 'GET, POST')
-      res.header('Access-Control-Allow-Headers', 'Content-Type')
-      next()
-    })
-  }
+  app.all('*', function (req, res, next) {
+    res.header('Access-Control-Allow-Origin', '*')
+    res.header('Access-Control-Allow-Methods', 'GET, POST')
+    res.header('Access-Control-Allow-Headers', 'Content-Type')
+    next()
+  })
 
   // Views
   // app.get('/', routes.views.index)
