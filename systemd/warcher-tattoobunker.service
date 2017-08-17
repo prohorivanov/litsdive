@@ -1,7 +1,7 @@
 [Unit]
 Description=Upwatcher server
 After=network.target
-Wants=redis.service
+Wants=mongod.service
 
 [Install]
 WantedBy=multi-user.target
@@ -17,3 +17,13 @@ SyslogIdentifier=upwatcher
 Environment=NODE_ENV=production
 User=root
 Group=root
+
+
+# cp /etc/systemd/system/name-of-your-service.service
+# sudo systemctl status
+# sudo systemctl disable
+# sudo systemctl enable
+# sudo systemctl restart
+# sudo systemctl reload
+# systemctl list-units
+# systemctl list-units --type=service
