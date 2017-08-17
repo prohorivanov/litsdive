@@ -54,14 +54,14 @@ sudo reboot
 
 ## MONGO
 
-# remove mongo
+remove mongo
 ```
 sudo apt-get purge mongodb mongodb-clients mongodb-server mongodb-dev sudo apt-get purge mongodb-10gen
 sudo apt-get purge mongodb-10gen mongodb-org
 sudo apt-get autoremove
 ```
 
-# backup
+backup
 ```
 mongodump backup - in folder progect
 mongorestore ./dump/ in folder progect
@@ -70,7 +70,7 @@ mongoexport --db learn -collection unicorns
 mongoexport --db learn -collection unicorns --csv -fields name,weight,vampires
 ```
 
-# SYSTEMD start
+SYSTEMD start
 `sudo systemctl enable mongod.service`
 
 
