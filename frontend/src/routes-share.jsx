@@ -5,7 +5,7 @@ import IndexWrapperLayoutTemplate from './containers/root/index-layout'
 import store, { injectAsyncReducer } from './store'
 
 function errorLoading (error) {
-  throw new Error(`Dynamic page loading failed: ${error}`)
+  console.error(`Dynamic page loading failed: ${error}`) // eslint-disable-line no-console
 }
 
 function loadRoute (cb) {
@@ -19,8 +19,8 @@ const routes = [
     indexRoute: {
       getComponent(location, cb) {
         const importModules = Promise.all([
-          System.import('./containers/index/reducer'),
-          System.import('./containers/index')
+          import('./containers/index/reducer'),
+          import('./containers/index')
         ])
 
         const renderRoute = loadRoute(cb)
@@ -37,8 +37,8 @@ const routes = [
         title: 'О нас',
         getComponent(location, cb) {
           const importModules = Promise.all([
-            System.import('./containers/about/reducer'),
-            System.import('./containers/about')
+            import('./containers/about/reducer'),
+            import('./containers/about')
           ])
           const renderRoute = loadRoute(cb)
           importModules.then(([reducer, component]) => {
@@ -53,8 +53,8 @@ const routes = [
         title: 'Мастера',
         getComponent(location, cb) {
           const importModules = Promise.all([
-            System.import('./containers/masters/reducer'),
-            System.import('./containers/masters')
+            import('./containers/masters/reducer'),
+            import('./containers/masters')
           ])
           const renderRoute = loadRoute(cb)
           importModules.then(([reducer, component]) => {
@@ -69,8 +69,8 @@ const routes = [
         title: 'Товары',
         getComponent(location, cb) {
           const importModules = Promise.all([
-            System.import('./containers/products/reducer'),
-            System.import('./containers/products')
+            import('./containers/products/reducer'),
+            import('./containers/products')
           ])
           const renderRoute = loadRoute(cb)
           importModules.then(([reducer, component]) => {
@@ -85,8 +85,8 @@ const routes = [
         title: 'Контакты',
         getComponent(location, cb) {
           const importModules = Promise.all([
-            System.import('./containers/contacts/reducer'),
-            System.import('./containers/contacts')
+            import('./containers/contacts/reducer'),
+            import('./containers/contacts')
           ])
           const renderRoute = loadRoute(cb)
           importModules.then(([reducer, component]) => {

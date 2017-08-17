@@ -11,6 +11,8 @@ const loaders = require('./loaders')
 
 const STATIC_VERSION = process.env.STATIC_VERSION || '' // STATIC_VERSION='$(VERSION)' npm run build
 
+process.noDeprecation = true;
+
 module.exports = {
   target: 'web',
   entry: [
@@ -22,7 +24,7 @@ module.exports = {
     path: path.join(process.cwd(), 'dist'),
     publicPath: path.join('/', STATIC_VERSION, '/'),
     filename: 'js/[name].bundle.[hash:8].js',
-    chunkFilename: '[name].[chunkhash].chunk.js'
+    chunkFilename: '[name]-[id].[hash:8].chunk.js'
   },
   resolve: {
     extensions: ['.js', '.jsx', '.css', '.less'],

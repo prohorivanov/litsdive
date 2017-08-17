@@ -25,7 +25,8 @@
     "build": "export NODE_ENV=production && export BABEL_ENV=production && npm run run:build",
     "test": "NODE_ENV=development jest",
     "githooks:init": "env VERBOSE=true ./frontend/.githooks/init.sh",
-    "api_test": "NODE_ENV=development jest --config ./frontend/config/jest/api_test.json"
+    "api_test": "NODE_ENV=development jest --config ./frontend/config/jest/api_test.json",
+    "stats": "webpack --profile --json > stats.json"
   },
   "babel": {
     "plugins": [
@@ -86,6 +87,7 @@
   },
   "dependencies": {
     "axios": "0.15.3",
+    "bundle-loader": "^0.5.5",
     "classnames": "2.2.5",
     "decimal.js": "7.1.1",
     "dom-scroll-into-view": "1.2.1",
@@ -162,10 +164,10 @@
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1",
     "eventsource-polyfill": "0.9.6",
-    "extract-text-webpack-plugin": "3.0.0",
+    "extract-text-webpack-plugin": "^3.0.0",
     "favicons-webpack-plugin": "0.0.7",
     "file-loader": "0.10.0",
-    "html-webpack-plugin": "2.29.0",
+    "html-webpack-plugin": "^2.30.1",
     "identity-obj-proxy": "3.0.0",
     "image-webpack-loader": "3.2.0",
     "jest": "20.0.4",
@@ -197,8 +199,8 @@
     "styled-components": "2.1.1",
     "stylelint": "7.7.1",
     "url-loader": "0.5.7",
-    "webpack": "3.2.0",
-    "webpack-dev-server": "2.5.1",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1",
     "webpack-hot-middleware": "2.16.1",
     "webpack-strip": "0.1.0"
   },
