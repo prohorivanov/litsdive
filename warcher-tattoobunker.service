@@ -1,0 +1,19 @@
+[Unit]
+Description=Upwatcher server
+After=network.target
+Wants=redis.service
+
+[Install]
+WantedBy=multi-user.target
+
+[Service]
+WorkingDirectory=/var/www/tattoobunker/
+ExecStart=/usr/bin/node keystone.js
+Restart=always
+RestartSec=2
+StandardOutput=syslog               # Output to syslog
+StandardError=syslog                # Output to syslog
+SyslogIdentifier=upwatcher
+Environment=NODE_ENV=production
+User=root
+Group=root
