@@ -1,8 +1,6 @@
 import styled from 'styled-components'
-import { rgba } from 'polished'
-import { Link } from 'react-router'
 import { media } from 'assets/styles/style-utils.js'
-import { COLORS, FONTS_SIZE } from 'assets/styles/style-vars.js'
+import Select from 'react-select'
 
 export const MatersLayout = styled.div` 
   position: relative;
@@ -22,12 +20,35 @@ export const Author = styled.div`
   position: relative;
 `
 
-export const AuthorName = styled(Link)`
-  display: inline-block; 
-  font-size: ${FONTS_SIZE.fontSizeLarge};
-  margin: 30px 10px 30px 10px;   
-  &:hover {   
-    text-shadow: 1px 1px 8px ${rgba(COLORS.colorWarmGreyTwo, 0.4)};
-    z-index: 10;
-  }           
+export const SelectExtended = styled(Select)`
+  width: 300px;
+  ${media.iphone6`       
+    width: 100%;  
+  `}
+  & .Select-control {
+    width: 300px;
+    ${media.iphone6`       
+      width: 100%;  
+    `}
+  }
+`
+export const Head = styled.div`
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 30px 0;  
+  
+  h3 {
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+  
+  ${media.iphone6`
+    flex-direction: column;
+    align-items: flex-start;
+    h3 {
+      margin-right: 0;
+    }
+  `}
 `

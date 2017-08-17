@@ -28,7 +28,8 @@ export const HeaderBlock = styled.div`
   ${media.tablet`    
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;       
+    align-items: flex-start;
+    padding-bottom: 10px;          
   `}
 `
 
@@ -58,9 +59,9 @@ export const LogoName = styled.a`
   font-size: 30px;
   line-height: 30px; 
   color: ${COLORS.colorBlack};
-  margin-right: 5px; 
+  margin-right: 20px; 
   ${media.tablet`
-    flex-direction: row;    
+    margin-right: 0;    
   `}          
 `
 

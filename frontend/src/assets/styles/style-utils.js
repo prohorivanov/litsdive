@@ -1,5 +1,5 @@
-import { css } from 'styled-components';
-import { MEDIA } from './style-vars.js';
+import { css } from 'styled-components'
+import { MEDIA } from './style-vars.js'
 
 export const media = {
   mobile: (...args) => css`
@@ -36,5 +36,5 @@ export const media = {
     @media (${MEDIA.desktop_xl}) {
       ${css(...args)}
     }
-  `,
-};
+  `
+}

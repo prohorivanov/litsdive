@@ -31,6 +31,8 @@ export default function mastersContainerReducer (state = initialState, action) {
       return state.set('loader', true)
     case ACTIONS.MASTERS_CONTAINER_GET_ALL_GALLERY_FAIL:
       return state.set('loader', false)
+    case ACTIONS.MASTERS_CONTAINER_CLEAR_GALLERY_DETAIL:
+      return state.set('galleryDetail', fromJS({}))
     default:
       return state
   }

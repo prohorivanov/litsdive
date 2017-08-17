@@ -17,17 +17,15 @@ const routes = [
     path: '/',
     component: IndexWrapperLayoutTemplate,
     indexRoute: {
-      getComponent(location, cb) {
-        const importModules = Promise.all([
-          import('./containers/index/reducer'),
-          import('./containers/index')
-        ])
-
-        const renderRoute = loadRoute(cb)
-        importModules
+      getComponent(_, cb) {
+        Promise
+          .all([
+            import('./containers/index/reducer'),
+            import('./containers/index')
+          ])
           .then(([reducer, component]) => {
             injectAsyncReducer(store, 'indexContainerReducer', reducer.default)
-            renderRoute(component)
+            loadRoute(cb)(component)
           })
           .catch(errorLoading)
       }
@@ -36,16 +34,15 @@ const routes = [
       {
         path: 'about(/)',
         title: 'О нас',
-        getComponent(location, cb) {
-          const importModules = Promise.all([
-            import('./containers/about/reducer'),
-            import('./containers/about')
-          ])
-          const renderRoute = loadRoute(cb)
-          importModules
+        getComponent(_, cb) {
+          Promise
+            .all([
+              import('./containers/about/reducer'),
+              import('./containers/about')
+            ])
             .then(([reducer, component]) => {
               injectAsyncReducer(store, 'aboutContainerReducer', reducer.default)
-              renderRoute(component)
+              loadRoute(cb)(component)
             })
             .catch(errorLoading)
         }
@@ -53,8 +50,7 @@ const routes = [
       {
         path: 'masters(/)(:id)',
         title: 'Мастера',
-        getComponent(location, cb) {
-          const renderRoute = loadRoute(cb)
+        getComponent(_, cb) {
           Promise
             .all([
               import('./containers/masters/reducer'),
@@ -62,7 +58,7 @@ const routes = [
             ])
             .then(([reducer, component]) => {
               injectAsyncReducer(store, 'mastersContainerReducer', reducer.default)
-              renderRoute(component)
+              loadRoute(cb)(component)
             })
             .catch(errorLoading)
         }
@@ -70,8 +66,7 @@ const routes = [
       {
         path: 'products(/)',
         title: 'Товары',
-        getComponent(location, cb) {
-          const renderRoute = loadRoute(cb)
+        getComponent(_, cb) {
           Promise
             .all([
               import('./containers/products/reducer'),
@@ -79,7 +74,7 @@ const routes = [
             ])
             .then(([reducer, component]) => {
               injectAsyncReducer(store, 'productsContainerReducer', reducer.default)
-              renderRoute(component)
+              loadRoute(cb)(component)
             })
             .catch(errorLoading)
         }
@@ -87,8 +82,7 @@ const routes = [
       {
         path: 'contacts(/)',
         title: 'Контакты',
-        getComponent(location, cb) {
-          const renderRoute = loadRoute(cb)
+        getComponent(_, cb) {
           Promise
             .all([
               import('./containers/contacts/reducer'),
@@ -96,7 +90,7 @@ const routes = [
             ])
             .then(([reducer, component]) => {
               injectAsyncReducer(store, 'contactsContainerReducer', reducer.default)
-              renderRoute(component)
+              loadRoute(cb)(component)
             })
             .catch(errorLoading)
         }

@@ -8,7 +8,7 @@ export function getPostList () {
 
 export function getPost ({ slug }) {
   const endpoint = {
-    url: 'postList',
+    url: 'post',
     method: 'POST'
   }
 

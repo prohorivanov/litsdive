@@ -5,6 +5,7 @@ const authorsWithTattooSelector = state => state.getIn(['users', 'authorsWithTat
 
 const tattooPhotosFromAuthorsSelector = state => state.getIn([REDUCER_NAME, 'tattooPhotosFromAuthors'])
 const loaderPhotoSelector = state => state.getIn([REDUCER_NAME, 'loaderPhoto'])
+const postAboutSelector = state => state.getIn([REDUCER_NAME, 'postAbout'])
 
 const postListSelector = state => state.getIn(['post', 'postList'])
 const loaderPostSelector = state => state.getIn(['post', 'loaderPost'])
@@ -18,5 +19,6 @@ export const selectIndexContainer = state => ({
   matchMedia: matchMediaSelector(state),
   loaderPost: loaderPostSelector(state),
   loaderPhoto: loaderPhotoSelector(state),
-  postList: postListSelector(state)
+  postList: postListSelector(state),
+  postAbout: postAboutSelector(state)
 })

@@ -28,6 +28,7 @@ export const normalizeNews = (state, payload) => (
 
 const initialState = fromJS({
   newsList: [],
+  postAbout: {},
   listPhoto: [],
   tattooPhotosFromAuthors: [],
   loaderNews: false,
@@ -50,6 +51,8 @@ export default function indexContainerReducer (state = initialState, action) {
       return state.set('loaderNews', true)
     case ACTIONS.INDEX_CONTAINER_GET_NEWS_FAIL:
       return state.set('loaderNews', false)
+    case ACTIONS.INDEX_CONTAINER_GET_ABOUT_POST_SUCCESS:
+      return state.set('postAbout', fromJS(action.payload))
     default:
       return state
   }

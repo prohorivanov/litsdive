@@ -22,11 +22,34 @@ export const galleriesWithAuthorSelector = createSelector(
   )
 )
 
+export const prepareUserListForReactSelect = createSelector(
+  userListSelector,
+  userList => userList.map(u =>
+    u
+      .set('value', u.get('_id'))
+      .set('label', u.get('fullName'))
+  )
+)
+
+export const findActiveUserSelector = createSelector(
+  prepareUserListForReactSelect,
+  galleryDetailSelector,
+  (userList, galleryDetail) => {
+    if (galleryDetail.size) {
+      const id = galleryDetail.getIn(['author', '_id'])
+      const activeUser = userList.find(u => u.get('_id') === id)
+      return activeUser.toJS()
+    }
+    return null
+  }
+)
+
 export const selectIndexContainer = state => ({
-  userList: userListSelector(state),
+  userList: prepareUserListForReactSelect(state),
   loaderDetail: loaderDetailSelector(state),
   userLoader: userLoaderSelector(state),
   galleryDetail: galleryDetailSelector(state),
+  activeUser: findActiveUserSelector(state),
   galleriesList: galleriesListSelector(state),
   galleriesWithAuthor: galleriesWithAuthorSelector(state)
 })

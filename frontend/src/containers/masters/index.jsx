@@ -7,21 +7,33 @@ import * as usersAction from 'dal/users/actions'
 import Gallery from './gallery'
 import * as LocalAction from './actions'
 import { selectIndexContainer } from './selectors'
-import { MatersLayout, MainColl, AuthorName } from './style.js'
+import { history } from 'app/app-history'
+import {
+  MatersLayout,
+  MainColl,
+  Head,
+  SelectExtended
+} from './style.js'
 
 export class IndexLayout extends Component {
   static propTypes = {
     userLoader: PropTypes.bool,
     loaderDetail: PropTypes.bool,
+    activeUser: PropTypes.object,
     galleriesWithAuthor: PropTypes.instanceOf(List).isRequired,
     userList: PropTypes.instanceOf(List).isRequired,
     galleryDetail: PropTypes.instanceOf(Map).isRequired,
     getAllGalleryAction: PropTypes.func.isRequired,
     getAuthorsAction: PropTypes.func.isRequired,
     findGalleryByAuthorIDAction: PropTypes.func.isRequired,
+    clearGalleryDetailAction: PropTypes.func.isRequired,
     params: PropTypes.shape({
       id: PropTypes.string
     })
+  }
+
+  state = {
+    valueSelectAuthor: null
   }
 
   componentDidMount () {
@@ -55,6 +67,14 @@ export class IndexLayout extends Component {
     }
   }
 
+  onChangeAuthor = (value) => {
+    const { clearGalleryDetailAction } = this.props;
+    history.push(`/masters/${value ? value._id : ''}`)
+    if (!value) {
+      clearGalleryDetailAction()
+    }
+  }
+
   render () {
     const {
       userLoader,
@@ -62,28 +82,26 @@ export class IndexLayout extends Component {
       galleryDetail,
       userList,
       galleriesWithAuthor,
+      activeUser,
       params: {
         id
       }
     } = this.props
-
-    console.log(userList.toJS(), 'userList');
-
     return (
       <MatersLayout>
         <MainColl>
-          {(userLoader || loaderDetail) && <Loader centered/>}
+          <Head>
+            <h3>Работы наших мастеров</h3>
+            {(!userList.size) ? null : (
+              <SelectExtended
+                value={activeUser}
+                options={userList.toJS()}
+                onChange={this.onChangeAuthor}
+              />
+            )}
+          </Head>
 
-          {(!userList.size) ? null : (
-            <div>
-              <AuthorName to='masters'>Все</AuthorName>
-              {userList.map(user => (
-                <AuthorName key={user.get('_id')} to={`/masters/${user.get('_id')}`}>
-                  <span>{user.get('fullName')}</span>
-                </AuthorName>
-              ))}
-            </div>
-          )}
+          {(userLoader || loaderDetail) && <Loader centered/>}
 
           {(!galleriesWithAuthor.size || id) ? null : (
             <Gallery galleries={galleriesWithAuthor}/>
