@@ -5,7 +5,7 @@ import IndexWrapperLayoutTemplate from './containers/root/index-layout'
 import store, { injectAsyncReducer } from './store'
 
 function errorLoading (error) {
-  console.error(`Dynamic page loading failed: ${error}`) // eslint-disable-line no-console
+  console.warn(`Dynamic page loading failed: ${error}`) // eslint-disable-line no-console
 }
 
 function loadRoute (cb) {
@@ -24,11 +24,12 @@ const routes = [
         ])
 
         const renderRoute = loadRoute(cb)
-        importModules.then(([reducer, component]) => {
-          injectAsyncReducer(store, 'indexContainerReducer', reducer.default)
-          renderRoute(component)
-        })
-        importModules.catch(errorLoading)
+        importModules
+          .then(([reducer, component]) => {
+            injectAsyncReducer(store, 'indexContainerReducer', reducer.default)
+            renderRoute(component)
+          })
+          .catch(errorLoading)
       }
     },
     childRoutes: [
@@ -41,59 +42,63 @@ const routes = [
             import('./containers/about')
           ])
           const renderRoute = loadRoute(cb)
-          importModules.then(([reducer, component]) => {
-            injectAsyncReducer(store, 'aboutContainerReducer', reducer.default)
-            renderRoute(component)
-          })
-          importModules.catch(errorLoading)
+          importModules
+            .then(([reducer, component]) => {
+              injectAsyncReducer(store, 'aboutContainerReducer', reducer.default)
+              renderRoute(component)
+            })
+            .catch(errorLoading)
         }
       },
       {
         path: 'masters(/)(:id)',
         title: 'Мастера',
         getComponent(location, cb) {
-          const importModules = Promise.all([
-            import('./containers/masters/reducer'),
-            import('./containers/masters')
-          ])
           const renderRoute = loadRoute(cb)
-          importModules.then(([reducer, component]) => {
-            injectAsyncReducer(store, 'mastersContainerReducer', reducer.default)
-            renderRoute(component)
-          })
-          importModules.catch(errorLoading)
+          Promise
+            .all([
+              import('./containers/masters/reducer'),
+              import('./containers/masters')
+            ])
+            .then(([reducer, component]) => {
+              injectAsyncReducer(store, 'mastersContainerReducer', reducer.default)
+              renderRoute(component)
+            })
+            .catch(errorLoading)
         }
       },
       {
         path: 'products(/)',
         title: 'Товары',
         getComponent(location, cb) {
-          const importModules = Promise.all([
-            import('./containers/products/reducer'),
-            import('./containers/products')
-          ])
           const renderRoute = loadRoute(cb)
-          importModules.then(([reducer, component]) => {
-            injectAsyncReducer(store, 'productsContainerReducer', reducer.default)
-            renderRoute(component)
-          })
-          importModules.catch(errorLoading)
+          Promise
+            .all([
+              import('./containers/products/reducer'),
+              import('./containers/products')
+            ])
+            .then(([reducer, component]) => {
+              injectAsyncReducer(store, 'productsContainerReducer', reducer.default)
+              renderRoute(component)
+            })
+            .catch(errorLoading)
         }
       },
       {
         path: 'contacts(/)',
         title: 'Контакты',
         getComponent(location, cb) {
-          const importModules = Promise.all([
-            import('./containers/contacts/reducer'),
-            import('./containers/contacts')
-          ])
           const renderRoute = loadRoute(cb)
-          importModules.then(([reducer, component]) => {
-            injectAsyncReducer(store, 'contactsContainerReducer', reducer.default)
-            renderRoute(component)
-          })
-          importModules.catch(errorLoading)
+          Promise
+            .all([
+              import('./containers/contacts/reducer'),
+              import('./containers/contacts')
+            ])
+            .then(([reducer, component]) => {
+              injectAsyncReducer(store, 'contactsContainerReducer', reducer.default)
+              renderRoute(component)
+            })
+            .catch(errorLoading)
         }
       },
       {
@@ -106,4 +111,4 @@ const routes = [
 
 export default history => (
   <Router history={history} routes={routes}/>
-);
+)

@@ -11,7 +11,7 @@ const loaders = require('./loaders')
 
 const STATIC_VERSION = process.env.STATIC_VERSION || '' // STATIC_VERSION='$(VERSION)' npm run build
 
-process.noDeprecation = true;
+process.noDeprecation = true
 
 module.exports = {
   target: 'web',
