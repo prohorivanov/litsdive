@@ -46,8 +46,6 @@ export class IndexLayout extends Component {
 
   render () {
     const {tattooPhotosFromAuthors, loaderPhoto, postAbout} = this.props
-    console.log(postAbout.toJS(), 'postAbout')
-
     return (
       <Layout>
         <MainColl>

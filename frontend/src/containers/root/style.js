@@ -35,10 +35,36 @@ export const HeaderBlock = styled.div`
 
 export const FooterBlock = styled.div`
   position: relative;  
+  display: flex;    
+  flex-direction: row;
   min-height: 300px;
   padding: 16px 24px;
   background-color: ${COLORS.colorGreyishBrownThree};
-  color: ${COLORS.colorWhite};
+  color: ${COLORS.colorWhite}; 
+`
+
+export const MenuFooter = styled.div`
+  display: flex;    
+  flex-direction: column;
+  a {
+    display: inline-block;
+    margin-bottom: 10px;
+    color: ${COLORS.colorWhite} !important; 
+    &:hover {
+      color: ${COLORS.colorWhite} !important;  
+    }
+  }    
+`
+
+export const MapEmbed = styled.div`
+  position: relative;
+  margin-left: 30px;
+  width: 200px;
+  height: 200px;
+  iframe {
+    height: 200px !important;
+    width: 200px !important;
+  }
 `
 
 export const Logo = styled.a`    

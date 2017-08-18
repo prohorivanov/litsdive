@@ -4,6 +4,7 @@ import { LOCATION_CHANGE } from 'react-router-redux'
 import rootReducer from './root/reducer'
 import profile from './profile/reducer'
 import matchMedia from './match-media/reducer'
+import contacts from './contacts/reducer'
 import users from './users/reducer'
 import post from './post/reducer'
 
@@ -52,6 +53,7 @@ export default {
   form,
   routing,
   rootReducer,
+  contacts,
   profile,
   matchMedia,
   users,

@@ -85,11 +85,9 @@ const routes = [
         getComponent(_, cb) {
           Promise
             .all([
-              import('./containers/contacts/reducer'),
               import('./containers/contacts')
             ])
-            .then(([reducer, component]) => {
-              injectAsyncReducer(store, 'contactsContainerReducer', reducer.default)
+            .then(([component]) => {
               loadRoute(cb)(component)
             })
             .catch(errorLoading)

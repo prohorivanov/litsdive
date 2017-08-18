@@ -1,7 +1,6 @@
 import React, { cloneElement } from 'react'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
-import { List } from 'immutable'
 import * as ProfileAction from 'dal/profile/actions'
 import RootWrapperLayout from './index'
 import { selectors } from './selectors'

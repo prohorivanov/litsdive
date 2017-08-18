@@ -69,7 +69,7 @@ exports.findPostByAuthor = (req, res) => {
   // var view = new keystone.View(req, res);
   const locals = res.locals
 
-  console.log(req.query.id, 'req.query.id')
+  // console.log(req.query.id, 'req.query.id')
   // Set locals
   locals.section = 'post'
   locals.filters = {

@@ -2,12 +2,82 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eac5cc7-f675-4248-b3cb-ebb908e6327b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/api/catalog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/src/dal/contacts/constants.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/combine-reducers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/constants.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/actions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/constants.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/filters/index.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/filters/style.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/index.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/new-cert/index.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/new-cert/step-form.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/new-cert/step-print.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/new-cert/style.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/reducer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/sagas/change-ulk-saga.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/sagas/create-cert-saga.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/sagas/create-pkcs10-request.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/sagas/get-cert-list-saga.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/sagas/get-ulk-values-saga.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/sagas/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/sagas/init-form-cert-saga.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/sagas/operation-cert-saga.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/sagas/reset-form-saga.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/sagas/send-to-bank-new-cert-saga.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/selectors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/style.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/user-certifications/item-detail.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/user-certifications/item.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/user-certifications/list.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/user-certifications/operation-button.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/user-certifications/operation-icon.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/user-certifications/style.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/fields/dropdown-adapter.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/fields/field-text.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/fields/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/fields/input.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/fields/style.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/index.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/password/actions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/password/constants.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/password/index.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/password/sagas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/password/selectors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/password/style.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/password/validate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/reducer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/selectors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/containers/settings/style.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/ui-components/datepicker/__tests__/util.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/ui-components/datepicker/advanced.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/ui-components/datepicker/custom-input.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/ui-components/datepicker/index.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/ui-components/datepicker/styles-override.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/ui-components/datepicker/styles.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/ui-components/datepicker/util.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/src/containers/contacts/actions.js" afterPath="$PROJECT_DIR$/frontend/src/dal/contacts/actions.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/src/containers/contacts/reducer.js" afterPath="$PROJECT_DIR$/frontend/src/dal/contacts/reducer.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/src/containers/contacts/sagas.js" afterPath="$PROJECT_DIR$/frontend/src/dal/contacts/sagas.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/products/index.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/products/index.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/products/sagas.js" afterPath="$PROJECT_DIR$/frontend/src/containers/products/sagas.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nginx.conf" afterPath="$PROJECT_DIR$/nginx.conf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/config/webpack/paths.js" afterPath="$PROJECT_DIR$/frontend/config/webpack/paths.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/contacts/constants.js" afterPath="$PROJECT_DIR$/frontend/src/containers/contacts/constants.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/contacts/index.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/contacts/index.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/contacts/selectors.js" afterPath="$PROJECT_DIR$/frontend/src/containers/contacts/selectors.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/index/index.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/index/index.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/root/default-layout.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/root/default-layout.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/root/footer.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/root/footer.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/root/index-layout.jsx" afterPath="$PROJECT_DIR$/frontend/src/containers/root/index-layout.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/root/selectors.js" afterPath="$PROJECT_DIR$/frontend/src/containers/root/selectors.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/containers/root/style.js" afterPath="$PROJECT_DIR$/frontend/src/containers/root/style.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/dal/index.js" afterPath="$PROJECT_DIR$/frontend/src/dal/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/dal/sagas.js" afterPath="$PROJECT_DIR$/frontend/src/dal/sagas.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/routes-share.jsx" afterPath="$PROJECT_DIR$/frontend/src/routes-share.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/sagas.js" afterPath="$PROJECT_DIR$/frontend/src/sagas.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/api/post.js" afterPath="$PROJECT_DIR$/routes/api/post.js" />
     </list>
+    <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,113 +88,113 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/containers/masters/index.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1215">
-              <caret line="96" column="33" lean-forward="false" selection-start-line="96" selection-start-column="23" selection-end-line="96" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="selectors.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/containers/masters/selectors.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/containers/products/index.jsx">
+      <file leaf-file-name="footer.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/containers/root/footer.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="37" column="42" lean-forward="false" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+              <caret line="23" column="3" lean-forward="false" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
               <folding>
-                <element signature="e#0#25#0" expanded="true" />
-                <element signature="e#910#1000#0" expanded="true" />
+                <element signature="e#0#40#0" expanded="true" />
+                <element signature="e#738#1034#0" expanded="true" />
+                <element signature="e#760#901#0" expanded="true" />
+                <element signature="e#910#1013#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sagas.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/containers/products/sagas.js">
+      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/containers/contacts/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            <state relative-caret-position="540">
+              <caret line="36" column="21" lean-forward="false" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
               <folding>
-                <element signature="e#0#57#0" expanded="true" />
+                <element signature="e#0#40#0" expanded="true" />
+                <element signature="e#759#955#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1095">
-              <caret line="73" column="23" lean-forward="false" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
-              <folding>
-                <marker date="1502969260000" expanded="true" signature="1939:1981" ph="//..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="catalog.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/api/catalog.js">
+      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/containers/index/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="370">
-              <caret line="73" column="28" lean-forward="false" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
+              <caret line="49" column="14" lean-forward="true" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+              <folding>
+                <element signature="e#1499#1864#0" expanded="true" />
+                <element signature="e#1566#1706#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="paths.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/config/webpack/paths.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nginx.conf" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nginx.conf">
+      <file leaf-file-name="constants.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/containers/contacts/constants.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+            <state relative-caret-position="150">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Catalog.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/Catalog.js">
+      <file leaf-file-name="header.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/containers/root/header.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="300">
+              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <folding>
+                <element signature="e#486#945#0" expanded="true" />
+                <element signature="e#620#928#0" expanded="true" />
+                <element signature="e#777#913#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="router.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/router.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="658">
+              <caret line="51" column="4" lean-forward="false" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+                <element signature="e#1294#1351#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/containers/root/style.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/api/post.js">
+      <file leaf-file-name="menu-item.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/containers/root/menu/menu-item.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="57" column="10" lean-forward="false" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Post.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/Post.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
-              <caret line="58" column="33" lean-forward="false" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="33" />
-              <folding />
+            <state relative-caret-position="60">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="24" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+                <element signature="e#435#494#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -166,10 +236,10 @@
       <find>{prop-types}</find>
       <find>{prop-types</find>
       <find>'prop-types</find>
-      <find>prop-types</find>
       <find>galleryDetail</find>
       <find>MASTERS_CONTAINER_GET_BY_ID_REQUEST</find>
       <find>findGalleryByAuthorIDAction</find>
+      <find>console.log</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;:</replace>
@@ -186,22 +256,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/frontend/src/containers/about/sagas.js" />
-        <option value="$PROJECT_DIR$/wysiwyg-conf.js" />
-        <option value="$PROJECT_DIR$/models/Category.js" />
-        <option value="$PROJECT_DIR$/models/Catalog.js" />
-        <option value="$PROJECT_DIR$/models/Gallery.js" />
-        <option value="$PROJECT_DIR$/keystone.js" />
-        <option value="$PROJECT_DIR$/frontend/manifest.json" />
-        <option value="$PROJECT_DIR$/frontend/dist/index.html" />
-        <option value="$PROJECT_DIR$/routes/views/index.js" />
-        <option value="$PROJECT_DIR$/frontend/config/webpack/webpack.prod.js" />
-        <option value="$PROJECT_DIR$/frontend/src/index.html" />
-        <option value="$PROJECT_DIR$/frontend/.gitignore" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/frontend/src/bootstrap/index.js" />
-        <option value="$PROJECT_DIR$/frontend/src/app-settings.json" />
-        <option value="$PROJECT_DIR$/frontend/config/application/service-url.js" />
         <option value="$PROJECT_DIR$/start-up.sh" />
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/warcher-tattoobunker.service" />
@@ -212,8 +266,6 @@
         <option value="$PROJECT_DIR$/frontend/src/polyfill.js" />
         <option value="$PROJECT_DIR$/frontend/config/webpack/webpack.common.js" />
         <option value="$PROJECT_DIR$/nginx_dev.conf" />
-        <option value="$PROJECT_DIR$/frontend/src/routes-share.jsx" />
-        <option value="$PROJECT_DIR$/frontend/src/containers/root/style.js" />
         <option value="$PROJECT_DIR$/frontend/src/containers/index/gallery/style.js" />
         <option value="$PROJECT_DIR$/models/About.js" />
         <option value="$PROJECT_DIR$/frontend/src/containers/index/constants.js" />
@@ -223,7 +275,6 @@
         <option value="$PROJECT_DIR$/frontend/src/containers/index/actions.js" />
         <option value="$PROJECT_DIR$/frontend/src/containers/index/sagas.js" />
         <option value="$PROJECT_DIR$/frontend/src/api/post.js" />
-        <option value="$PROJECT_DIR$/frontend/src/containers/index/index.jsx" />
         <option value="$PROJECT_DIR$/frontend/src/assets/styles/base.css" />
         <option value="$PROJECT_DIR$/frontend/src/assets/styles/style-utils.js" />
         <option value="$PROJECT_DIR$/frontend/src/containers/masters/style.js" />
@@ -237,6 +288,25 @@
         <option value="$PROJECT_DIR$/routes/api/products.js" />
         <option value="$PROJECT_DIR$/routes/api/catalog.js" />
         <option value="$PROJECT_DIR$/nginx.conf" />
+        <option value="$PROJECT_DIR$/frontend/src/dal/contacts/actions.js" />
+        <option value="$PROJECT_DIR$/frontend/src/dal/contacts/constants.js" />
+        <option value="$PROJECT_DIR$/frontend/src/containers/contacts/constants.js" />
+        <option value="$PROJECT_DIR$/frontend/src/containers/contacts/actions.js" />
+        <option value="$PROJECT_DIR$/frontend/src/containers/contacts/selectors.js" />
+        <option value="$PROJECT_DIR$/frontend/src/dal/contacts/reducer.js" />
+        <option value="$PROJECT_DIR$/frontend/src/dal/index.js" />
+        <option value="$PROJECT_DIR$/frontend/src/dal/sagas.js" />
+        <option value="$PROJECT_DIR$/frontend/src/routes-share.jsx" />
+        <option value="$PROJECT_DIR$/frontend/src/sagas.js" />
+        <option value="$PROJECT_DIR$/frontend/src/containers/root/selectors.js" />
+        <option value="$PROJECT_DIR$/frontend/src/containers/root/menu/menu-item.jsx" />
+        <option value="$PROJECT_DIR$/frontend/src/containers/root/index-layout.jsx" />
+        <option value="$PROJECT_DIR$/frontend/src/containers/root/default-layout.jsx" />
+        <option value="$PROJECT_DIR$/frontend/src/containers/root/style.js" />
+        <option value="$PROJECT_DIR$/frontend/src/containers/root/footer.jsx" />
+        <option value="$PROJECT_DIR$/frontend/src/containers/contacts/index.jsx" />
+        <option value="$PROJECT_DIR$/frontend/src/containers/index/index.jsx" />
+        <option value="$PROJECT_DIR$/frontend/config/webpack/paths.js" />
       </list>
     </option>
   </component>
@@ -402,7 +472,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dal" />
+              <option name="myItemId" value="ui-components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -427,10 +497,6 @@
               <option name="myItemId" value="dal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="post" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -451,214 +517,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="containers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="keystone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="keystone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="containers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="keystone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="keystone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="containers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="products" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="keystone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="keystone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="containers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="masters" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="keystone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="keystone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="containers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="keystone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="keystone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="containers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gallery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="keystone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="keystone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="containers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="contacts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="keystone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="keystone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="keystone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="keystone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -686,17 +544,17 @@
     <property name="standardjs.codestyle.accepted" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/routes/api" />
-      <recent name="$PROJECT_DIR$/models" />
-      <recent name="$PROJECT_DIR$/frontend/src" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/frontend/src/containers" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/systemd" />
       <recent name="$PROJECT_DIR$/frontend/src/containers/root/menu" />
       <recent name="$PROJECT_DIR$/routes/api" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/src/dal" />
+      <recent name="$PROJECT_DIR$/routes/api" />
+      <recent name="$PROJECT_DIR$/models" />
+      <recent name="$PROJECT_DIR$/frontend/src" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -713,6 +571,9 @@
     </option>
   </component>
   <component name="RunManager" selected="Node.js.supervisor">
+    <configuration default="true" type="ApexTest" factoryName="Apex Test">
+      <method />
+    </configuration>
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="INTERPRETER_PATH" value="/bin/bash" />
@@ -840,12 +701,12 @@
       <workItem from="1502958729511" duration="223000" />
       <workItem from="1502959000245" duration="14798000" />
       <workItem from="1503079575083" duration="1063000" />
-      <workItem from="1503091493667" duration="48000" />
+      <workItem from="1503091493667" duration="2138000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92808000" />
+    <option name="totallyTimeSpent" value="94898000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -857,10 +718,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3211731" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3211731" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19456366" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -871,7 +733,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -887,159 +748,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frontend/config/application/service-url.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/keystone/admin/server/app/createDynamicRouter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="80" column="17" lean-forward="false" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="423" lean-forward="false" selection-start-line="0" selection-start-column="423" selection-end-line="0" selection-end-column="423" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/systemd/mongodb.service" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/dist/0.1144b1a8daf5f74c2db5.chunk.js" />
-    <entry file="file://$PROJECT_DIR$/frontend/config/webpack/webpack.prod.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="24" column="12" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/stats.json" />
-    <entry file="file://$PROJECT_DIR$/frontend/dist/3-3.b2ade859.chunk.js" />
-    <entry file="file://$PROJECT_DIR$/frontend/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/dist/3-3.2294727a.chunk.js" />
-    <entry file="file://$PROJECT_DIR$/frontend/src/polyfill.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/config/webpack/webpack.common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/systemd/warcher-tattoobunker.service">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nginx_dev.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="3" lean-forward="false" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/routes-share.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/containers/root/style.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/Gallery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="2" lean-forward="true" selection-start-line="35" selection-start-column="2" selection-end-line="37" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/About.js" />
-    <entry file="file://$PROJECT_DIR$/frontend/src/dal/post/sagas.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/containers/contacts/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="12" lean-forward="false" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/containers/index/actions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/dal/post/actions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/containers/index/sagas.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="46" lean-forward="false" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/api/post.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/containers/index/constants.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="40" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/containers/index/reducer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
@@ -1054,24 +762,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/containers/index/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="55" column="88" lean-forward="false" selection-start-line="55" selection-start-column="88" selection-end-line="55" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/assets/styles/base.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/containers/root/header.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -1093,6 +787,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1107,6 +804,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
           <caret line="43" column="24" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1114,6 +814,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="19" column="59" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="59" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1139,22 +840,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/containers/masters/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="96" column="33" lean-forward="false" selection-start-line="96" selection-start-column="23" selection-end-line="96" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/containers/masters/selectors.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1164,18 +855,18 @@
         <state relative-caret-position="345">
           <caret line="37" column="42" lean-forward="false" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
-            <element signature="e#910#1000#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="false" />
+            <element signature="e#910#1000#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/containers/products/sagas.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="105">
           <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
           <folding>
-            <element signature="e#0#57#0" expanded="true" />
+            <element signature="e#0#57#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1225,7 +916,292 @@
     <entry file="file://$PROJECT_DIR$/nginx.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/containers/masters/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="96" column="33" lean-forward="false" selection-start-line="96" selection-start-column="23" selection-end-line="96" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/containers/contacts/actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/containers/contacts/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/dal/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="55" column="11" lean-forward="false" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#34#0" expanded="false" />
+            <element signature="n#!!block;n#routing#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/dal/sagas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/dal/contacts/actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/dal/contacts/constants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/dal/contacts/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#34#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/dal/contacts/sagas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#57#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/containers/contacts/sagas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/routes-share.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="89" column="36" lean-forward="true" selection-start-line="89" selection-start-column="36" selection-end-line="89" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/sagas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/containers/contacts/selectors.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="71" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/containers/root/selectors.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/containers/contacts/style.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="31" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/containers/root/default-layout.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding>
+            <element signature="e#178#274#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/containers/root/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/containers/root/index-layout.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+            <element signature="e#392#480#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/router.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="658">
+          <caret line="51" column="4" lean-forward="false" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#1294#1351#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/containers/root/style.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/containers/root/menu/menu-item.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+            <element signature="e#435#494#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/containers/root/header.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <element signature="e#486#945#0" expanded="true" />
+            <element signature="e#620#928#0" expanded="true" />
+            <element signature="e#777#913#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/containers/root/footer.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="3" lean-forward="false" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#738#1034#0" expanded="true" />
+            <element signature="e#760#901#0" expanded="true" />
+            <element signature="e#910#1013#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/containers/contacts/constants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/containers/contacts/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="21" lean-forward="false" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#759#955#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/containers/settings/crypto-pro/sagas/create-cert-saga.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="61" column="4" lean-forward="false" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/containers/index/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="49" column="14" lean-forward="true" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+          <folding>
+            <element signature="e#1499#1864#0" expanded="true" />
+            <element signature="e#1566#1706#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/ui-components/datepicker/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="92" column="6" lean-forward="false" selection-start-line="92" selection-start-column="6" selection-end-line="92" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/config/webpack/paths.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
