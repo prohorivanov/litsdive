@@ -1,16 +1,16 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { connect } from 'react-redux';
-import { List } from 'immutable';
-import Loader from 'ui-components/loader';
-import ImmutablePropTypes from 'react-immutable-proptypes';
-import * as LocalAction from './actions';
-import { selectIndexContainer } from './selectors';
+import React from 'react'
+import PropTypes from 'prop-types'
+import { connect } from 'react-redux'
+import { List } from 'immutable'
+import Loader from 'ui-components/loader'
+import ImmutablePropTypes from 'react-immutable-proptypes'
+import * as LocalAction from './actions'
+import { selectIndexContainer } from './selectors'
 import {
   CategoryTitle,
   Layout,
   MainColl
-} from './style.js';
+} from './style.js'
 
 export class ProductsLayout extends React.Component {
 
@@ -20,38 +20,38 @@ export class ProductsLayout extends React.Component {
     getProductsAction: PropTypes.func.isRequired
   }
 
-  componentDidMount() {
-    const { getProductsAction } = this.props;
-    getProductsAction();
+  componentDidMount () {
+    const {getProductsAction} = this.props
+    getProductsAction()
   }
 
-  render() {
-    const { productsList, loader } = this.props;
+  render () {
+    const {productsList, loader} = this.props
 
     return (
       <Layout>
         <MainColl>
-          {loader && <Loader centered />}
+          {loader && <Loader centered/>}
           {productsList.map(category => (
             <CategoryItem
-                category={category}
-                key={category.get('uuid')} />
+              category={category}
+              key={category.get('uuid')}/>
           ))}
         </MainColl>
       </Layout>
-    );
+    )
   }
 }
 
-const CategoryItem = ({ category }) => (
+const CategoryItem = ({category}) => (
   <CategoryTitle>{category.get('title')}</CategoryTitle>
 )
 
 CategoryItem.propTypes = {
   category: ImmutablePropTypes.contains({
     title: PropTypes.string,
-    uuid: PropTypes.string,
-  }).isRequired,
+    uuid: PropTypes.string
+  }).isRequired
 }
 
 export default connect(
@@ -59,4 +59,4 @@ export default connect(
   {
     ...LocalAction
   }
-)(ProductsLayout);
+)(ProductsLayout)
