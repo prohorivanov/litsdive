@@ -1,5 +1,5 @@
 export const trackPage = (page) => {
-  ga && ga('newTracker.send', { // eslint-disable-line
+  ga && ga('newTracker.send', { // eslint-disable-linecd
     'hitType': 'pageview',
     'page': page
   })
