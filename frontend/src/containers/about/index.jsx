@@ -5,6 +5,7 @@ import { Map } from 'immutable'
 import Loader from 'ui-components/loader'
 import * as LocalAction from './actions'
 import { selectIndexContainer } from './selectors'
+import { trackPage } from 'app/google-analytics-util'
 import Gallery from './gallery'
 import { Layout, MainColl } from './style.js'
 
@@ -27,6 +28,8 @@ export class AboutLayout extends Component {
     if (!gallery.size) {
       getGalleryAction()
     }
+
+    trackPage('/about')
   }
 
   render () {

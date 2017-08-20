@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
 import { history } from 'app/app-history'
+import { sendEvent } from 'app/google-analytics-util'
 
 class MenuItem extends PureComponent {
   static propTypes = {
@@ -10,8 +11,9 @@ class MenuItem extends PureComponent {
 
   to = (evt) => {
     evt.preventDefault()
-    const {url} = this.props
+    const {url, title} = this.props
     history.push(url)
+    sendEvent('Menu', 'Click', title)
   }
 
   render () {

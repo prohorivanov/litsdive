@@ -7,6 +7,7 @@ import * as masterAction from 'dal/users/actions'
 import * as postAction from 'dal/post/actions'
 import * as LocalAction from './actions'
 import { selectIndexContainer } from './selectors'
+import { trackPage } from 'app/google-analytics-util'
 import Gallery from './gallery'
 import { Layout, MainColl, PostAboutBlock } from './style.js'
 
@@ -42,6 +43,7 @@ export class IndexLayout extends Component {
       getPostListAction()
     }
     getAboutPostAction()
+    trackPage('/index')
   }
 
   render () {

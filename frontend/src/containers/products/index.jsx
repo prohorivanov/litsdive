@@ -5,6 +5,7 @@ import { List } from 'immutable'
 import Loader from 'ui-components/loader'
 import ImmutablePropTypes from 'react-immutable-proptypes'
 import * as LocalAction from './actions'
+import { trackPage } from 'app/google-analytics-util'
 import { selectIndexContainer } from './selectors'
 import {
   CategoryTitle,
@@ -23,6 +24,7 @@ export class ProductsLayout extends React.Component {
   componentDidMount () {
     const {getProductsAction} = this.props
     getProductsAction()
+    trackPage('/products')
   }
 
   render () {

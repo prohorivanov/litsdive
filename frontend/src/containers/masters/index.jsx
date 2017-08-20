@@ -7,6 +7,7 @@ import * as usersAction from 'dal/users/actions'
 import Gallery from './gallery'
 import * as LocalAction from './actions'
 import { selectIndexContainer } from './selectors'
+import { trackPage, sendEvent } from 'app/google-analytics-util'
 import { history } from 'app/app-history'
 import {
   MatersLayout,
@@ -57,6 +58,8 @@ export class IndexLayout extends Component {
     if (id) {
       findGalleryByAuthorIDAction(id)
     }
+
+    trackPage('/masters')
   }
 
   componentWillReceiveProps (nextProps) {
@@ -68,8 +71,9 @@ export class IndexLayout extends Component {
   }
 
   onChangeAuthor = (value) => {
-    const { clearGalleryDetailAction } = this.props;
+    const { clearGalleryDetailAction } = this.props
     history.push(`/masters/${value ? value._id : ''}`)
+    sendEvent('Choose master', 'Change', value.title)
     if (!value) {
       clearGalleryDetailAction()
     }
