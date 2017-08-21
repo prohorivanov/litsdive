@@ -47,7 +47,7 @@ folder in project `systemd`
 ```
 sudo systemctl enable service.service
 sudo systemctl daemon-reload
-sudo systemctl restart service.service
+sudo systemctl restart warcher-tattoobunker.service
 sudo reboot
 ```
 
