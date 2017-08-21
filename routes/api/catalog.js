@@ -1,7 +1,6 @@
 // https://github.com/JedWatson/sydjs-site/tree/master/routes/api
 const keystone = require('keystone')
 const async = require('async')
-const prepareData = require('../utils/prepare-data')
 
 exports.catalogList = (req, res) => {
   const locals = res.locals
@@ -65,7 +64,6 @@ exports.findCatalogBySlug = (req, res) => {
   })
 }
 
-
 exports.filtersCatalogByTags = (req, res) => {
   // var view = new keystone.View(req, res);
   const locals = res.locals
@@ -81,10 +79,37 @@ exports.filtersCatalogByTags = (req, res) => {
       keystone
         .list('Catalog')
         .model
-        .findOne({
+        .find({
           state: 'published',
-          tags: locals.filters.tags
+          tags: {$in: locals.filters.tags}
         })
+        .exec((err, result) => {
+          if (err) return res.apiError('database error', err)
+          locals.data = result
+          next(err)
+        })
+    }
+  ], (err) => {
+    if (err) {
+      locals.err = err
+    }
+    res.apiResponse(locals.data)
+  })
+}
+
+exports.getCatalogsTags = (req, res) => {
+  // var view = new keystone.View(req, res);
+  const locals = res.locals
+
+  // Set locals
+  locals.section = 'catalog'
+  locals.data = {}
+  async.series([
+    (next) => {
+      keystone
+        .list('CatalogCategory')
+        .model
+        .find()
         .exec((err, result) => {
           if (err) return res.apiError('database error', err)
           locals.data = result

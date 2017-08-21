@@ -64,6 +64,11 @@ exports = module.exports = function (app) {
   app.all('/api/galleryByAuthor', routes.api.gallery.findGalleryByAuthorId)
   app.all('/api/galleryList', routes.api.gallery.listGallery)
 
+  app.all('/api/catalogByTags', routes.api.catalog.filtersCatalogByTags)
+  app.all('/api/catalogBySlug', routes.api.catalog.findCatalogBySlug)
+  app.all('/api/catalogList', routes.api.catalog.catalogList)
+  app.all('/api/catalogTags', routes.api.catalog.getCatalogsTags)
+
   app.all('/api/post', routes.api.post.findPostBySlug)
   app.all('/api/postByAuthor', routes.api.post.findPostByAuthor)
   app.all('/api/postList', routes.api.post.postList)

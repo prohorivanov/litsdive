@@ -13,7 +13,7 @@ export const initialState = fromJS({
       title: 'Мастера'
     },
     {
-      url: '/products',
+      url: '/catalogs',
       title: 'Товары'
     },
     {

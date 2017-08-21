@@ -64,16 +64,16 @@ const routes = [
         }
       },
       {
-        path: 'products(/)',
+        path: 'catalogs(/)(:id)(?tags)',
         title: 'Товары',
         getComponent(_, cb) {
           Promise
             .all([
-              import('./containers/products/reducer'),
-              import('./containers/products')
+              import('./containers/catalog/reducer'),
+              import('./containers/catalog')
             ])
             .then(([reducer, component]) => {
-              injectAsyncReducer(store, 'productsContainerReducer', reducer.default)
+              injectAsyncReducer(store, 'catalogContainerReducer', reducer.default)
               loadRoute(cb)(component)
             })
             .catch(errorLoading)
