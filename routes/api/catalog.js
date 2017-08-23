@@ -16,7 +16,7 @@ exports.catalogList = (req, res) => {
         .model.find()
         .where('state', 'published')
         .sort('-publishedDate')
-        .limit(30)
+        .limit(200)
         .exec((err, results) => {
           if (err) return res.apiError('database error', err)
           locals.data = results
@@ -67,11 +67,10 @@ exports.findCatalogBySlug = (req, res) => {
 exports.filtersCatalogByTags = (req, res) => {
   // var view = new keystone.View(req, res);
   const locals = res.locals
-
   // Set locals
   locals.section = 'catalog'
   locals.filters = {
-    tags: req.query.tags
+    tags: req.body.tags
   }
   locals.data = {}
   async.series([

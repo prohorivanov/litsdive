@@ -1,7 +1,7 @@
 import { REDUCER_NAME } from './constants'
 import { createSelector } from 'reselect'
 
-const productsListSelector = state => state.getIn([REDUCER_NAME, 'catalogList'])
+const catalogListSelector = state => state.getIn([REDUCER_NAME, 'catalogList'])
 const loaderSelector = state => state.getIn([REDUCER_NAME, 'loader'])
 const tagsListSelector = state => state.getIn([REDUCER_NAME, 'tagsList'])
 
@@ -16,7 +16,7 @@ export const prepareTagsListForReactSelect = createSelector(
 )
 
 export const selectIndexContainer = state => ({
-  catalogList: productsListSelector(state),
+  catalogList: catalogListSelector(state),
   tagsList: prepareTagsListForReactSelect(state),
   loader: loaderSelector(state)
 })

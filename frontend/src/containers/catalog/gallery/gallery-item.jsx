@@ -1,30 +1,64 @@
-import React, { PureComponent } from 'react';
-import PropTypes from 'prop-types';
+import React, { PureComponent } from 'react'
+import PropTypes from 'prop-types'
 import {
-  Figure,
-  ProductName,
   ProductImage,
-  ProductInfo
-} from './style.js';
+  Figure,
+  Description,
+  ProductTitle,
+  ProductPrice,
+  TattooImageDetail,
+  ModalExtend
+} from './style.js'
 
-class GalleryItem  extends PureComponent {
-
+class GalleryItem extends PureComponent {
   static propTypes = {
-    src: PropTypes.string.isRequired
+    image: PropTypes.shape({
+      url: PropTypes.string.isRequired
+    }),
+    price: PropTypes.number.isRequired,
+    slug: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    _id: PropTypes.string.isRequired
   }
 
-  render() {
-    const { src } = this.props;
+  state = {
+    isShowModalTattoo: false,
+    isShowModalAuthor: false
+  }
+
+  onShowDetailTattoo = () => {
+    this.setState({isShowModalTattoo: true})
+  }
+
+  onCloseModalTattoo = () => {
+    this.setState({isShowModalTattoo: false})
+  }
+
+  render () {
+    const {
+      _id,
+      slug,
+      title,
+      price,
+      image: {url}
+    } = this.props
+    const {isShowModalTattoo} = this.state
     return (
       <Figure>
-        <ProductImage src={src} onClick={this.onShowDetailTattoo}>
-          <ProductInfo>
-            <ProductName>124</ProductName>
-          </ProductInfo>
-        </ProductImage>
+        <ProductImage src={url} onClick={this.onShowDetailTattoo}/>
+        <Description>
+          <ProductTitle>{title}</ProductTitle>
+          <ProductPrice>{price} rub.</ProductPrice>
+        </Description>
+
+        {isShowModalTattoo && (
+          <ModalExtend onClose={this.onCloseModalTattoo}>
+            <TattooImageDetail src={url}/>
+          </ModalExtend>
+        )}
       </Figure>
-    );
+    )
   }
 }
 
-export default GalleryItem;
+export default GalleryItem

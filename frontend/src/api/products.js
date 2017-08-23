@@ -39,12 +39,13 @@ export function getProductBySlug ({slug}) {
  */
 export function getProductsByTags ({tags}) {
   const endpoint = {
-    url: 'catalogByTags'
+    url: 'catalogByTags',
+    method: 'POST'
   }
 
-  const params = {
+  const data = {
     tags
   }
 
-  return {...endpoint, params}
+  return {...endpoint, data}
 }

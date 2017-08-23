@@ -21,9 +21,8 @@ export const Author = styled.div`
   position: relative;
 `
 
-export const CategoryTitle = styled.div`
-  color: ${COLORS.colorBlack};
-  font-size: ${FONTS_SIZE.fontSizeH1};
+export const WrapperGallery = styled.div`
+  margin-top: 30px;
 `
 
 export const SelectExtended = styled(Select)`

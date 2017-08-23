@@ -10,6 +10,7 @@ const initialState = fromJS({
 export default function catalogContainerReducer (state = initialState, action) {
   switch (action.type) {
     case ACTIONS.CATALOG_CONTAINER_GET_LIST_SUCCESS:
+    case ACTIONS.CATALOG_CONTAINER_GET_PR_TAGS_SUCCESS:
       return state
         .set('catalogList', fromJS(action.payload))
         .set('loader', false)

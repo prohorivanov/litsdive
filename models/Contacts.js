@@ -26,6 +26,14 @@ Contacts.add({
     wysiwyg: true,
     height: 400
   },
+  socials: {
+    vk: {
+      type: Types.Url
+    },
+    fb: {
+      type: Types.Url
+    }
+  },
   mapEmbed: {
     type: Types.Text
   }

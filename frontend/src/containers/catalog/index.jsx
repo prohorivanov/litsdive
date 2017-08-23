@@ -3,15 +3,15 @@ import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 import { List } from 'immutable'
 import Loader from 'ui-components/loader'
-import ImmutablePropTypes from 'react-immutable-proptypes'
+import Gallery from './gallery'
 import * as LocalAction from './actions'
 import { trackPage } from 'app/google-analytics-util'
 import { selectIndexContainer } from './selectors'
 import {
-  CategoryTitle,
   Layout,
   MainColl,
-  SelectExtended
+  SelectExtended,
+  WrapperGallery
 } from './style.js'
 
 export class ProductsLayout extends Component {
@@ -21,7 +21,6 @@ export class ProductsLayout extends Component {
     tagsList: PropTypes.instanceOf(List).isRequired,
     getCatalogsAction: PropTypes.func.isRequired,
     getCatalogsByTagsAction: PropTypes.func.isRequired,
-    getCatalogBySlugAction: PropTypes.func.isRequired,
     getCatalogTagsAction: PropTypes.func.isRequired
   }
 
@@ -37,21 +36,18 @@ export class ProductsLayout extends Component {
   }
 
   onChangeTag = (value) => {
-    console.log(value[0].name, '// eslint-disable-line no-console'); // eslint-disable-line no-console
-    const {getCatalogsByTagsAction} = this.props
+    const {getCatalogsByTagsAction, getCatalogsAction} = this.props
     this.setState({tagsChoose: value})
-    getCatalogsByTagsAction(value)
-  }
-
-  onChooseProduct = (item) => {
-    const {getCatalogBySlugAction} = this.props
-    getCatalogBySlugAction(item.get('slug'))
+    if (value && value.length) {
+      getCatalogsByTagsAction(value)
+    } else {
+      getCatalogsAction()
+    }
   }
 
   render () {
     const {catalogList, tagsList, loader} = this.props
     const {tagsChoose} = this.state
-
     return (
       <Layout>
         <MainColl>
@@ -60,28 +56,19 @@ export class ProductsLayout extends Component {
             value={tagsChoose}
             options={tagsList.toJS()}
             onChange={this.onChangeTag}
+            noResultsText=''
+            placeholder='фильтр по тегам'
           />
-          {loader && <Loader centered/>}
-          {catalogList.map(category => (
-            <CategoryItem
-              category={category}
-              key={category.get('uuid')}/>
-          ))}
+          <WrapperGallery>
+            {loader && <Loader centered/>}
+            {!catalogList.size ? null : (
+              <Gallery products={catalogList}/>
+            )}
+          </WrapperGallery>
         </MainColl>
       </Layout>
     )
   }
-}
-
-const CategoryItem = ({category}) => (
-  <CategoryTitle>{category.get('title')}</CategoryTitle>
-)
-
-CategoryItem.propTypes = {
-  category: ImmutablePropTypes.contains({
-    title: PropTypes.string,
-    uuid: PropTypes.string
-  }).isRequired
 }
 
 export default connect(

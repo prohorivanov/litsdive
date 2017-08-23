@@ -8,10 +8,9 @@ import { ACTIONS } from './constants'
 function* getProductsSaga () {
   try {
     const result = yield call(API.products.getListProducts)
-    const products = (result && result.data) || []
     yield put({
       type: ACTIONS.CATALOG_CONTAINER_GET_LIST_SUCCESS,
-      payload: products.data || []
+      payload: (result && result.data) || []
     })
   } catch (error) {
     yield put({type: ACTIONS.CATALOG_CONTAINER_GET_LIST_FAIL, error})
@@ -42,12 +41,13 @@ function* getProductsBySlugSaga ({ payload }) {
  */
 function* getProductsByTagsSaga ({ payload }) {
   try {
+    const tags = payload.tags ? payload.tags.map(t => t._id) : []
     const result = yield call(API.products.getProductsByTags, {
-      tags: payload.tags
+      tags
     })
     yield put({
       type: ACTIONS.CATALOG_CONTAINER_GET_PR_TAGS_SUCCESS,
-      payload: (result && result.data) || {}
+      payload: (result && result.data) || []
     })
   } catch (error) {
     yield put({type: ACTIONS.CATALOG_CONTAINER_GET_PR_TAGS_FAIL, error})

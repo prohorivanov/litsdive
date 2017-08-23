@@ -12,6 +12,10 @@ class MenuItem extends PureComponent {
   to = (evt) => {
     evt.preventDefault()
     const {url, title} = this.props
+    if (url.includes('http') || url.includes('https') || url.includes('www')) {
+      window.open(url, '_blank')
+      return
+    }
     history.push(url)
     sendEvent('Menu', 'Click', title)
   }

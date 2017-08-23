@@ -1,30 +1,24 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { List } from 'immutable';
-import GalleryItem from './gallery-item';
+import React from 'react'
+import PropTypes from 'prop-types'
+import { List } from 'immutable'
+import GalleryItem from './gallery-item'
 import {
-  GalleryBlock,
   WrapGallery,
-  ProductSection
-} from './style.js';
+  GalleryBlock
+} from './style.js'
 
-const Gallery = ({ authors }) => (
+const Gallery = ({products}) => (
   <GalleryBlock>
-    {authors.map(master => (
-      <ProductSection key={master.get('id')}>
-        <WrapGallery>
-          {master.get('tattoo').map((tattoo, i) => (
-            <GalleryItem key={i} src={tattoo} />
-          ))}
-        </WrapGallery>
-      </ProductSection>
-    ))}
+    <WrapGallery>
+      {products.map((item, i) => (
+        <GalleryItem key={i} {...item.toJS()} />
+      ))}
+    </WrapGallery>
   </GalleryBlock>
-);
+)
 
 Gallery.propTypes = {
-  authors: PropTypes.instanceOf(List).isRequired,
-};
+  products: PropTypes.instanceOf(List).isRequired
+}
 
-export default Gallery;
-
+export default Gallery

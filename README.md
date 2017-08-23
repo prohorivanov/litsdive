@@ -78,3 +78,7 @@ SYSTEMD start
 ## hosting
 [Hetzner](www.hetzner.com)
 [https://robot.your-server.de/server](https://robot.your-server.de/server)
+
+
+## DNS cache
+`systemctl restart systemd-resolved.service`

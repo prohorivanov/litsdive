@@ -73,7 +73,7 @@ export class IndexLayout extends Component {
   onChangeAuthor = (value) => {
     const { clearGalleryDetailAction } = this.props
     history.push(`/masters/${value ? value._id : ''}`)
-    sendEvent('Choose master', 'Change', value.title)
+    sendEvent('Choose master', 'Change', value && value.title)
     if (!value) {
       clearGalleryDetailAction()
     }
@@ -101,6 +101,7 @@ export class IndexLayout extends Component {
                 value={activeUser}
                 options={userList.toJS()}
                 onChange={this.onChangeAuthor}
+                placeholder='выбрать мастера'
               />
             )}
           </Head>

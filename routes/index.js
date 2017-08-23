@@ -56,6 +56,9 @@ exports = module.exports = function (app) {
   // app.get('/protected', middleware.requireUser, routes.views.protected);
 
   // API
+  app.options('/api*', (req, res) => {
+    res.sendStatus(200)
+  })
   app.all('/api*', keystone.middleware.api)
   app.all('/api/tattoo', routes.api.tattoo.findTattoo)
   app.all('/api/listTattoo', routes.api.tattoo.listTattoo)
@@ -64,7 +67,7 @@ exports = module.exports = function (app) {
   app.all('/api/galleryByAuthor', routes.api.gallery.findGalleryByAuthorId)
   app.all('/api/galleryList', routes.api.gallery.listGallery)
 
-  app.all('/api/catalogByTags', routes.api.catalog.filtersCatalogByTags)
+  app.post('/api/catalogByTags', routes.api.catalog.filtersCatalogByTags)
   app.all('/api/catalogBySlug', routes.api.catalog.findCatalogBySlug)
   app.all('/api/catalogList', routes.api.catalog.catalogList)
   app.all('/api/catalogTags', routes.api.catalog.getCatalogsTags)

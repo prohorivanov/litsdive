@@ -2,7 +2,9 @@ import { fromJS } from 'immutable'
 import { ACTIONS } from './constants'
 
 const initialState = fromJS({
-  contacts: {}
+  contacts: {
+    socials: {}
+  }
 })
 
 export default function contacts (state = initialState, action) {
