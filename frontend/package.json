@@ -72,7 +72,7 @@
     "inputmask-core": "2.2.0",
     "keymirror": "0.1.1",
     "lodash": "4.17.4",
-    "moment": "2.18.1",
+    "moment": "^2.21.0",
     "moment-timezone": "0.5.11",
     "numeral": "2.0.6",
     "polished": "^1.9.2",
