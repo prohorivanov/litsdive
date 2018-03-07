@@ -5,7 +5,6 @@ const Manifest = require('manifest-revision-webpack-plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const jsonPresent = require('./json-presenter')
 const HtmlPlugin = require('html-webpack-plugin')
-const FaviconsPlugin = require('favicons-webpack-plugin')
 const pathApp = require('./paths')
 const loaders = require('./loaders')
 
@@ -18,7 +17,7 @@ module.exports = {
   entry: [
     'babel-polyfill',
     path.join(pathApp.appPath, 'polyfill.js'),
-    path.join(pathApp.appPath, 'app.js')
+    path.join(pathApp.appPath, 'app.jsx')
   ],
   output: {
     path: path.join(process.cwd(), 'dist'),
@@ -27,7 +26,7 @@ module.exports = {
     chunkFilename: '[name]-[id].[hash:8].chunk.js'
   },
   resolve: {
-    extensions: ['.js', '.jsx', '.css', '.less'],
+    extensions: ['.js', '.jsx'],
     modules: [
       './src',
       './node_modules/'
@@ -43,36 +42,10 @@ module.exports = {
       minimize: false,
       debug: true,
       options: {
-        postcss: [
-          require('postcss-import')({
-            addModulesDirectories: [
-              'node_modules',
-              pathApp.assetsPath
-            ]
-          }),
-          require('postcss-url')(),
-          require('postcss-cssnext')({
-            browsers: ['last 3 versions', '> 3%'] // https://github.com/ai/browserslist
-          }),
-          require('postcss-color-function')(),
-          require('postcss-mixins')(),
-          require('postcss-assets')({
-            loadPaths: [
-              `${pathApp.relAssetsPath}/`
-            ]
-          }),
-          require('postcss-browser-reporter')(),
-          require('postcss-reporter')()
-        ],
         eslint: {
           configFile: '.eslintrc'
         }
       }
-    }),
-    new webpack.optimize.CommonsChunkPlugin({
-      minChunks: 3,
-      children: true,
-      async: true
     }),
 
     new webpack.ContextReplacementPlugin(/node_modules\/moment\/locale/, /ru/),
@@ -90,14 +63,13 @@ module.exports = {
       format: jsonPresent
     }),
     new HtmlPlugin({
-      title: 'Райффайзен Бизнес Онлайн',
+      title: 'Let\'s dive',
       inject: true,
       cache: false,
       filename: 'index.html',
       template: path.join(pathApp.appPath, 'index.html')
     }),
 
-    new FaviconsPlugin(path.join(pathApp.aliases.images, 'favicon.png')),
     new webpack.DefinePlugin({
       BROWSER: JSON.stringify(true),
       'process.env.NODE_ENV': JSON.stringify(pathApp.processEnv),

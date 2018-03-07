@@ -11,8 +11,8 @@ const wysiwyg = require('./wysiwyg-conf')
 // and documentation.
 
 keystone.init({
-  'name': 'tattoobunker',
-  'brand': 'tattoobunker',
+  'name': 'litsdive',
+  'brand': 'litsdive',
 
   'stylus': 'public',
   'static': 'public',

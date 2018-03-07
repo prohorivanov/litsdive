@@ -1,8 +1,8 @@
-import { fromJS } from 'immutable';
+import { fromJS } from 'immutable'
 import {
-    CHANGE_MEDIA_QUERY,
-    FIRST_CALL_QUERY
-} from './actions';
+  CHANGE_MEDIA_QUERY,
+  FIRST_CALL_QUERY
+} from './actions'
 
 /**
  *
@@ -10,12 +10,11 @@ import {
  * @param action
  * @returns {*}
  */
-function setCurrentResolution(state, action) {
+function setCurrentResolution (state, action) {
   return state
-      .set('mediaPoint', action.point)
-      .set('resolution', action.resolution);
+    .set('mediaPoint', action.point)
+    .set('resolution', action.resolution)
 }
-
 
 /**
  *
@@ -23,8 +22,8 @@ function setCurrentResolution(state, action) {
  * @param resolution
  * @returns {*}
  */
-function firstCallQuery(state, resolution) {
-  return state.set('resolution', resolution);
+function firstCallQuery (state, resolution) {
+  return state.set('resolution', resolution)
 }
 
 /**
@@ -39,12 +38,12 @@ const matchMedia = (state = fromJS({
 }), action) => {
   switch (action.type) {
     case CHANGE_MEDIA_QUERY:
-      return setCurrentResolution(state, action);
+      return setCurrentResolution(state, action)
     case FIRST_CALL_QUERY:
-      return firstCallQuery(state, action.resolution);
+      return firstCallQuery(state, action.resolution)
     default:
-      return state;
+      return state
   }
-};
+}
 
-export default matchMedia;
+export default matchMedia

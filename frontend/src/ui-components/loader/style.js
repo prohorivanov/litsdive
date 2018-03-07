@@ -1,22 +1,22 @@
-import styled, { keyframes } from 'styled-components';
-import { COLORS, FONTS_SIZE, SIZES } from 'assets/styles/style-vars.js';
+import styled, { keyframes } from 'styled-components'
+import { COLORS, FONTS_SIZE, SIZES } from 'assets/styles/style-vars.js'
 
-const loaderTopOffset = '50%';
-const loaderLeftOffset = '50%';
-const loaderSpeed = '600ms';
-const loaderLineWidth = '4px';
-const loaderLineWidthMultiplier = 8;
-const loaderColorPrimary = COLORS.colorBlack;
-const loaderColorSecondary = COLORS.colorMarigold;
+const loaderTopOffset = '50%'
+const loaderLeftOffset = '50%'
+const loaderSpeed = '600ms'
+const loaderLineWidth = '4px'
+const loaderLineWidthMultiplier = 8
+const loaderColorPrimary = COLORS.colorBlack
+const loaderColorSecondary = COLORS.colorMarigold
 
-const textDistance = '12px';
+const textDistance = '12px'
 
-const miniOffset = `${textDistance} 0 0 0`;
-const tinyOffset = `0 0 0 (${SIZES.tiny} / 2)`;
-const smallOffset = `0 0 0 (${SIZES.small} / 2)`;
-const mediumOffset = `0 0 0 (${SIZES.medium} / 2)`;
-const largeOffset = `0 0 0 (${SIZES.large} / 2)`;
-const bigOffset = `0 0 0 (${SIZES.big} / 2)`;
+const miniOffset = `${textDistance} 0 0 0`
+const tinyOffset = `0 0 0 (${SIZES.tiny} / 2)`
+const smallOffset = `0 0 0 (${SIZES.small} / 2)`
+const mediumOffset = `0 0 0 (${SIZES.medium} / 2)`
+const largeOffset = `0 0 0 (${SIZES.large} / 2)`
+const bigOffset = `0 0 0 (${SIZES.big} / 2)`
 // const hugeOffset = `0 0 0 (${SIZES.huge} / 2)`;
 // const massiveOffset = `0 0 0 (${SIZES.massive} / 2)`;
 
@@ -55,7 +55,7 @@ export const LoaderBlock = styled.div`
         animation: ${animationLoader} ${loaderSpeed} linear;
         animation-iteration-count: infinite;
     }
-`;
+`
 
 /*
 |--------------------------------------------------------------------------
@@ -77,7 +77,7 @@ export const LoaderInline = LoaderBlock.extend`
     margin-left: auto;
     margin-right: auto;
   }    
-`;
+`
 
 export const LoaderMini = LoaderBlock.extend`
     width: ${SIZES.mini};
@@ -90,7 +90,7 @@ export const LoaderMini = LoaderBlock.extend`
         margin: ${miniOffset};
         border-width: ${SIZES.mini / loaderLineWidthMultiplier};
     }
-`;
+`
 
 export const LoaderTiny = LoaderBlock.extend`
     width: ${SIZES.tiny};
@@ -103,7 +103,7 @@ export const LoaderTiny = LoaderBlock.extend`
         margin: ${tinyOffset};
         border-width: ${SIZES.tiny / loaderLineWidthMultiplier};
     }
-`;
+`
 
 export const LoaderSmall = LoaderBlock.extend`
     width: ${SIZES.small};
@@ -116,7 +116,7 @@ export const LoaderSmall = LoaderBlock.extend`
         margin: ${smallOffset};
         border-width: ${SIZES.small / loaderLineWidthMultiplier};
     }
-`;
+`
 
 export const LoaderLarge = LoaderBlock.extend`
     width: ${SIZES.large};
@@ -129,7 +129,7 @@ export const LoaderLarge = LoaderBlock.extend`
         margin: ${largeOffset};
         border-width: ${SIZES.large / loaderLineWidthMultiplier};
     }
-`;
+`
 
 export const LoaderBig = LoaderBlock.extend`
     width: ${SIZES.big};
@@ -142,4 +142,4 @@ export const LoaderBig = LoaderBlock.extend`
         margin: ${bigOffset};
         border-width: ${SIZES.big / loaderLineWidthMultiplier};
     }
-`;
+`

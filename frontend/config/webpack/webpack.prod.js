@@ -1,5 +1,6 @@
 const webpack = require('webpack')
 const pathApp = require('./paths')
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin')
 
 const stats = {
   colors: true,
@@ -18,19 +19,19 @@ const stats = {
   publicPath: false
 }
 
-let conf = {
+module.exports = {
   context: process.cwd(),
   stats,
   devtool: '#hidden-source-map',
+  optimization: {
+    minimizer: [
+      new UglifyJSPlugin({
+        exclude: /\.html/i,
+        sourceMap: true
+      })
+    ]
+  },
   plugins: [
-    new webpack.optimize.UglifyJsPlugin({
-      exclude: /\.html/i,
-      minimize: true,
-      sourceMap: false,
-      compress: {
-        warnings: false
-      }
-    }),
     new webpack.DefinePlugin({
       BROWSER: JSON.stringify(true),
       'process.env.NODE_ENV': JSON.stringify(pathApp.processEnv),
@@ -38,30 +39,3 @@ let conf = {
     })
   ]
 }
-
-if (process.env.PRED_PROD) {
-  conf = {
-    context: process.cwd(),
-    stats,
-    devtool: '#inline-source-map',
-    devServer: {
-      contentBase: pathApp.appPath,
-      stats,
-      hot: true,
-      inline: true,
-      historyApiFallback: true
-    },
-    plugins: [
-      new webpack.optimize.UglifyJsPlugin({
-        exclude: /\.html/i,
-        minimize: true,
-        sourceMap: true,
-        compress: {
-          warnings: false
-        }
-      })
-    ]
-  }
-}
-
-module.exports = conf

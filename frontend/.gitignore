@@ -3,6 +3,7 @@
 **coverage/
 **dist/
 **doc/
+dist
 **jest.json
 *.css.json
 *.less.json

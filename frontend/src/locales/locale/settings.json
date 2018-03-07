@@ -1,0 +1,9 @@
+{
+  "en": {
+    "settings.empty": "settings empty"
+  },
+
+  "ru": {
+    "settings.empty": "settings по избранным счетам за этот день отсутствуют"
+  }
+}

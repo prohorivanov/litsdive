@@ -1,4 +1,4 @@
-import keyMirror from 'keymirror';
+import keyMirror from 'keymirror'
 
 export const ACTIONS = keyMirror({
   PROFILE_LOAD_REQUEST: null,
@@ -8,4 +8,4 @@ export const ACTIONS = keyMirror({
   PROFILE_LOGOUT_REQUEST: null,
   PROFILE_LOGOUT_SUCCESS: null,
   PROFILE_LOGOUT_FAIL: null
-});
+})

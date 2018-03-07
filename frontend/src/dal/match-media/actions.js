@@ -1,8 +1,8 @@
-import store from 'app/store';
-import { MEDIA_SIZES } from 'styles/style-vars.js';
+import store from 'app/store'
+import { MEDIA_SIZES } from 'styles/style-vars.js'
 
-export const CHANGE_MEDIA_QUERY           = 'CHANGE_MEDIA_QUERY';
-export const FIRST_CALL_QUERY             = 'FIRST_CALL_QUERY';
+export const CHANGE_MEDIA_QUERY = 'CHANGE_MEDIA_QUERY'
+export const FIRST_CALL_QUERY = 'FIRST_CALL_QUERY'
 
 const matchMediaListPoint = [
   {
@@ -56,7 +56,7 @@ const matchMediaListPoint = [
     point: 660,
     distance: 'max'
   }
-];
+]
 
 /**
  *
@@ -64,12 +64,12 @@ const matchMediaListPoint = [
  * @param optPointStart
  * @returns {*}
  */
-export function compareScreen(point, optPointStart) {
-  const windowWidth = window.innerWidth;
+export function compareScreen (point, optPointStart) {
+  const windowWidth = window.innerWidth
   if (optPointStart) {
-    return optPointStart < point;
+    return optPointStart < point
   }
-  return windowWidth && windowWidth <= point;
+  return windowWidth && windowWidth <= point
 }
 
 /**
@@ -80,25 +80,24 @@ export function compareScreen(point, optPointStart) {
  * Если не поддерживается matchMedia, то кидаем события
  * по точкам слушая resize
  * */
-export function MatchMediaRegister() {
+export function MatchMediaRegister () {
   if (window.matchMedia) {
     matchMediaListPoint.forEach((mq) => {
       const callback = () => {
-        const dataMedia = {};
-        dataMedia[mq.distance] = mq.point;
+        const dataMedia = {}
+        dataMedia[mq.distance] = mq.point
         store.dispatch({
           type: CHANGE_MEDIA_QUERY,
           resolution: dataMedia,
           point: mq.point
-        });
-      };
-      mq.media.addListener(callback);
-    });
+        })
+      }
+      mq.media.addListener(callback)
+    })
   }
-
 
   store.dispatch({
     type: FIRST_CALL_QUERY,
     resolution: Math.max(document.body.clientWidth, document.documentElement.clientWidth)
-  });
+  })
 }

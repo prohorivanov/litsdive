@@ -1,0 +1,19 @@
+{
+  "en": {
+    "global.file.size.Gb": "Gb",
+    "global.file.size.Mb": "Mb",
+    "global.file.size.Kb": "Kb",
+    "global.file.size.bytes": "bytes",
+    "global.file.created": "created: {:date}",
+    "global.file.unknownType": "Unknown Type"
+  },
+
+  "ru": {
+    "global.file.size.Gb": "Гб",
+    "global.file.size.Mb": "Мб",
+    "global.file.size.Kb": "Кб",
+    "global.file.size.bytes": "байт",
+    "global.file.created": "создан: {:date}",
+    "global.file.unknownType": "Неизвестный тип"
+  }
+}

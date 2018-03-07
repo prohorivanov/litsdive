@@ -17,7 +17,7 @@ const initialState = fromJS({
   postList: [],
   postDetail: [],
   loaderPost: false,
-  loaderNewsDetail: false,
+  loaderNewsDetail: false
 })
 
 export default function post (state = initialState, action) {

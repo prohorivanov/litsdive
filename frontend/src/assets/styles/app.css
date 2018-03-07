@@ -1,5 +1,4 @@
 @import "./vars.css";
-@import "./mixins/mixins.css";
 
 html,
 body {
@@ -18,13 +17,18 @@ html {
 }
 
 body {
-    background: var(--colorWhite);
-    font-family: var(--fontFamily);
-    font-size: var(--fontSizeNormal);
-    line-height: var(--lineHeightNormal);
+    background: #FFFFFF;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.36;
     &.show-modal {
         overflow: hidden;
     }
+}
+
+.app_wrapper {
+    height: 100%;
+    min-height: 100%;
 }
 
 *,
@@ -45,214 +49,4 @@ body {
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
-}
-
-h1 {
-    font-size: var(--fontSizeH1);
-    font-weight: bold;
-}
-
-h2 {
-    font-size: var(--fontSizeH2);
-    font-weight: bold;
-}
-
-h3 {
-    font-size: var(--fontSizeH3);
-    font-weight: bold;
-}
-
-h4 {
-    font-size: var(--fontSizeH4);
-    font-weight: normal;
-}
-
-h5 {
-    font-size: var(--fontSizeH5);
-    font-weight: bold;
-}
-
-a {
-    text-decoration: none;
-    color: var(--colorPeacockBlue);
-    cursor: pointer;
-
-    &:hover {
-        color: var(--colorCeruleanBlue);
-
-        @mixin hoverTransition color;
-    }
-}
-
-.m-like-link {
-    display: inline;
-    color: var(--colorPeacockBlue);
-    cursor: pointer;
-
-    &:hover {
-        color: var(--colorCeruleanBlue);
-
-        @mixin hoverTransition color;
-    }
-
-    &.s-disabled {
-        cursor: default;
-        color: var(--colorWarmGrey);
-        background: none;
-    }
-}
-
-.m-dashed-link {
-    display: inline;
-    color: var(--colorPeacockBlue);
-    cursor: pointer;
-    background: linear-gradient(to left, var(--colorPeacockBlue), var(--colorPeacockBlue) 70%, transparent 70%) repeat-x 0 100%;
-    background-size: 4px 1px;
-
-    &:hover {
-        color: var(--colorCeruleanBlue);
-        background-image: linear-gradient(to left, var(--colorCeruleanBlue), var(--colorCeruleanBlue) 70%, transparent 70%);
-
-        @mixin hoverTransition all;
-    }
-
-    &.s-disabled {
-        cursor: default;
-        color: var(--colorWarmGrey);
-        background: none;
-    }
-}
-
-h1 .m-dashed-link,
-h2 .m-dashed-link,
-h3 .m-dashed-link,
-h4 .m-dashed-link {
-    color: var(--colorBlack);
-    background-image: linear-gradient(to left, var(--colorBlack), var(--colorBlack) 70%, transparent 70%);
-}
-
-
-
-/* fix @rbo-components
- * todo надо убрать размер шрифтов из rbo-components
- */
-
-.checkbox {
-    & .b-checkbox-label {
-        font-size: inherit;
-    }
-}
-
-
-fieldset {
-    border: 1px solid var(--colorPinkishGrey);
-    margin: 0 2px;
-    padding: 0.35em 0.625em 0.75em;
-}
-
-.hidden,
-[hidden] {
-    display: none !important;
-}
-
-.logo > img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
-
-.app_wrapper {
-    min-height: 100%;
-}
-
-em {
-    font-size: var(--fontSizeNormal);
-    color: var(--colorBlack);
-}
-
-.b-flex {
-    display: flex;
-}
-
-.b-flex-grow-1 {
-    flex-grow: 1;
-}
-.justify-content-between {
-    justify-content: space-between;
-}
-
-.b-flex-grow-2 {
-    flex-grow: 2;
-}
-
-.b-flex-grow-3 {
-    flex-grow: 3;
-}
-
-.b-flex-column {
-    flex-direction: column;
-}
-
-.b-flex-align-center {
-    align-self: center;
-}
-
-.text-white-space-nowrap {
-    white-space: nowrap;
-}
-
-.text-align-right {
-    text-align: right;
-}
-
-.font-size-10 {
-    font-size: var(--fontSizeExtraSmall);
-}
-
-.font-size-12 {
-    font-size: var(--fontSizeSmall);
-}
-
-.font-size-14 {
-    font-size: var(--fontSizeNormal);
-}
-
-.font-size-16 {
-    font-size: var(--fontSizeLarge);
-}
-
-.uppercase {
-    text-transform: uppercase;
-}
-
-.monospace {
-    font-feature-settings: "tnum" 1;
-}
-
-.text-color-black {
-    color: var(--colorBlack);
-}
-
-.text-color-white {
-    color: var(--colorWhite);
-}
-
-.text-color-gray {
-    color: var(--colorWarmGreyTwo);
-}
-
-
-.like-link {
-    color: var(--colorPeacockBlue);
-    cursor: pointer;
-    display: inline;
-}
-
-.dashed-link {
-    text-decoration: none;
-    font-size: var(--fontSizeNormal);
-    color: var(--colorPeacockBlue);
-    cursor: pointer;
-    background: linear-gradient(to left, var(--colorPeacockBlue), var(--colorPeacockBlue) 70%, transparent 70%) repeat-x 0 100%;
-    background-size: 4px 1px;
 }

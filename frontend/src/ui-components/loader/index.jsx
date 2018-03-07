@@ -1,5 +1,5 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from 'react'
+import PropTypes from 'prop-types'
 import {
   LoaderBlock,
   LoaderMini,
@@ -7,35 +7,34 @@ import {
   LoaderSmall,
   LoaderLarge,
   LoaderBig,
-  LoaderInline,
-} from './style.js';
+  LoaderInline
+} from './style.js'
 
-
-const Loader = ({ centered, size = 'medium', inline, ...rest }) => {
+const Loader = ({centered, size = 'medium', inline, ...rest}) => {
   if (inline) {
-    return <LoaderInline {...rest} className={centered ? 'centered' : ''} />;
+    return <LoaderInline {...rest} className={centered ? 'centered' : ''}/>
   }
 
   switch (size) {
     case 'mini':
-      return <LoaderMini {...rest} />;
+      return <LoaderMini {...rest} />
     case 'tiny':
-      return <LoaderTiny {...rest} />;
+      return <LoaderTiny {...rest} />
     case 'small':
-      return <LoaderSmall {...rest} />;
+      return <LoaderSmall {...rest} />
     case 'large':
-      return <LoaderLarge {...rest} />;
+      return <LoaderLarge {...rest} />
     case 'big':
-      return <LoaderBig {...rest} />;
+      return <LoaderBig {...rest} />
     default:
-      return <LoaderBlock size={size} {...rest}  />;
+      return <LoaderBlock size={size} {...rest}  />
   }
-};
+}
 
 Loader.propTypes = {
-  children : PropTypes.string,
+  children: PropTypes.string,
   className: PropTypes.string,
-  size     : PropTypes.oneOf([
+  size: PropTypes.oneOf([
     'mini',
     'tiny',
     'small',
@@ -43,8 +42,8 @@ Loader.propTypes = {
     'large',
     'big'
   ]),
-  inline   : PropTypes.bool,
-  centered : PropTypes.bool,
-};
+  inline: PropTypes.bool,
+  centered: PropTypes.bool
+}
 
-export default Loader;
+export default Loader

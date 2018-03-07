@@ -1,5 +1,5 @@
-const webpack = require('webpack');
-const pathApp = require('./paths');
+const webpack = require('webpack')
+const pathApp = require('./paths')
 
 const stats = {
   colors: true,
@@ -16,7 +16,7 @@ const stats = {
   errorDetails: true,
   warnings: true,
   publicPath: false
-};
+}
 
 module.exports = {
   context: process.cwd(),
@@ -32,8 +32,8 @@ module.exports = {
     proxy: {
       '/api/*': {
         target: 'http://localhost:8080/',
-        rewrite: function(req) {
-          req.url = 'http://localhost:8080/' + req.url;
+        rewrite: function (req) {
+          req.url = 'http://localhost:8080/' + req.url
         }
       }
     },
@@ -42,9 +42,5 @@ module.exports = {
       'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Content-Length, Accept, Authorization',
       'Access-Control-Allow-Methods': 'GET,PUT,POST,DELETE,OPTIONS'
     }
-  },
-  plugins: [
-    new webpack.NamedModulesPlugin(),
-    new webpack.NoEmitOnErrorsPlugin()
-  ]
-};
+  }
+}

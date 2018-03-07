@@ -1,16 +1,16 @@
-import { fromJS }        from 'immutable';
+import { fromJS } from 'immutable'
 
 export const defaultState = fromJS({
-  showProfile     : false,
-  statuses        : [],
-  fullName        : '',
+  showProfile: false,
+  statuses: [],
+  fullName: '',
   login: true,
   accountMovements: []
-});
+})
 
-export default function profile(state = defaultState, action) {
+export default function profile (state = defaultState, action) {
   switch (action.type) {
     default:
-      return state;
+      return state
   }
 }

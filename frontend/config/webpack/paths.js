@@ -9,13 +9,15 @@ const processEnv = process.env.NODE_ENV
 
 const aliases = {
   root: process.cwd(),
+  app: appPath,
   'moment-timezone': 'moment-timezone/moment-timezone',
   images: path.join(assetsPath, 'images'),
   styles: path.join(assetsPath, 'styles'),
   fonts: path.join(assetsPath, 'fonts'),
-  services: path.join(appPath, 'services'),
+  config: path.join(process.cwd(), 'config'),
   'ui-components': path.join(appPath, 'ui-components'),
-  components: path.join(appPath, 'hoc-components')
+  components: path.join(appPath, 'hoc-components'),
+  dal: path.join(appPath, 'dal')
 }
 
 module.exports = {

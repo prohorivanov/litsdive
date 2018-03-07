@@ -4,8 +4,8 @@
  * дорабатываем по мере необходимости
  */
 
-import isEmpty            from 'lodash/isEmpty';
-import { filterPlural }   from './utils';
+import isEmpty from 'lodash/isEmpty'
+import { filterPlural } from './utils'
 
 /**
  * Check for an empty mix value
@@ -14,7 +14,7 @@ import { filterPlural }   from './utils';
  */
 export const isEmptyField = value => (
   Number.isInteger(value) ? false : isEmpty(value)
-);
+)
 
 /**
  * @todo уточнить шаблон валидации email
@@ -22,9 +22,8 @@ export const isEmptyField = value => (
  * @returns {string|null}
  */
 export const email = value => (
-  !isEmptyField(value) && !/^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[a-zA-Z]+$/i.test(value) ?
-    'Невалидный email адрес' : null
-);
+  !isEmptyField(value) && !/^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[a-zA-Z]+$/i.test(value) ? 'Невалидный email адрес' : null
+)
 
 /**
  * Check for required fields
@@ -33,7 +32,7 @@ export const email = value => (
  */
 export const required = value => (
   !value || isEmptyField(value) ? 'Обязательно для заполенения' : null
-);
+)
 
 /**
  * Check for the minimum value
@@ -42,9 +41,8 @@ export const required = value => (
  * @returns {string|null}
  */
 export const minLength = (value, min) => (
-  !isEmptyField(value) && value.length < min ?
-    `Мин. ${min} ${filterPlural(['символ', 'символа', 'символов'], min)}` : null
-);
+  !isEmptyField(value) && value.length < min ? `Мин. ${min} ${filterPlural(['символ', 'символа', 'символов'], min)}` : null
+)
 
 /**
  * Check for the maximum value
@@ -53,9 +51,8 @@ export const minLength = (value, min) => (
  * @returns {string|null}
  */
 export const maxLength = (value, max) => (
-  !isEmptyField(value) && value.length > max ?
-    `Макс. ${max} ${filterPlural(['символ', 'символа', 'символов'], max)}` : null
-);
+  !isEmptyField(value) && value.length > max ? `Макс. ${max} ${filterPlural(['символ', 'символа', 'символов'], max)}` : null
+)
 
 /**
  * Check numerical value
@@ -64,7 +61,7 @@ export const maxLength = (value, max) => (
  */
 export const integer = value => (
   !Number.isInteger(Number(value)) ? 'Только число' : null
-);
+)
 
 /**
  * Сheck the entry to one of the values
@@ -75,7 +72,7 @@ export const integer = value => (
 export const oneOf = (enumeration, value) => (
   !enumeration.includes(value)
     ? `Должен быть один из: ${enumeration.join(', ')}` : null
-);
+)
 
 /**
  *
@@ -85,7 +82,7 @@ export const oneOf = (enumeration, value) => (
  */
 export const match = (value1, value2) => (
   (value1 && value2) && value1 !== value2 ? 'Значения не совпадают' : null
-);
+)
 
 /**
  * Проверка больше ли число другого значения
@@ -95,4 +92,4 @@ export const match = (value1, value2) => (
  */
 export const isBiggerThen = (field, value) => (
   field && field > value ? `Значение ${field} больше ${value}` : null
-);
+)

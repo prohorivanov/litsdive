@@ -1,6 +1,9 @@
-import { useRouterHistory } from 'react-router'
-import { createHistory, useBeforeUnload } from 'history'
+import { createBrowserHistory } from 'history'
+import qhistory from 'qhistory'
+import { stringify, parse } from 'qs'
 
-export const history = useRouterHistory(
-  useBeforeUnload(createHistory)
-)()
+export const history = qhistory(
+  createBrowserHistory(),
+  stringify,
+  parse
+)

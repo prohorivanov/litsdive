@@ -1,0 +1,9 @@
+{
+  "en": {
+    "statements.empty": "statements empty"
+  },
+
+  "ru": {
+    "statements.empty": "Выписки по избранным счетам за этот день отсутствуют"
+  }
+}
